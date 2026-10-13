@@ -13,7 +13,7 @@ const supermanData = require('../Data/everythingsuperman');
 const supermanAnimationData = require('../Data/everythingsupermananimation');
 const dceuMoviesData = require('../Data/DCEUMovies');
 const modernDCSeriesData = require('../Data/DCSeries');
-const dcuDceuChronologicalData = require('../Data/dcuDceuChronologicalData');
+const dcuGunnChronologicalData = require('../Data/dcuGunnChronologicalData');
 
 require('dotenv').config();
 
@@ -239,13 +239,13 @@ function getAllCatalogs() {
     return [
         {
             type: "DC",
-            id: "dcu-dceu-chronological",
-            name: "DCU & DCEU Chronological"
+            id: "dcu-gunn-chronological",
+            name: "James Gunn Chronological"
         },
         {
             type: "DC",
             id: "dc-chronological",
-            name: "Chronological Order"
+            name: "Zack Snyder Chronological"
         },
         {
             type: "DC",
@@ -431,17 +431,17 @@ app.get('/api/catalogs', (req, res) => {
     
     const catalogInfo = [
         { 
-            id: 'dcu-dceu-chronological', 
-            name: 'DCU & DCEU Chronological', 
+            id: 'dcu-gunn-chronological', 
+            name: 'James Gunn Chronological', 
             category: 'Timeline',
-            description: 'James Gunn DCU first, then Snyder DCEU in story order',
+            description: 'James Gunn DCU in story order, newest first-era titles at top',
             icon: 'calendar-alt'
         },
         { 
             id: 'dc-chronological', 
-            name: 'Chronological Order', 
+            name: 'Zack Snyder Chronological', 
             category: 'Timeline',
-            description: 'Browse the DC Universe in chronological story order',
+            description: 'Snyder DCEU films and shows in story order',
             icon: 'calendar-alt'
         },
         { 
@@ -538,8 +538,8 @@ app.get('/rpdb/:rpdbKey/catalog/:type/:id.json', async (req, res) => {
     // Load data based on catalog ID
     try {
         switch (id) {
-            case 'dcu-dceu-chronological':
-                dataSource = dcuDceuChronologicalData;
+            case 'dcu-gunn-chronological':
+                dataSource = dcuGunnChronologicalData;
                 break;
             case 'dc-chronological':
                 dataSource = require('../Data/chronologicalData');
@@ -641,8 +641,8 @@ app.get('/catalog/:catalogsParam/catalog/:type/:id.json', async (req, res) => {
     // Load data based on catalog ID
     try {
         switch (id) {
-            case 'dcu-dceu-chronological':
-                dataSource = dcuDceuChronologicalData;
+            case 'dcu-gunn-chronological':
+                dataSource = dcuGunnChronologicalData;
                 break;
             case 'dc-chronological':
                 dataSource = require('../Data/chronologicalData');
@@ -759,8 +759,8 @@ app.get('/catalog/:type/:id.json', async (req, res) => {
     // Load data based on catalog ID
     try {
         switch (id) {
-            case 'dcu-dceu-chronological':
-                dataSource = dcuDceuChronologicalData;
+            case 'dcu-gunn-chronological':
+                dataSource = dcuGunnChronologicalData;
                 break;
             case 'dc-chronological':
                 dataSource = require('../Data/chronologicalData');

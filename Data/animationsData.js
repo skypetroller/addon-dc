@@ -4245,6 +4245,68 @@ module.exports = [
     ]
   },
   {
+    "tmdbId": 125909,
+    "title": "Batman: Caped Crusader",
+    "type": "series",
+    "imdbId": "tt14681596",
+    "id": "dc_tt14681596",
+    "releaseYear": "2024",
+    "poster": "https://image.tmdb.org/t/p/w500/zCHmmoqtLsIsou866osiWtIWmoA.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.2/10"
+      }
+    ],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
+      }
+    ]
+  },
+  {
+    "tmdbId": 229926,
+    "title": "Suicide Squad Isekai",
+    "type": "series",
+    "imdbId": "tt28279848",
+    "id": "dc_tt28279848",
+    "releaseYear": "2024",
+    "poster": "https://image.tmdb.org/t/p/w500/AbVwsBJnLoqJzPJn8dlGFSGfygy.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.2/10"
+      }
+    ],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      }
+    ]
+  },
+  {
     "tmdbId": 1364797,
     "title": "Dynamic Duo",
     "type": "movie",

@@ -8,13 +8,13 @@
   "catalogs": [
     {
       "type": "DC",
-      "id": "dcu-dceu-chronological",
-      "name": "DCU & DCEU Chronological"
+      "id": "dcu-gunn-chronological",
+      "name": "James Gunn Chronological"
     },
     {
       "type": "DC",
       "id": "dc-chronological",
-      "name": "Chronological Order"
+      "name": "Zack Snyder Chronological"
     },
     {
       "type": "DC",
