@@ -40,7 +40,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "7.5/10"
+        "Value": "7.4/10"
       }
     ],
     "genres": [
@@ -62,7 +62,7 @@ module.exports = [
     "imdbId": "tt3749900",
     "id": "dc_tt3749900",
     "releaseYear": "2014",
-    "poster": "https://image.tmdb.org/t/p/w500/wt3uwxSKbMg5ZNJBUOrsJoDnNWX.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/zLpSNnVoL2bjQdc1PcaHUPUzttP.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -92,7 +92,7 @@ module.exports = [
     "imdbId": "tt4016454",
     "id": "dc_tt4016454",
     "releaseYear": "2015",
-    "poster": "https://image.tmdb.org/t/p/w500/cFO65xb0xiXKqk5BmgHawCXB1i0.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/90mSQajf4STPROA6H7Hh8OvyWdK.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -179,7 +179,12 @@ module.exports = [
     "id": "dc_tt6045840",
     "releaseYear": "2018",
     "poster": "https://image.tmdb.org/t/p/w500/h1xbvvO6oqchfLe6xh0yLNnQxeM.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.1/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -207,7 +212,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "7.5/10"
+        "Value": "7.4/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -263,7 +268,7 @@ module.exports = [
     "imdbId": "tt8416494",
     "id": "dc_tt8416494",
     "releaseYear": "2019",
-    "poster": "https://image.tmdb.org/t/p/w500/blkXhlNspC4vJol7QJ2e3Prt5tC.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/nVN7Dt0Xr78gnJepRsRLaLYklbY.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -293,7 +298,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "7.4/10"
+        "Value": "7.3/10"
       }
     ],
     "genres": [
@@ -364,6 +369,10 @@ module.exports = [
       {
         "id": 10765,
         "name": "Sci-Fi & Fantasy"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
       }
     ],
     "overview": "Set in an alternate history where “superheroes” are treated as outlaws, “Watchmen” embraces the nostalgia of the original groundbreaking graphic novel while attempting to break new ground of its own."
@@ -375,7 +384,7 @@ module.exports = [
     "imdbId": "tt8722888",
     "id": "dc_tt8722888",
     "releaseYear": "2020",
-    "poster": "https://image.tmdb.org/t/p/w500/ogntmK9hwBomhajqYrHXUAaqkd7.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/JJxVsQPPiuLcArALotMHsCubeo.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -406,7 +415,12 @@ module.exports = [
     "id": "dc_tt10306320",
     "releaseYear": "2020",
     "poster": "https://image.tmdb.org/t/p/w500/ddmZnaxFkAl2yTCjiaHnxsaydtT.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.5/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -426,7 +440,7 @@ module.exports = [
     "imdbId": "tt11192306",
     "id": "dc_tt11192306",
     "releaseYear": "2021",
-    "poster": "https://image.tmdb.org/t/p/w500/qJ6ndkbqgqS1n7ETi0YHhcjASym.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/vlv1gn98GqMnKHLSh0dNciqGfBl.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -452,11 +466,11 @@ module.exports = [
     "imdbId": "tt1751634",
     "id": "dc_tt1751634",
     "releaseYear": "2022",
-    "poster": "https://image.tmdb.org/t/p/w500/vfJ1nBnqiiRWZWv3ZvtFWO5zccg.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/q54qEgagGOYCq5D1903eBVMNkbo.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "7.7/10"
+        "Value": "7.6/10"
       }
     ],
     "genres": [
@@ -482,11 +496,11 @@ module.exports = [
     "imdbId": "tt13146488",
     "id": "dc_tt13146488",
     "releaseYear": "2022",
-    "poster": "https://image.tmdb.org/t/p/w500/hE3LRZAY84fG19a18pzpkZERjTE.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/yb4F1Oocq8GfQt6iIuAgYEBokhG.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "8.3/10"
+        "Value": "8.2/10"
       }
     ],
     "genres": [
@@ -499,11 +513,11 @@ module.exports = [
         "name": "Sci-Fi & Fantasy"
       },
       {
-        "id": 18,
-        "name": "Drama"
+        "id": 35,
+        "name": "Comedy"
       }
     ],
-    "overview": "The continuing story of Peacemaker – a compellingly vainglorious man who believes in peace at any cost, no matter how many people he has to kill to get it – in the aftermath of the events of “The Suicide Squad.”"
+    "overview": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price."
   },
   {
     "tmdbId": 195868,
@@ -512,7 +526,7 @@ module.exports = [
     "imdbId": "tt16418896",
     "id": "dc_tt16418896",
     "releaseYear": "2023",
-    "poster": "https://image.tmdb.org/t/p/w500/5riy7SdIhMhhYcDqeEOICVvXEHS.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -530,5 +544,35 @@ module.exports = [
       }
     ],
     "overview": "In the aftermath of Bruce Wayne's murder, his rebellious adopted son forges an unlikely alliance with the children of Batman's enemies when they are all framed for killing the Caped Crusader."
+  },
+  {
+    "tmdbId": 95350,
+    "title": "Lanterns",
+    "type": "series",
+    "imdbId": "tt26545992",
+    "id": "dc_tt26545992",
+    "releaseYear": "2026",
+    "poster": "https://image.tmdb.org/t/p/w500/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.8/10"
+      }
+    ],
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      }
+    ],
+    "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland."
   }
 ];

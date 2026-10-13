@@ -14,7 +14,7 @@ module.exports = [
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "93%"
+        "Value": "87%"
       },
       {
         "Source": "Metacritic",
@@ -51,7 +51,7 @@ module.exports = [
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "83%"
+        "Value": "88%"
       },
       {
         "Source": "Metacritic",
@@ -80,7 +80,7 @@ module.exports = [
     "imdbId": "tt0086393",
     "id": "dc_tt0086393",
     "releaseYear": "1983",
-    "poster": "https://image.tmdb.org/t/p/w500/aac3vujaTWRLARNDEcMyGSvJfsx.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/c4oR6qgZW2s5foGkQi2Dd86KuAS.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -88,7 +88,7 @@ module.exports = [
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "29%"
+        "Value": "31%"
       },
       {
         "Source": "Metacritic",
@@ -121,15 +121,15 @@ module.exports = [
     "imdbId": "tt0094074",
     "id": "dc_tt0094074",
     "releaseYear": "1987",
-    "poster": "https://image.tmdb.org/t/p/w500/aQ1d9OB0xtAenIL0Ke3xV17St4S.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/nJFBeU1oKIaIoLVyQYUeB36DW55.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "3.7/10"
+        "Value": "3.8/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "10%"
+        "Value": "17%"
       },
       {
         "Source": "Metacritic",
@@ -195,7 +195,7 @@ module.exports = [
     "imdbId": "tt0103776",
     "id": "dc_tt0103776",
     "releaseYear": "1992",
-    "poster": "https://image.tmdb.org/t/p/w500/uEIvgvxzK08922iU61OvO3ORs0s.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/jKBjeXM7iBBV9UkUcOXx3m7FSHY.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -203,7 +203,7 @@ module.exports = [
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "82%"
+        "Value": "81%"
       },
       {
         "Source": "Metacritic",
@@ -232,11 +232,11 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "5.4/10"
+        "Value": "5.5/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "39%"
+        "Value": "41%"
       },
       {
         "Source": "Metacritic",
@@ -265,7 +265,7 @@ module.exports = [
     "imdbId": "tt0118688",
     "id": "dc_tt0118688",
     "releaseYear": "1997",
-    "poster": "https://image.tmdb.org/t/p/w500/cGRDufDDSrFrv7VI4YnmWnslne0.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/i7hEUpDuMN2LOrCEifFyGSHZQSY.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -302,8 +302,21 @@ module.exports = [
     "imdbId": "tt0120207",
     "id": "dc_tt0120207",
     "releaseYear": "1997",
-    "poster": "https://image.tmdb.org/t/p/w500/hbH8oXJZPwcYxaa1JrUMq4ogg7G.jpg",
-    "ratings": [],
+    "poster": "https://image.tmdb.org/t/p/w500/ufA7d5LT2rGj58KaZErPhcMkJ4U.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "3.0/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "4%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "28/100"
+      }
+    ],
     "genres": [
       {
         "id": 878,
@@ -312,14 +325,6 @@ module.exports = [
       {
         "id": 28,
         "name": "Action"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
       },
       {
         "id": 80,
@@ -342,7 +347,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "3.4/10"
+        "Value": "3.5/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -375,7 +380,7 @@ module.exports = [
     "imdbId": "tt0372784",
     "id": "dc_tt0372784",
     "releaseYear": "2005",
-    "poster": "https://image.tmdb.org/t/p/w500/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/sPX89Td70IDDjVr85jdSBb4rWGr.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -392,16 +397,16 @@ module.exports = [
     ],
     "genres": [
       {
-        "id": 28,
-        "name": "Action"
+        "id": 18,
+        "name": "Drama"
       },
       {
         "id": 80,
         "name": "Crime"
       },
       {
-        "id": 18,
-        "name": "Drama"
+        "id": 28,
+        "name": "Action"
       }
     ]
   },
@@ -457,7 +462,7 @@ module.exports = [
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "74%"
+        "Value": "72%"
       },
       {
         "Source": "Metacritic",
@@ -490,7 +495,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "9.0/10"
+        "Value": "9.1/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -498,25 +503,21 @@ module.exports = [
       },
       {
         "Source": "Metacritic",
-        "Value": "84/100"
+        "Value": "85/100"
       }
     ],
     "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
       {
         "id": 28,
         "name": "Action"
       },
       {
-        "id": 80,
-        "name": "Crime"
-      },
-      {
         "id": 53,
         "name": "Thriller"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
       }
     ]
   },
@@ -528,7 +529,20 @@ module.exports = [
     "id": "dc_tt0409459",
     "releaseYear": "2009",
     "poster": "https://image.tmdb.org/t/p/w500/aVURelN3pM56lFM7Dgfs5TixcIf.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "64%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "56/100"
+      }
+    ],
     "genres": [
       {
         "id": 9648,
@@ -551,20 +565,25 @@ module.exports = [
     "imdbId": "tt1075747",
     "id": "dc_tt1075747",
     "releaseYear": "2010",
-    "poster": "https://image.tmdb.org/t/p/w500/b1BLIXEe9zzaFvuWdYGoeuhuh75.jpg",
-    "ratings": [],
-    "genres": [
+    "poster": "https://image.tmdb.org/t/p/w500/xwAdu0lOO2Y5sXjK87glhJg3c6r.jpg",
+    "ratings": [
       {
-        "id": 28,
-        "name": "Action"
+        "Source": "Internet Movie Database",
+        "Value": "4.7/10"
       },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "11%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "33/100"
+      }
+    ],
+    "genres": [
       {
         "id": 37,
         "name": "Western"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
       },
       {
         "id": 14,
@@ -608,10 +627,6 @@ module.exports = [
         "name": "Action"
       },
       {
-        "id": 53,
-        "name": "Thriller"
-      },
-      {
         "id": 878,
         "name": "Science Fiction"
       }
@@ -649,10 +664,6 @@ module.exports = [
         "name": "Crime"
       },
       {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
         "id": 53,
         "name": "Thriller"
       }
@@ -665,7 +676,7 @@ module.exports = [
     "imdbId": "tt0770828",
     "id": "dc_tt0770828",
     "releaseYear": "2013",
-    "poster": "https://image.tmdb.org/t/p/w500/dksTL9NXc3GqPBRHYHcy1aIwjS.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/8GFtkImmK0K1VaUChR0n9O61CFU.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -706,11 +717,11 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.5/10"
+        "Value": "6.4/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "29%"
+        "Value": "28%"
       },
       {
         "Source": "Metacritic",
@@ -817,7 +828,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.1/10"
+        "Value": "6.0/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -850,7 +861,7 @@ module.exports = [
     "imdbId": "tt1477834",
     "id": "dc_tt1477834",
     "releaseYear": "2018",
-    "poster": "https://image.tmdb.org/t/p/w500/oIDpaHSnTMYK0Cf5RkEoQzXPpBE.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/ufl63EFcc5XpByEV2Ecdw6WJZAI.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -965,7 +976,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.1/10"
+        "Value": "6.0/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -998,11 +1009,11 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "5.4/10"
+        "Value": "5.3/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "58%"
+        "Value": "57%"
       },
       {
         "Source": "Metacritic",
@@ -1105,7 +1116,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.2/10"
+        "Value": "6.1/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -1175,7 +1186,7 @@ module.exports = [
     "imdbId": "tt10151854",
     "id": "dc_tt10151854",
     "releaseYear": "2023",
-    "poster": "https://image.tmdb.org/t/p/w500/A3ZbZsmsvNGdprRi2lKgGEeVLEH.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/3GrRgt6CiLIUXUtoktcv1g2iwT5.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -1229,16 +1240,16 @@ module.exports = [
     ],
     "genres": [
       {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
         "id": 28,
         "name": "Action"
       },
       {
         "id": 878,
         "name": "Science Fiction"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
       }
     ]
   },
@@ -1286,7 +1297,7 @@ module.exports = [
     "imdbId": "tt9663764",
     "id": "dc_tt9663764",
     "releaseYear": "2023",
-    "poster": "https://image.tmdb.org/t/p/w500/oEyIhY1WzoFHUDE7U3p1AWwyoSN.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -1323,7 +1334,7 @@ module.exports = [
     "imdbId": "tt11315808",
     "id": "dc_tt11315808",
     "releaseYear": "2024",
-    "poster": "https://image.tmdb.org/t/p/w500/zPOOyw6HBb5Qo6uaWJ5UxrBR6Ll.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/if8QiqCI7WAGImKcJCfzp6VTyKA.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -1335,7 +1346,7 @@ module.exports = [
       },
       {
         "Source": "Metacritic",
-        "Value": "45/100"
+        "Value": "46/100"
       }
     ],
     "genres": [
@@ -1360,8 +1371,58 @@ module.exports = [
     "imdbId": "tt5950044",
     "id": "dc_tt5950044",
     "releaseYear": "2025",
-    "poster": "https://image.tmdb.org/t/p/w500/wPLysNDLffQLOVebZQCbXJEv6E6.jpg",
-    "ratings": [],
+    "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.0/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "83%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "68/100"
+      }
+    ],
+    "genres": [
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      }
+    ]
+  },
+  {
+    "tmdbId": 1081003,
+    "title": "Supergirl",
+    "type": "movie",
+    "imdbId": "tt8814476",
+    "id": "dc_tt8814476",
+    "releaseYear": "2026",
+    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.8/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "53%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "50/100"
+      }
+    ],
     "genres": [
       {
         "id": 28,
@@ -1374,6 +1435,54 @@ module.exports = [
       {
         "id": 878,
         "name": "Science Fiction"
+      }
+    ]
+  },
+  {
+    "tmdbId": 1400940,
+    "title": "Clayface",
+    "type": "movie",
+    "imdbId": "tt34890576",
+    "id": "dc_tt34890576",
+    "releaseYear": "2026",
+    "poster": "https://image.tmdb.org/t/p/w500/5jCpQnWPikggmQZoDp1eAi6BI6w.jpg",
+    "ratings": [],
+    "genres": [
+      {
+        "id": 27,
+        "name": "Horror"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      }
+    ]
+  },
+  {
+    "tmdbId": 806704,
+    "title": "The Batman: Part II",
+    "type": "movie",
+    "imdbId": "tt19850008",
+    "id": "dc_tt19850008",
+    "releaseYear": "2028",
+    "poster": "https://image.tmdb.org/t/p/w500/r5fl4aMsmTjgc8DdDqQaM84roWp.jpg",
+    "ratings": [],
+    "genres": [
+      {
+        "id": 9648,
+        "name": "Mystery"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
       }
     ]
   }

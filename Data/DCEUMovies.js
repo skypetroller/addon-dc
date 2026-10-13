@@ -6,7 +6,7 @@ module.exports = [
     "imdbId": "tt0770828",
     "id": "dc_tt0770828",
     "releaseYear": "2013",
-    "poster": "https://image.tmdb.org/t/p/w500/dksTL9NXc3GqPBRHYHcy1aIwjS.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/8GFtkImmK0K1VaUChR0n9O61CFU.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -48,11 +48,11 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.5/10"
+        "Value": "6.4/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "29%"
+        "Value": "28%"
       },
       {
         "Source": "Metacritic",
@@ -162,7 +162,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.1/10"
+        "Value": "6.0/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -196,7 +196,7 @@ module.exports = [
     "imdbId": "tt1477834",
     "id": "dc_tt1477834",
     "releaseYear": "2018",
-    "poster": "https://image.tmdb.org/t/p/w500/oIDpaHSnTMYK0Cf5RkEoQzXPpBE.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/ufl63EFcc5XpByEV2Ecdw6WJZAI.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -276,7 +276,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.1/10"
+        "Value": "6.0/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -310,11 +310,11 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "5.4/10"
+        "Value": "5.3/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "58%"
+        "Value": "57%"
       },
       {
         "Source": "Metacritic",
@@ -420,7 +420,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.2/10"
+        "Value": "6.1/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -454,7 +454,7 @@ module.exports = [
     "imdbId": "tt10151854",
     "id": "dc_tt10151854",
     "releaseYear": "2023",
-    "poster": "https://image.tmdb.org/t/p/w500/A3ZbZsmsvNGdprRi2lKgGEeVLEH.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/3GrRgt6CiLIUXUtoktcv1g2iwT5.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -509,16 +509,16 @@ module.exports = [
     ],
     "genres": [
       {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
         "id": 28,
         "name": "Action"
       },
       {
         "id": 878,
         "name": "Science Fiction"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
       }
     ],
     "overview": "When his attempt to save his family inadvertently alters the future, Barry Allen becomes trapped in a reality in which General Zod has returned and there are no Super Heroes to turn to. In order to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?"
@@ -568,7 +568,7 @@ module.exports = [
     "imdbId": "tt9663764",
     "id": "dc_tt9663764",
     "releaseYear": "2023",
-    "poster": "https://image.tmdb.org/t/p/w500/oEyIhY1WzoFHUDE7U3p1AWwyoSN.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",

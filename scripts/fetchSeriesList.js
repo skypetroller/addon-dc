@@ -55,7 +55,7 @@ const seriesToFetch = [
     { title: "Kite Man: Hell Yeah!", year: 2024, animated: true }, // May need title variation? Harley Quinn spinoff.
     { title: "Suicide Squad ISEKAI", year: 2024, animated: true },
     // { title: "Peacemaker", year: 2025 }, // Season 2 - fetch main show details?
-    { title: "Lanterns", year: 2025 }, // Placeholder, may not exist yet
+    { title: "Lanterns", year: 2026 },
     { title: "Waller", year: 2025 }, // Placeholder, may not exist yet
     { title: "Paradise Lost", year: 2025 }, // Placeholder, Wonder Woman prequel?
     { title: "Booster Gold", year: 2025 }, // Placeholder, may not exist yet

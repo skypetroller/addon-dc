@@ -7,7 +7,7 @@ const path = require('path');
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const OMDB_API_KEY = process.env.OMDB_API_KEY; // Optional, will fetch ratings if key is valid
 
-const outputBatmanPath = path.join(__dirname, '../Data/everythingBatman.js'); // Output file name
+const outputBatmanPath = path.join(__dirname, '../Data/everythingbatman.js'); // Output file name
 
 // --- List of Specific Batman Movies to Fetch ---
 // Format: { title: "Movie Title", year: YYYY }
@@ -34,7 +34,7 @@ const moviesToFetch = [
     { title: "The Batman", year: 2022 },
     { title: "The Flash", year: 2023 }, // Features Batman
     // Upcoming Batman Films
-    { title: "The Batman: Part II", year: 2025 },
+    { title: "The Batman: Part II", year: 2028 },
     { title: "The Brave and the Bold", year: 2026 }, // Placeholder year, may need adjustment
 ];
 

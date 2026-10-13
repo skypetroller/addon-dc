@@ -55,7 +55,9 @@ const moviesToFetch = [
     { title: "Joker: Folie à Deux", year: 2024 },
     // { title: "Superman: Legacy", year: 2025 }, // Title might change, search may fail
     { title: "Superman", year: 2025 }, // Using generic 'Superman' for 2025 search as 'Legacy' might not be final/searchable yet
-    { title: "The Batman: Part II", year: 2025 },
+    { title: "Supergirl", year: 2026 },
+    { title: "Clayface", year: 2026 },
+    { title: "The Batman: Part II", year: 2028 },
 ];
 
 

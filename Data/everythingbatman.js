@@ -7,7 +7,12 @@ module.exports = [
     "id": "dc_tt0035665",
     "releaseYear": "1943",
     "poster": "https://image.tmdb.org/t/p/w500/AvzD3mrtokIzZOiV6zAG7geIo6F.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.0/10"
+      }
+    ],
     "genres": [
       {
         "id": 28,
@@ -20,18 +25,6 @@ module.exports = [
       {
         "id": 80,
         "name": "Crime"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      },
-      {
-        "id": 53,
-        "name": "Thriller"
-      },
-      {
-        "id": 10752,
-        "name": "War"
       }
     ],
     "overview": "Japanese master spy Daka operates a covert espionage-sabotage organization located in Gotham City's now-deserted Little Tokyo, which turns American scientists into pliable zombies. The great crime-fighters Batman and Robin, with the help of their allies, are in pursuit."
@@ -44,7 +37,12 @@ module.exports = [
     "id": "dc_tt0041162",
     "releaseYear": "1949",
     "poster": "https://image.tmdb.org/t/p/w500/411pEyeqP5rLS6Zc9batSRL0c8G.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.9/10"
+      }
+    ],
     "genres": [
       {
         "id": 28,
@@ -76,8 +74,21 @@ module.exports = [
     "imdbId": "tt0060153",
     "id": "dc_tt0060153",
     "releaseYear": "1966",
-    "poster": "https://image.tmdb.org/t/p/w500/zzoPxWHnPa0eyfkMLgwbNvdEcVF.jpg",
-    "ratings": [],
+    "poster": "https://image.tmdb.org/t/p/w500/iBaHizz1sfMs4N03aHsGe7I2G6S.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.5/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "80%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "71/100"
+      }
+    ],
     "genres": [
       {
         "id": 28,
@@ -130,7 +141,7 @@ module.exports = [
         "name": "Crime"
       }
     ],
-    "overview": "Batman must face his most ruthless nemesis when a deformed madman calling himself \"The Joker\" seizes control of Gotham's criminal underworld."
+    "overview": "Having witnessed his parents' brutal murder as a child, millionaire philanthropist Bruce Wayne fights crime in Gotham City disguised as Batman, a costumed hero who strikes fear into the hearts of villains. But when a deformed madman known as 'The Joker' seizes control of Gotham's criminal underworld, Batman must face his most ruthless nemesis ever while protecting both his identity and his love interest, reporter Vicki Vale."
   },
   {
     "tmdbId": 364,
@@ -139,7 +150,7 @@ module.exports = [
     "imdbId": "tt0103776",
     "id": "dc_tt0103776",
     "releaseYear": "1992",
-    "poster": "https://image.tmdb.org/t/p/w500/uEIvgvxzK08922iU61OvO3ORs0s.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/jKBjeXM7iBBV9UkUcOXx3m7FSHY.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -147,7 +158,7 @@ module.exports = [
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "82%"
+        "Value": "81%"
       },
       {
         "Source": "Metacritic",
@@ -164,7 +175,7 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "Batman must face The Penguin, a sewer-dwelling gangleader intent on being accepted into Gotham society.  Meanwhile, another Gotham resident finds herself transformed into Catwoman and is out for revenge..."
+    "overview": "The monstrous Penguin, who dwells in the sewers beneath Gotham, joins up with corrupt mayoral candidate Max Shreck to topple the Batman once and for all. But when Shreck's timid assistant Selina Kyle finds out, and Shreck tries to kill her, she's transformed into the sexy Catwoman. She teams up with the Penguin and Shreck to destroy Batman, but sparks fly unexpectedly when she confronts the caped crusader."
   },
   {
     "tmdbId": 414,
@@ -177,11 +188,11 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "5.4/10"
+        "Value": "5.5/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "39%"
+        "Value": "41%"
       },
       {
         "Source": "Metacritic",
@@ -202,7 +213,7 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "In the looming shadows of Gotham City, two villainous souls devise twin schemes of revenge against the city's dark guardian. Two-Face, disfigured by chance and fueled by vengeance, is obsessed with destroying Batman, while the Riddler, a disillusioned genius, pursues the destruction of billionaire Bruce Wayne. Together they've hatched a plot to absorb and control the minds of all of Gotham City's residents, and only Batman and his new partner, Robin, can stop them! But the Dark Knight is hindered by a mystery from his own childhood. He must hope that a new found love can help him overcome the incident that made him what he is. In the end, he must decide: will he be Batman—forever?"
+    "overview": "Batman faces off against two foes: the schizophrenic, horribly scarred former District Attorney Harvey Dent, aka Two-Face, and the Riddler, a disgruntled ex-Wayne Enterprises inventor seeking revenge against his former employer by unleashing his brain-sucking weapon on Gotham City's residents. As the caped crusader also copes with tortured memories of his parents' murder, he has a new romance, with psychologist Chase Meridian."
   },
   {
     "tmdbId": 415,
@@ -211,7 +222,7 @@ module.exports = [
     "imdbId": "tt0118688",
     "id": "dc_tt0118688",
     "releaseYear": "1997",
-    "poster": "https://image.tmdb.org/t/p/w500/cGRDufDDSrFrv7VI4YnmWnslne0.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/i7hEUpDuMN2LOrCEifFyGSHZQSY.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -240,7 +251,7 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Batman and Robin deal with relationship issues while preventing Mr. Freeze and Poison Ivy from attacking Gotham City."
+    "overview": "Batman and his sidekick Robin attempt to the foil the sinister schemes of a deranged set of new villains, most notably the melancholy Mr. Freeze, who wants to make Gotham City into an arctic region, and the sultry Poison Ivy, a botanical femme fatale. As the Dynamic Duo contend with these bad guys, a third hero, Batgirl, joins the ranks of the city's crime-fighters."
   },
   {
     "tmdbId": 272,
@@ -249,7 +260,7 @@ module.exports = [
     "imdbId": "tt0372784",
     "id": "dc_tt0372784",
     "releaseYear": "2005",
-    "poster": "https://image.tmdb.org/t/p/w500/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/sPX89Td70IDDjVr85jdSBb4rWGr.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -266,16 +277,16 @@ module.exports = [
     ],
     "genres": [
       {
-        "id": 28,
-        "name": "Action"
+        "id": 18,
+        "name": "Drama"
       },
       {
         "id": 80,
         "name": "Crime"
       },
       {
-        "id": 18,
-        "name": "Drama"
+        "id": 28,
+        "name": "Action"
       }
     ],
     "overview": "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City.  Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman."
@@ -291,7 +302,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "9.0/10"
+        "Value": "9.1/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -299,25 +310,21 @@ module.exports = [
       },
       {
         "Source": "Metacritic",
-        "Value": "84/100"
+        "Value": "85/100"
       }
     ],
     "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
       {
         "id": 28,
         "name": "Action"
       },
       {
-        "id": 80,
-        "name": "Crime"
-      },
-      {
         "id": 53,
         "name": "Thriller"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
       }
     ],
     "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker."
@@ -354,10 +361,6 @@ module.exports = [
         "name": "Crime"
       },
       {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
         "id": 53,
         "name": "Thriller"
       }
@@ -375,11 +378,11 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.5/10"
+        "Value": "6.4/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "29%"
+        "Value": "28%"
       },
       {
         "Source": "Metacritic",
@@ -451,7 +454,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.1/10"
+        "Value": "6.0/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -578,28 +581,28 @@ module.exports = [
     ],
     "genres": [
       {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
         "id": 28,
         "name": "Action"
       },
       {
         "id": 878,
         "name": "Science Fiction"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
       }
     ],
     "overview": "When his attempt to save his family inadvertently alters the future, Barry Allen becomes trapped in a reality in which General Zod has returned and there are no Super Heroes to turn to. In order to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?"
   },
   {
     "tmdbId": 806704,
-    "title": "Untitled The Batman Sequel",
+    "title": "The Batman: Part II",
     "type": "movie",
     "imdbId": "tt19850008",
     "id": "dc_tt19850008",
-    "releaseYear": "2027",
-    "poster": "https://image.tmdb.org/t/p/w500/qwDWC2OzPw9zGc2lVCbjDrdaL6A.jpg",
+    "releaseYear": "2028",
+    "poster": "https://image.tmdb.org/t/p/w500/r5fl4aMsmTjgc8DdDqQaM84roWp.jpg",
     "ratings": [],
     "genres": [
       {

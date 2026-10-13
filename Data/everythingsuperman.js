@@ -7,12 +7,13 @@ module.exports = [
     "id": "dc_tt0040852",
     "releaseYear": "1948",
     "poster": "https://image.tmdb.org/t/p/w500/vLvSA6HLaldOBOCeKw8jJejXV8J.jpg",
-    "ratings": [],
-    "genres": [
+    "ratings": [
       {
-        "id": 28,
-        "name": "Action"
-      },
+        "Source": "Internet Movie Database",
+        "Value": "6.7/10"
+      }
+    ],
+    "genres": [
       {
         "id": 80,
         "name": "Crime"
@@ -20,6 +21,10 @@ module.exports = [
       {
         "id": 878,
         "name": "Science Fiction"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
       }
     ],
     "overview": "Superman comes to Earth as a child and grows up to be his home's first superhero with his first major challenge being to oppose The Spider Lady."
@@ -32,7 +37,12 @@ module.exports = [
     "id": "dc_tt0042211",
     "releaseYear": "1950",
     "poster": "https://image.tmdb.org/t/p/w500/ujs17umEBEhhBONTBF5OXJ3h3Pc.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.7/10"
+      }
+    ],
     "genres": [
       {
         "id": 28,
@@ -52,9 +62,18 @@ module.exports = [
     "imdbId": "tt0044091",
     "id": "dc_tt0044091",
     "releaseYear": "1951",
-    "poster": "https://image.tmdb.org/t/p/w500/9vRltKcX4wK4ms0A6PbRz42EMdq.jpg",
-    "ratings": [],
+    "poster": "https://image.tmdb.org/t/p/w500/2zWramOLbIMfXSvXZJsUNasw27S.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.5/10"
+      }
+    ],
     "genres": [
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
       {
         "id": 28,
         "name": "Action"
@@ -62,22 +81,6 @@ module.exports = [
       {
         "id": 12,
         "name": "Adventure"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
       }
     ],
     "overview": "Reporters Clark Kent and Lois Lane arrive in the small town of Silsby to witness the drilling of the world's deepest oil well. The drill, however, has penetrated the underground home of a race of small, furry people who then come to the surface at night to look around. The fact that they glow in the dark scares the townfolk, who form a mob, led by the vicious Luke Benson, intent on killing the strange people. Only Superman has a chance to prevent this tragedy."
@@ -97,7 +100,7 @@ module.exports = [
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "93%"
+        "Value": "87%"
       },
       {
         "Source": "Metacritic",
@@ -135,7 +138,7 @@ module.exports = [
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "83%"
+        "Value": "88%"
       },
       {
         "Source": "Metacritic",
@@ -156,7 +159,7 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Three escaped criminals from the planet Krypton, who have the same powers on Earth as Superman, test the Man of Steel's mettle. Led by General Zod, the Kryptonians take control of the White House and partner with Lex Luthor to destroy Superman and rule the world. But Superman, who made himself human in order to get closer to Lois, realizes he has a responsibility to save the planet."
+    "overview": "Three Kryptonian criminals led by General Zod team up with Lex Luthor to conquer Earth, forcing a depowered Superman to regain his strength and stop them."
   },
   {
     "tmdbId": 9531,
@@ -165,7 +168,7 @@ module.exports = [
     "imdbId": "tt0086393",
     "id": "dc_tt0086393",
     "releaseYear": "1983",
-    "poster": "https://image.tmdb.org/t/p/w500/aac3vujaTWRLARNDEcMyGSvJfsx.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/c4oR6qgZW2s5foGkQi2Dd86KuAS.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -173,7 +176,7 @@ module.exports = [
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "29%"
+        "Value": "31%"
       },
       {
         "Source": "Metacritic",
@@ -207,15 +210,15 @@ module.exports = [
     "imdbId": "tt0094074",
     "id": "dc_tt0094074",
     "releaseYear": "1987",
-    "poster": "https://image.tmdb.org/t/p/w500/aQ1d9OB0xtAenIL0Ke3xV17St4S.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/nJFBeU1oKIaIoLVyQYUeB36DW55.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "3.7/10"
+        "Value": "3.8/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "10%"
+        "Value": "17%"
       },
       {
         "Source": "Metacritic",
@@ -253,7 +256,7 @@ module.exports = [
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "74%"
+        "Value": "72%"
       },
       {
         "Source": "Metacritic",
@@ -283,7 +286,7 @@ module.exports = [
     "imdbId": "tt0770828",
     "id": "dc_tt0770828",
     "releaseYear": "2013",
-    "poster": "https://image.tmdb.org/t/p/w500/dksTL9NXc3GqPBRHYHcy1aIwjS.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/8GFtkImmK0K1VaUChR0n9O61CFU.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -325,11 +328,11 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.5/10"
+        "Value": "6.4/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "29%"
+        "Value": "28%"
       },
       {
         "Source": "Metacritic",
@@ -363,7 +366,7 @@ module.exports = [
     "ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.1/10"
+        "Value": "6.0/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -435,22 +438,35 @@ module.exports = [
     "imdbId": "tt5950044",
     "id": "dc_tt5950044",
     "releaseYear": "2025",
-    "poster": "https://image.tmdb.org/t/p/w500/wPLysNDLffQLOVebZQCbXJEv6E6.jpg",
-    "ratings": [],
+    "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.0/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "83%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "68/100"
+      }
+    ],
     "genres": [
       {
-        "id": 28,
-        "name": "Action"
+        "id": 878,
+        "name": "Science Fiction"
       },
       {
         "id": 12,
         "name": "Adventure"
       },
       {
-        "id": 878,
-        "name": "Science Fiction"
+        "id": 28,
+        "name": "Action"
       }
     ],
-    "overview": "Superman, a cub reporter in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent."
+    "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent."
   }
 ];
