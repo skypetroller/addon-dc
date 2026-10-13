@@ -1,0 +1,45 @@
+name: Auto-update DC catalog data
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Every Monday at 06:00 UTC
+  workflow_dispatch: # Allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Refresh curated catalogs
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+        run: |
+          node scripts/fetchMoviesList.js
+          node scripts/fetchSeriesList.js
+          node scripts/fetchDceuMovies.js
+          node scripts/fetchModernDCSeries.js
+          node scripts/fetchBatmanMovies.js
+          node scripts/fetchSupermanMovies.js
+          node scripts/combineReleaseData.js
+          node scripts/buildGunnChronological.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Data/
+          git diff --staged --quiet || (git commit -m "Auto-update DC catalog data" && git push)
