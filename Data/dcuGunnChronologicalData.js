@@ -1,5 +1,38 @@
 module.exports = [
   {
+    "tmdbId": 436969,
+    "title": "The Suicide Squad",
+    "type": "movie",
+    "imdbId": "tt6334354",
+    "id": "dc_tt6334354",
+    "releaseYear": "2021",
+    "poster": "https://image.tmdb.org/t/p/w500/q61qEyssk2ku3okWICKArlAdhBn.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.2/10"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "72/100"
+      }
+    ],
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      }
+    ]
+  },
+  {
     "tmdbId": 219543,
     "title": "Creature Commandos",
     "type": "series",
