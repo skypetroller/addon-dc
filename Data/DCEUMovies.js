@@ -7,20 +7,7 @@ module.exports = [
     "id": "dc_tt0770828",
     "releaseYear": "2013",
     "poster": "https://image.tmdb.org/t/p/w500/8GFtkImmK0K1VaUChR0n9O61CFU.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.1/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "57%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "55/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -45,20 +32,7 @@ module.exports = [
     "id": "dc_tt2975590",
     "releaseYear": "2016",
     "poster": "https://image.tmdb.org/t/p/w500/5UsK3grJvtQrtzEgqNlDljJW96w.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.4/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "28%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "44/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -83,20 +57,7 @@ module.exports = [
     "id": "dc_tt1386697",
     "releaseYear": "2016",
     "poster": "https://image.tmdb.org/t/p/w500/sk3FZgh3sRrmr8vyhaitNobMcfh.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "5.9/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "26%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "40/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -121,20 +82,7 @@ module.exports = [
     "id": "dc_tt0451279",
     "releaseYear": "2017",
     "poster": "https://image.tmdb.org/t/p/w500/v4ncgZjG2Zu8ZW5al1vIZTsSjqX.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.3/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "93%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "76/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -159,20 +107,7 @@ module.exports = [
     "id": "dc_tt0974015",
     "releaseYear": "2017",
     "poster": "https://image.tmdb.org/t/p/w500/eifGNCSDuxJeS1loAXil5bIGgvC.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.0/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "39%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "45/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -197,20 +132,7 @@ module.exports = [
     "id": "dc_tt1477834",
     "releaseYear": "2018",
     "poster": "https://image.tmdb.org/t/p/w500/ufl63EFcc5XpByEV2Ecdw6WJZAI.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.8/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "66%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "55/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -235,20 +157,7 @@ module.exports = [
     "id": "dc_tt0448115",
     "releaseYear": "2019",
     "poster": "https://image.tmdb.org/t/p/w500/xnopI5Xtky18MPhK40cZAGAOVeV.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.0/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "90%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "71/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -273,20 +182,7 @@ module.exports = [
     "id": "dc_tt7713068",
     "releaseYear": "2020",
     "poster": "https://image.tmdb.org/t/p/w500/h4VB6m0RwcicVEZvzftYZyKXs6K.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.0/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "79%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "60/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -307,20 +203,7 @@ module.exports = [
     "id": "dc_tt7126948",
     "releaseYear": "2020",
     "poster": "https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "5.3/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "57%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "60/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -345,20 +228,7 @@ module.exports = [
     "id": "dc_tt12361974",
     "releaseYear": "2021",
     "poster": "https://image.tmdb.org/t/p/w500/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.9/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "71%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "54/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -383,16 +253,7 @@ module.exports = [
     "id": "dc_tt6334354",
     "releaseYear": "2021",
     "poster": "https://image.tmdb.org/t/p/w500/q61qEyssk2ku3okWICKArlAdhBn.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.2/10"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "72/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -417,20 +278,7 @@ module.exports = [
     "id": "dc_tt6443346",
     "releaseYear": "2022",
     "poster": "https://image.tmdb.org/t/p/w500/rCtreCr4xiYEWDQTebybolIh6Xe.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.1/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "39%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "41/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -455,20 +303,7 @@ module.exports = [
     "id": "dc_tt10151854",
     "releaseYear": "2023",
     "poster": "https://image.tmdb.org/t/p/w500/3GrRgt6CiLIUXUtoktcv1g2iwT5.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "5.9/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "49%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "47/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 35,
@@ -493,20 +328,7 @@ module.exports = [
     "id": "dc_tt0439572",
     "releaseYear": "2023",
     "poster": "https://image.tmdb.org/t/p/w500/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.6/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "63%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "55/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,

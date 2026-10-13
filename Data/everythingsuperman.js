@@ -7,12 +7,7 @@ module.exports = [
     "id": "dc_tt0040852",
     "releaseYear": "1948",
     "poster": "https://image.tmdb.org/t/p/w500/vLvSA6HLaldOBOCeKw8jJejXV8J.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.7/10"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 80,
@@ -37,12 +32,7 @@ module.exports = [
     "id": "dc_tt0042211",
     "releaseYear": "1950",
     "poster": "https://image.tmdb.org/t/p/w500/ujs17umEBEhhBONTBF5OXJ3h3Pc.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.7/10"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -63,12 +53,7 @@ module.exports = [
     "id": "dc_tt0044091",
     "releaseYear": "1951",
     "poster": "https://image.tmdb.org/t/p/w500/2zWramOLbIMfXSvXZJsUNasw27S.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "5.5/10"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 878,
@@ -93,20 +78,7 @@ module.exports = [
     "id": "dc_tt0078346",
     "releaseYear": "1978",
     "poster": "https://image.tmdb.org/t/p/w500/d7px1FQxW4tngdACVRsCSaZq0Xl.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.4/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "87%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "82/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 878,
@@ -131,20 +103,7 @@ module.exports = [
     "id": "dc_tt0081573",
     "releaseYear": "1980",
     "poster": "https://image.tmdb.org/t/p/w500/3xk5cno9BHcnwc97XO9k21aI1Zi.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.8/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "88%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "83/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 878,
@@ -169,20 +128,7 @@ module.exports = [
     "id": "dc_tt0086393",
     "releaseYear": "1983",
     "poster": "https://image.tmdb.org/t/p/w500/c4oR6qgZW2s5foGkQi2Dd86KuAS.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "5.0/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "31%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "44/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 35,
@@ -211,20 +157,7 @@ module.exports = [
     "id": "dc_tt0094074",
     "releaseYear": "1987",
     "poster": "https://image.tmdb.org/t/p/w500/nJFBeU1oKIaIoLVyQYUeB36DW55.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "3.8/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "17%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "24/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -249,20 +182,7 @@ module.exports = [
     "id": "dc_tt0348150",
     "releaseYear": "2006",
     "poster": "https://image.tmdb.org/t/p/w500/385XwTQZDpRX2d3kxtnpiLrjBXw.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.1/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "72%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "72/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 878,
@@ -287,20 +207,7 @@ module.exports = [
     "id": "dc_tt0770828",
     "releaseYear": "2013",
     "poster": "https://image.tmdb.org/t/p/w500/8GFtkImmK0K1VaUChR0n9O61CFU.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.1/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "57%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "55/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -325,20 +232,7 @@ module.exports = [
     "id": "dc_tt2975590",
     "releaseYear": "2016",
     "poster": "https://image.tmdb.org/t/p/w500/5UsK3grJvtQrtzEgqNlDljJW96w.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.4/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "28%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "44/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -401,20 +295,7 @@ module.exports = [
     "id": "dc_tt12361974",
     "releaseYear": "2021",
     "poster": "https://image.tmdb.org/t/p/w500/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.9/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "71%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "54/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 28,
@@ -439,20 +320,7 @@ module.exports = [
     "id": "dc_tt5950044",
     "releaseYear": "2025",
     "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.0/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "83%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "68/100"
-      }
-    ],
+    "ratings": [],
     "genres": [
       {
         "id": 878,
