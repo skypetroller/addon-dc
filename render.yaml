@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: addon-dc
+    env: node
+    buildCommand: npm install
+    startCommand: npm run start:server
+    envVars:
+      - key: TMDB_API_KEY
+        sync: false
+      - key: OMDB_API_KEY
+        sync: false
