@@ -13,6 +13,7 @@ const supermanData = require('../Data/everythingsuperman');
 const supermanAnimationData = require('../Data/everythingsupermananimation');
 const dceuMoviesData = require('../Data/DCEUMovies');
 const modernDCSeriesData = require('../Data/DCSeries');
+const dcuDceuChronologicalData = require('../Data/dcuDceuChronologicalData');
 
 require('dotenv').config();
 
@@ -238,6 +239,11 @@ function getAllCatalogs() {
     return [
         {
             type: "DC",
+            id: "dcu-dceu-chronological",
+            name: "DCU & DCEU Chronological"
+        },
+        {
+            type: "DC",
             id: "dc-chronological",
             name: "Chronological Order"
         },
@@ -425,6 +431,13 @@ app.get('/api/catalogs', (req, res) => {
     
     const catalogInfo = [
         { 
+            id: 'dcu-dceu-chronological', 
+            name: 'DCU & DCEU Chronological', 
+            category: 'Timeline',
+            description: 'James Gunn DCU first, then Snyder DCEU in story order',
+            icon: 'calendar-alt'
+        },
+        { 
             id: 'dc-chronological', 
             name: 'Chronological Order', 
             category: 'Timeline',
@@ -525,6 +538,9 @@ app.get('/rpdb/:rpdbKey/catalog/:type/:id.json', async (req, res) => {
     // Load data based on catalog ID
     try {
         switch (id) {
+            case 'dcu-dceu-chronological':
+                dataSource = dcuDceuChronologicalData;
+                break;
             case 'dc-chronological':
                 dataSource = require('../Data/chronologicalData');
                 break;
@@ -625,6 +641,9 @@ app.get('/catalog/:catalogsParam/catalog/:type/:id.json', async (req, res) => {
     // Load data based on catalog ID
     try {
         switch (id) {
+            case 'dcu-dceu-chronological':
+                dataSource = dcuDceuChronologicalData;
+                break;
             case 'dc-chronological':
                 dataSource = require('../Data/chronologicalData');
                 break;
@@ -740,6 +759,9 @@ app.get('/catalog/:type/:id.json', async (req, res) => {
     // Load data based on catalog ID
     try {
         switch (id) {
+            case 'dcu-dceu-chronological':
+                dataSource = dcuDceuChronologicalData;
+                break;
             case 'dc-chronological':
                 dataSource = require('../Data/chronologicalData');
                 break;
