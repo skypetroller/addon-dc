@@ -30,7 +30,8 @@ module.exports = [
         "id": 10762,
         "name": "Kids"
       }
-    ]
+    ],
+    "overview": "The series centers on a young Superman's adventures in the 31st century, fighting alongside a group of futuristic superheroes known as the Legion of Super-Heroes."
   },
   {
     "tmdbId": 15804,
@@ -55,7 +56,8 @@ module.exports = [
         "id": 10759,
         "name": "Action & Adventure"
       }
-    ]
+    ],
+    "overview": "The Caped Crusader is teamed up with Blue Beetle, Green Arrow, Aquaman and countless others in his quest to uphold justice."
   },
   {
     "tmdbId": 355142,
@@ -84,7 +86,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "The Joker kidnaps Batman, Superman and the rest of the DC Super Friends and puts them against their worst enemies in their own secret base, the Hall of Justice."
   },
   {
     "tmdbId": 43641,
@@ -109,7 +112,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "Chosen the world’s protector against the Seven Deadly Enemies of Man – pride, envy, greed, hatred, selfishness, laziness and injustice – young Billy Batson accepts his destiny as Captain Marvel. Battling alongside Superman against nefarious Black Adam, Billy soon discovers the challenge super heroes ultimately face: is it revenge or justice?"
   },
   {
     "tmdbId": 33217,
@@ -138,7 +142,8 @@ module.exports = [
         "id": 10759,
         "name": "Action & Adventure"
       }
-    ]
+    ],
+    "overview": "Teenage superheroes strive to prove themselves as members of the Justice League."
   },
   {
     "tmdbId": 69735,
@@ -175,7 +180,8 @@ module.exports = [
         "id": 53,
         "name": "Thriller"
       }
-    ]
+    ],
+    "overview": "A wealthy playboy named Bruce Wayne and a Chicago cop named Jim Gordon both return to Gotham City where their lives unexpectedly intersect."
   },
   {
     "tmdbId": 76420,
@@ -204,7 +210,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Catwoman attempts to track down a mysterious cargo shipment that is linked to a Gotham City crime boss called Rough Cut."
   },
   {
     "tmdbId": 283746,
@@ -233,7 +240,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "A series of shorts based on 2003's Teen Titans following the antics of crime-fighting teenagers, showcasing their bite-sized adventures."
   },
   {
     "tmdbId": 40351,
@@ -266,7 +274,8 @@ module.exports = [
         "id": 10762,
         "name": "Kids"
       }
-    ]
+    ],
+    "overview": "The Green Lanterns Hal and his partner Kilowog fight against the forces of the Red Lanterns."
   },
   {
     "tmdbId": 76589,
@@ -303,7 +312,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "An adaptation of Mark Waid's \"Tower of Babel\" story from the JLA comic. Vandal Savage steals confidential files Batman has compiled on the members of the Justice League, and learns all their weaknesses."
   },
   {
     "tmdbId": 103269,
@@ -336,7 +346,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "The Man of Steel finds himself outshone by a new team of ruthless superheroes who hold his idealism in contempt."
   },
   {
     "tmdbId": 123025,
@@ -373,7 +384,8 @@ module.exports = [
         "id": 9648,
         "name": "Mystery"
       }
-    ]
+    ],
+    "overview": "Batman has not been seen for ten years. A new breed of criminal ravages Gotham City, forcing 55-year-old Bruce Wayne back into the cape and cowl. But, does he still have what it takes to fight crime in a new era?"
   },
   {
     "tmdbId": 145174,
@@ -402,7 +414,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "The Robot Chicken DC Comics Special brings you the awesomeness of the DC Comics universe of characters as only Robot Chicken can, with amazing guest stars and the stop-motion sketch comedy you've come to love."
   },
   {
     "tmdbId": 55853,
@@ -427,7 +440,8 @@ module.exports = [
         "id": 10759,
         "name": "Action & Adventure"
       }
-    ]
+    ],
+    "overview": "A reimagining of the DC Comics character, as he fights crime in 1930's Shanghai."
   },
   {
     "tmdbId": 142061,
@@ -460,7 +474,8 @@ module.exports = [
         "id": 9648,
         "name": "Mystery"
       }
-    ]
+    ],
+    "overview": "Batman has stopped the reign of terror that The Mutants had cast upon his city.  Now an old foe wants a reunion and the government wants The Man of Steel to put a stop to Batman."
   },
   {
     "tmdbId": 166076,
@@ -493,7 +508,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Superman and Supergirl take on the cybernetic being known as Brainiac, who boasts that he possesses \"the knowledge and strength of 10,000 worlds.\""
   },
   {
     "tmdbId": 1078989,
@@ -526,7 +542,8 @@ module.exports = [
         "id": 9648,
         "name": "Mystery"
       }
-    ]
+    ],
+    "overview": "A mysterious figure with special reality-warping powers battles the forces of madness only he can see and fight."
   },
   {
     "tmdbId": 177271,
@@ -559,7 +576,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "Joker teams up with Lex Luthor to destroy the world one brick at a time. It's up to Batman, Superman and the rest of the Justice League to stop them."
   },
   {
     "tmdbId": 761135,
@@ -588,7 +606,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "The Riddler matches wits with Batman, but the encounters never go well."
   },
   {
     "tmdbId": 183011,
@@ -629,7 +648,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "The Flash finds himself in a war-torn alternate timeline and teams up with alternate versions of his fellow heroes to restore the timeline."
   },
   {
     "tmdbId": 256421,
@@ -650,7 +670,8 @@ module.exports = [
         "id": 16,
         "name": "Animation"
       }
-    ]
+    ],
+    "overview": "An animated short about the 75 years of Superman."
   },
   {
     "tmdbId": 75395,
@@ -683,7 +704,8 @@ module.exports = [
         "id": 10762,
         "name": "Kids"
       }
-    ]
+    ],
+    "overview": "An ordinary girl is pulled into the fantasy realm of Gemworld to save it from a monstrous villain."
   },
   {
     "tmdbId": 45140,
@@ -720,7 +742,8 @@ module.exports = [
         "id": 10751,
         "name": "Family"
       }
-    ]
+    ],
+    "overview": "Robin, Starfire, Raven, Beast Boy and Cyborg return in all-new, comedic adventures. They may be super heroes who save the world every day ... but somebody still has to do the laundry!"
   },
   {
     "tmdbId": 41676,
@@ -749,7 +772,8 @@ module.exports = [
         "id": 10762,
         "name": "Kids"
       }
-    ]
+    ],
+    "overview": "Set during Bruce Wayne's early years as the Batman, following his initial period of battling organized crime. He hones his skills with the assistance of his butler, Alfred Pennyworth. Bruce is introduced to Alfred's goddaughter, Tatsu Yamashiro. Tatsu is a martial arts swordsmaster hired to act as Bruce's bodyguard, but also recruited to act as a superhero partner to Batman."
   },
   {
     "tmdbId": 251768,
@@ -782,7 +806,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Get ready for a battle of the ages when the Justice League faces off against its archenemies, the Legion of Doom, in an all-new movie from DC Comics. A mysterious being known as the Time Trapper arises, and a sinister plan led by Lex Luthor sends the Legion of Doom back in time to eliminate Superman, Wonder Woman and Batman before they become super heroes. For Aquaman, Flash and Cyborg, along with teen super heroes Karate Kid and Dawnstar, the stakes have never been higher, the rescue mission never deadlier. So join the fight for the future as the Justice League confronts its ultimate challenge… the threat of having never existed!"
   },
   {
     "tmdbId": 217993,
@@ -811,7 +836,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "The world is under attack by an alien armada led by the powerful Apokoliptian, Darkseid. A group of superheroes consisting of Superman, Batman, Wonder Woman, The Flash, Green Lantern, Cyborg, and Shazam must set aside their differences and gather together to defend Earth."
   },
   {
     "tmdbId": 263484,
@@ -840,7 +866,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "The Robot Chicken crew takes a peek at what happens when the DC villains end up on the same beach as the DC heroes on spring break!"
   },
   {
     "tmdbId": 264170,
@@ -869,7 +896,8 @@ module.exports = [
         "id": 10770,
         "name": "TV Movie"
       }
-    ]
+    ],
+    "overview": "A lost tale from Batman's past, the Dark Knight tracks a strange giant to the mysterious lair of Hugo Strange."
   },
   {
     "tmdbId": 269246,
@@ -902,7 +930,8 @@ module.exports = [
         "id": 10770,
         "name": "TV Movie"
       }
-    ]
+    ],
+    "overview": "This short celebrating 75 years of Batman from artist Darwyn Cooke returns fans to the world of Batman Beyond as Terry McGinnis' futuristic Dark Knight faces his most formidable foe of all - himself."
   },
   {
     "tmdbId": 251519,
@@ -935,7 +964,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Batman learns he has a violent, unruly pre-teen son, secretly raised by the terrorist group known as The League of Assassins."
   },
   {
     "tmdbId": 242643,
@@ -972,7 +1002,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Batman works desperately to find a bomb planted by the Joker while Amanda Waller sends her newly-formed Suicide Squad to break into Arkham Asylum and recover vital information stolen by the Riddler."
   },
   {
     "tmdbId": 300424,
@@ -1013,7 +1044,8 @@ module.exports = [
         "id": 10770,
         "name": "TV Movie"
       }
-    ]
+    ],
+    "overview": "When Batman, claiming to be a loner, refuses to join the Justice League, he is drawn into working with them when they are kidnapped one-by-one and held prisoner by one of Batman's nemeses."
   },
   {
     "tmdbId": 281000,
@@ -1046,7 +1078,8 @@ module.exports = [
         "id": 10751,
         "name": "Family"
       }
-    ]
+    ],
+    "overview": "Dubbed the \"Creature Commandos,\" a military squad of soldiers-turned-monsters use their new found powers to do missions for the government and save the world from potential world domination."
   },
   {
     "tmdbId": 297556,
@@ -1083,7 +1116,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "After the events of Justice League: War, Ocean Master and Black Manta have declared a war against the surface in retaliation of the aftermath of Apokoliptian-tyrant Darkseid's planetary invasion. Queen Atlanna seeks out her other son, Ocean Master’s half-brother Arthur Curry, a half-human with aquatic powers with no knowledge of his Atlantean heritage, to restore balance.  Living with powers he doesn’t understand and seeing the danger around him, Curry takes steps to embrace his destiny, joining the Justice League, and with his new teammates he battles to save Earth from total destruction."
   },
   {
     "tmdbId": 506452,
@@ -1108,7 +1142,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "A 45 second short film set during the events of Justice League: Throne of Atlantis. The two main characters are called upon by Batman to find and capture the Scarecrow."
   },
   {
     "tmdbId": 322456,
@@ -1145,7 +1180,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "Superman’s clone, Bizarro, has become an embarrassing problem. Chaos and destruction follow Bizarro everywhere as he always hears the opposite of what is said, says the opposite of what he means and does the opposite of what is right. And when the citizens of Metropolis keep confusing Bizarro with Superman, the Man of Steel decides it’s time to find a new home for him…on another planet! It’s up to the Justice League to come to terms with their backward counterparts and team up with them to stop Darkseid and save the galaxy!"
   },
   {
     "tmdbId": 321528,
@@ -1198,7 +1234,8 @@ module.exports = [
         "id": 53,
         "name": "Thriller"
       }
-    ]
+    ],
+    "overview": "Damian Wayne is having a hard time coping with his father's \"no killing\" rule. Meanwhile, Gotham is going through hell with threats such as the insane Dollmaker, and the secretive Court of Owls."
   },
   {
     "tmdbId": 327418,
@@ -1227,7 +1264,8 @@ module.exports = [
         "id": 10751,
         "name": "Family"
       }
-    ]
+    ],
+    "overview": "Gotham City is under siege by a series of bizarre crimes and only the world's greatest detective, Batman, can unravel the mystery! The trail leads to none other than the Penguin and his Animilitia, an animal-inspired squad of villains including Silverback, Cheetah, Killer Croc and the monstrous Man-Bat."
   },
   {
     "tmdbId": 323027,
@@ -1268,7 +1306,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "In an alternate universe, very different versions of DC's Trinity fight against the government after they are framed for an embassy bombing."
   },
   {
     "tmdbId": 342917,
@@ -1297,7 +1336,8 @@ module.exports = [
         "id": 10751,
         "name": "Family"
       }
-    ]
+    ],
+    "overview": "The Joker is aided in his Halloween quest to render modern technology useless and take over Gotham City by Solomon Grundy, Silver Banshee, Clayface and Scarecrow."
   },
   {
     "tmdbId": 353595,
@@ -1334,7 +1374,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "Crime is on the run as the newly formed Justice League keeps Metropolis safe and this makes evil genius Lex Luthor very unhappy. Together with Black Manta, Sinestro and a gang of ruthless recruits, Lex builds his own league and declares them the Legion of Doom. With this super powered team of terror and a plan to attack the top-secret government site, Area 52, can Lex finally be on the verge of victory? Sound the alarm and get ready for the bricks to fly when Superman, Batman, Wonder Woman and the rest of the Justice League face off against the world's greatest Super-Villains! It's the next all-new original movie from LEGO® and DC Comics."
   },
   {
     "tmdbId": 363863,
@@ -1359,7 +1400,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "The Robot Chicken DC Comics Special 3: Magical Friendship surrenders DC Comics' multitude of Super Heroes and Super-Villains to the demented whims of the award-winning Robot Chicken for a triumphant third time. This time around, Batman and Superman’s bromance takes a competitive turn and the fate of the universe somehow hangs in the balance!"
   },
   {
     "tmdbId": 366924,
@@ -1396,7 +1438,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "When Batman goes missing, it takes the entire Bat \"family\" - including Batwoman and Batwing - to keep the peace in Gotham and unravel the mystery behind the Dark Knight's disappearance."
   },
   {
     "tmdbId": 382512,
@@ -1433,7 +1476,8 @@ module.exports = [
         "id": 10751,
         "name": "Family"
       }
-    ]
+    ],
+    "overview": "Earth, a shiny jewel floating in the blackness of space... and for the robot known as Brainiac, the last piece to capture for his collection of planets. Not if the Justice League has anything to say about it!"
   },
   {
     "tmdbId": 403333,
@@ -1470,7 +1514,8 @@ module.exports = [
         "id": 10770,
         "name": "TV Movie"
       }
-    ]
+    ],
+    "overview": "School is in session for DC Super Hero Girls! This is where students master their super powers, brain power, and will power to become the Super Heroes of tomorrow. When Supergirl crash lands into the cafeteria, it's evident that though she has incredible power, she has a long way to go before she becomes a Super Hero. As Supergirl learn to harness her powers, the Junior Detective Club investigates a mysterious rash of security breaches. Could it all be because of reformed Super-Villain and Super Hero High Vice-Principal Gorilla Grodd - or something far worse?"
   },
   {
     "tmdbId": 379291,
@@ -1519,7 +1564,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Robin is sent by Batman to work with the Teen Titans after his volatile behavior botches up a Justice League mission. The Titans must then step up to face Trigon after he possesses the League and threatens to conquer the world."
   },
   {
     "tmdbId": 396330,
@@ -1556,7 +1602,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "The caped crusader reluctantly agrees to let Batgirl and Nightwing take him on a long overdue vacation from crime-fighting, while Superman and the Justice League watch over Gotham City."
   },
   {
     "tmdbId": 382322,
@@ -1593,7 +1640,8 @@ module.exports = [
         "id": 18,
         "name": "Drama"
       }
-    ]
+    ],
+    "overview": "As Batman hunts for the escaped Joker, the Clown Prince of Crime attacks the Gordon family to prove a diabolical point mirroring his own fall into madness."
   },
   {
     "tmdbId": 411802,
@@ -1622,7 +1670,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Mr. Freeze turns Killer Croc and Bane into super-sized monsters, and they bash their way through downtown Gotham until the Caped Crusader and his team of heroes join the fight in their giant robot mechs."
   },
   {
     "tmdbId": 401650,
@@ -1651,7 +1700,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "Wonder Woman, Supergirl, Batgirl, Harley Quinn, Bumblebee, Poison Ivy and Katana band together to navigate the twists and turns of high school in DC Super Hero Girls: Hero of the Year."
   },
   {
     "tmdbId": 411736,
@@ -1696,7 +1746,8 @@ module.exports = [
         "id": 10751,
         "name": "Family"
       }
-    ]
+    ],
+    "overview": "Adam West and Burt Ward return to their iconic roles of Batman and Robin. The film sees the superheroes going up against classic villains like The Joker, The Riddler, The Penguin and Catwoman, both in Gotham City… and in space."
   },
   {
     "tmdbId": 68837,
@@ -1729,7 +1780,8 @@ module.exports = [
         "id": 10762,
         "name": "Kids"
       }
-    ]
+    ],
+    "overview": "Batman, Superman and Wonder Woman lead the DC Super Heroes against their most infamous foes."
   },
   {
     "tmdbId": 408220,
@@ -1774,7 +1826,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "When innocent civilians begin committing unthinkable crimes across Metropolis, Gotham City and beyond, Batman must call upon mystical counterparts to eradicate this demonic threat to the planet; enter Justice League Dark. This team of Dark Arts specialists must unravel the mystery of Earth's supernatural plague and contend with the rising, powerful villainous forces behind the siege—before it's too late for all of mankind."
   },
   {
     "tmdbId": 324849,
@@ -1815,7 +1868,8 @@ module.exports = [
         "id": 10751,
         "name": "Family"
       }
-    ]
+    ],
+    "overview": "A cooler-than-ever Batman must face the usual villains as the Joker plots a takeover of Gotham City. But when Bruce Wayne accidentally adopts a teenage orphan who wishes to become his sidekick, he’s forced to give up his lone-vigilante ways and learn to work with others."
   },
   {
     "tmdbId": 408647,
@@ -1848,7 +1902,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "Tara Markov is a girl who has power over earth and stone; she is also more than she seems. Is the newest Teen Titan an ally or a threat? And what are the mercenary Deathstroke's plans for the Titans?"
   },
   {
     "tmdbId": 1081412,
@@ -1872,7 +1927,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "Wonder Woman is Student of the Month at the School of Superheroes again. For a special surprise, Principal Waller brought Wonder Woman's mother, Queen Hippolyta, for a visit."
   },
   {
     "tmdbId": 457249,
@@ -1897,7 +1953,8 @@ module.exports = [
         "id": 16,
         "name": "Animation"
       }
-    ]
+    ],
+    "overview": "Originally from Africa, Mari McCabe grew up an orphan after her parents were killed by local greed, corruption and wanton violence. But Mari refuses to succumb to the terrors surrounding her. Inheriting her family's Anansi Totem, Mari can access the powers of animals - anything from the super-strength of a gorilla to the speed of a cheetah. As Vixen, she fights valiantly to protect the world from threats like those that claimed her family."
   },
   {
     "tmdbId": 452931,
@@ -1922,7 +1979,8 @@ module.exports = [
         "id": 10751,
         "name": "Family"
       }
-    ]
+    ],
+    "overview": "Super Hero High is facing off against Korugar Academy in the Intergalactic Games, but Lena Luthor takes advantage of the gathering of Supers to enact her villainous plan."
   },
   {
     "tmdbId": 460135,
@@ -1943,7 +2001,8 @@ module.exports = [
         "id": 16,
         "name": "Animation"
       }
-    ]
+    ],
+    "overview": "When Supergirl, Wonder Woman, Batgirl, Bumblebee and Katana suddenly realize they cannot remember a single moment from their Monday at Super Hero High, the young DC Super Heroes spring into sleuthing action! Suspecting foul-play, they band together to retrace their steps and uncover the mystery of who exactly stole their memories – and what nefarious plan might be afoot?"
   },
   {
     "tmdbId": 408648,
@@ -1980,7 +2039,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Batman and Nightwing are forced to team with the Joker's sometimes-girlfriend Harley Quinn to stop a global threat brought about by Poison Ivy and Jason Woodrue, the Floronic Man."
   },
   {
     "tmdbId": 464882,
@@ -2021,7 +2081,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Former Gotham City District Attorney Harvey Dent, one side of his face scarred by acid, goes on a crime spree based on the number '2'. All of his actions are decided by the flip of a defaced, two-headed silver dollar."
   },
   {
     "tmdbId": 467172,
@@ -2050,7 +2111,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "Joker has come to Japan to steal the Eagle Talon Society's secret weapons in his continued scheme for pure chaos. However, the Justice League is on his trail, but there's something off with Batman. Now, it's up to Eagle Talon to go find out what's wrong with Batman, and that means going back in time to Bruce Wayne's most traumatic experience, the murder of his parents. If that wasn't enough to worry about, the Eagle Talon Society also have to keep their eyes on their production budget, especially with most of that money going towards the licensing fee for DC's popular characters. Will the Eagle Talon Society and the Justice League be able to stop the Joker before their budget dries up, and they're reduced to simple stick figures!?"
   },
   {
     "tmdbId": 75486,
@@ -2079,7 +2141,8 @@ module.exports = [
         "id": 10765,
         "name": "Sci-Fi & Fantasy"
       }
-    ]
+    ],
+    "overview": "Reporter Raymond \"Ray\" Terrill is investigating a group of government scientists who are developing a weapon using light, when he is attacked with a \"genetic light bomb\" that ends up bestowing him with light-based super powers."
   },
   {
     "tmdbId": 484862,
@@ -2116,7 +2179,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Scooby-Doo and the Mystery Inc. gang meet up with Batman and other friends to defeat evil villains and save the day."
   },
   {
     "tmdbId": 471474,
@@ -2153,7 +2217,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "In an alternative Victorian Age Gotham City, Batman begins his war on crime while he investigates a new series of murders by Jack the Ripper."
   },
   {
     "tmdbId": 504997,
@@ -2190,7 +2255,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Reverse-Flash manipulates the Speed Force to put the Flash into a time loop that forces him to relive the same day over and over again—with progressively disastrous results, including losing his powers and being fired by the Justice League. The Flash must find a way to restore time to its original path and finally apprehend his worst enemy before all is lost for the Flash…and the world!"
   },
   {
     "tmdbId": 487242,
@@ -2227,7 +2293,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Amanda Waller's top-secret \"Task Force X\" — consisting of Deadshot, Bronze Tiger, Killer Frost, Captain Boomerang, Harley Quinn, and Copperhead — is on a mission to retrieve a mystical object so powerful that they're willing to risk their lives to steal it. However, the Suicide Squad isn't the only group of villains seeking to possess the object. It's a race for the golden prize, and second place isn't an option if they want to stay alive."
   },
   {
     "tmdbId": 485942,
@@ -2260,7 +2327,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Batman, along with many of his allies and adversaries, finds himself transported to feudal Japan by Gorilla Grodd's time displacement machine."
   },
   {
     "tmdbId": 506734,
@@ -2289,7 +2357,8 @@ module.exports = [
         "id": 10751,
         "name": "Family"
       }
-    ]
+    ],
+    "overview": "After a mysterious school opens across the street, the students of Super Hero High find themselves up against a new threat. Now, Wonder Woman, Supergirl, Batgirl and the rest of the DC Super Hero Girls not only have to worry about the well-being of their grades, but the safety and security of friends, family and the rest of civilization. The girls must figure out how to put a stop to this evil, new cross-town rival and save the world once again"
   },
   {
     "tmdbId": 536584,
@@ -2318,7 +2387,8 @@ module.exports = [
         "id": 10751,
         "name": "Family"
       }
-    ]
+    ],
+    "overview": "Batgirl is annoyed when her friends go to face a villain without her."
   },
   {
     "tmdbId": 474395,
@@ -2359,7 +2429,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "All the major DC superheroes are starring in their own films, all but the Teen Titans, so Robin is determined to remedy this situation by getting over his role as a sidekick and becoming a movie star. Thus, with a few madcap ideas and an inspirational song in their hearts, the Teen Titans head to Hollywood to fulfill their dreams."
   },
   {
     "tmdbId": 513736,
@@ -2392,7 +2463,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "Aquaman must battle foes in the air, on land and in the depths of the Seven Seas, along with some help from The Justice League, to save the day."
   },
   {
     "tmdbId": 513730,
@@ -2417,7 +2489,8 @@ module.exports = [
         "id": 10751,
         "name": "Family"
       }
-    ]
+    ],
+    "overview": "Siren steals the Book of Legends in order to locate the Trident of Atlantis and rule the entire ocean."
   },
   {
     "tmdbId": 487670,
@@ -2458,7 +2531,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "When a hulking monster arrives on Earth and begins a mindless rampage, the Justice League is quickly called in to stop it. But it soon becomes apparent that only Superman can stand against the monstrosity."
   },
   {
     "tmdbId": 539626,
@@ -2487,7 +2561,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Earth-X is one of many realities in the multiverse, with one glaring difference from our Earth: The Nazis won World War II. Led by The Ray, a group of heroes known as the Freedom Fighters battle selflessly against tyranny. But when The Ray is transported to our Earth to save his life, he passes his powers to his unsuspecting counterpart, Ray Terrill. Charged with superhuman abilities, Terrill is newly christened The Ray and must adapt and overcome the challenges of crime-fighting with a little help from The Flash and Green Arrow. Seasoned and ready to fight, The Ray now faces his biggest battle: a return to Earth-X to lead the Freedom Fighters against Overgirl and her evil Nazi henchmen!"
   },
   {
     "tmdbId": 539517,
@@ -2520,7 +2595,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "A decade after a tragic mistake, family man Chas Chandler and occult detective John Constantine set out to cure his daughter Trish from a mysterious supernatural coma."
   },
   {
     "tmdbId": 487672,
@@ -2557,7 +2633,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "In the wake of The Death of Superman, the world is still mourning the loss of the Man of Steel following his fatal battle with the monster Doomsday. However, no sooner as his body been laid to rest than do four new bearers of the Superman shield come forward to take on the mantle. The Last Son of Krypton, Superboy, Steel, and the Cyborg Superman all attempt to fill the vacuum left by the world's greatest champion. Meanwhile, Superman's death has also signaled to the universe that Earth is vulnerable. Can these new Supermen and the rest of the heroes prove them wrong?"
   },
   {
     "tmdbId": 537059,
@@ -2594,7 +2671,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "The Justice League faces a powerful new threat — the Fatal Five! Superman, Batman and Wonder Woman seek answers as the time-traveling trio of Mano, Persuader and Tharok terrorize Metropolis in search of budding Green Lantern, Jessica Cruz. With her unwilling help, they aim to free remaining Fatal Five members Emerald Empress and Validus to carry out their sinister plan. But the Justice League has also discovered an ally from another time in the peculiar Star Boy — brimming with volatile power, could he be the key to thwarting the Fatal Five? An epic battle against ultimate evil awaits!"
   },
   {
     "tmdbId": 581997,
@@ -2631,7 +2709,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Batman, Batgirl, and Robin forge an alliance with the Teenage Mutant Ninja Turtles to fight against the Turtles' sworn enemy, The Shredder, who has apparently teamed up with Ra's Al Ghul and The League of Assassins."
   },
   {
     "tmdbId": 537056,
@@ -2668,7 +2747,8 @@ module.exports = [
         "id": 9648,
         "name": "Mystery"
       }
-    ]
+    ],
+    "overview": "A mysterious new villain known only as Hush uses a gallery of villains to destroy Batman's crime-fighting career as well as Bruce Wayne's personal life, which has been further complicated by a relationship with Selina Kyle/Catwoman."
   },
   {
     "tmdbId": 618346,
@@ -2701,7 +2781,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Just after recovering from losing his entire unit in battle, Sgt. Rock leads a special army of commandos against a Nazi secret research base."
   },
   {
     "tmdbId": 602307,
@@ -2734,7 +2815,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "Suspicion is on high after Batman, Batgirl, Robin and other DC superheroes receive mysterious invitations. However, family values must remain strong when Batman and his team encounter the villainous Red Hood, who is obsessed with destroying the Bat-family and all of Gotham City."
   },
   {
     "tmdbId": 556901,
@@ -2779,7 +2861,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "The comedic modern-day quintet takes on their 2003 counterparts when villains from each of their worlds join forces to pit the two Titan teams against each other. They'll need to set aside their differences and work together to combat Trigon, Hexagon, Santa Claus (that's right, Santa!) and time itself in order to save the multiverse."
   },
   {
     "tmdbId": 537055,
@@ -2808,7 +2891,8 @@ module.exports = [
         "id": 16,
         "name": "Animation"
       }
-    ]
+    ],
+    "overview": "Witness the legendary origin of renowned Justice League member Wonder Woman as she fights for good with her sword and magic lasso. Equally strong in body, heart and will, she makes it her mission to help a troubled young girl enlisted by a deadly organization known as Villainy, Inc., whose criminal members have their sights set on invading Themyscira, Wonder Woman’s paradise home. The battle will be epic, because if there's one thing an Amazon knows, it’s war!"
   },
   {
     "tmdbId": 637663,
@@ -2837,7 +2921,8 @@ module.exports = [
         "id": 18,
         "name": "Drama"
       }
-    ]
+    ],
+    "overview": "Vincent, an artist with unresolved inner demons, meets a mysterious girl who helps him come to terms with his creative legacy… and eventual death."
   },
   {
     "tmdbId": 87491,
@@ -2878,7 +2963,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "The world may know them as Wonder Woman, Supergirl and Batgirl, but not-so-typical teenagers Diana, Kara and Barbara, alongside their Super Hero friends have much more to deal with than just protecting Metropolis from some of the most sinister school-aged Super-Villains. After all, being teens is tough enough, what with school, friends, family and the chaos that comes with managing a social life. But add super powers and a secret identity to the mix, and things can get a lot more complicated."
   },
   {
     "tmdbId": 74440,
@@ -2911,7 +2997,8 @@ module.exports = [
         "id": 10765,
         "name": "Sci-Fi & Fantasy"
       }
-    ]
+    ],
+    "overview": "Harley Quinn has finally broken things off once and for all with the Joker. Now, she's trying to make it on her own as the criminal Queenpin of Gotham City, with help from Poison Ivy and a ragtag crew of DC castoffs."
   },
   {
     "tmdbId": 618355,
@@ -2944,7 +3031,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "Set in the thick of the Cold War, Red Son introduces us to a Superman who landed in the USSR during the 1950s and grows up to become a Soviet symbol that fights for the preservation of Stalin’s brand of communism."
   },
   {
     "tmdbId": 618352,
@@ -2977,7 +3065,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Jess joins her friends at a party in a dilapidated mansion hosted by the mysterious Seth. When odd things begin to happen to Jess and her friends, the Phantom Stranger intervenes to save her from a dreary fate."
   },
   {
     "tmdbId": 690369,
@@ -3010,7 +3099,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "It’s high time the Justice League took notice of Shazam, but joining the world’s greatest team of superheroes is a lot harder when they’ve all been turned into kids."
   },
   {
     "tmdbId": 618344,
@@ -3051,7 +3141,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Earth is decimated after intergalactic tyrant Darkseid has devastated the Justice League in a poorly executed war by the DC Super Heroes. Now the remaining bastions of good – the Justice League, Teen Titans, Suicide Squad and assorted others – must regroup, strategize and take the war to Darkseid in order to save the planet and its surviving inhabitants."
   },
   {
     "tmdbId": 618350,
@@ -3080,7 +3171,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "On a rugged asteroid mining colony, few of the toiling workers are aware that their town drunk was ever anything but an interplanetary derelict. But when the miners open a fissure into the home of a horde of deadly alien insects, his true identity is exposed. He is space adventurer Adam Strange, whose heroic backstory is played out in flashbacks as he struggles to save the very people who have scorned him for so long."
   },
   {
     "tmdbId": 703771,
@@ -3117,7 +3209,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "The assassin Deathstroke tries to save his family from the wrath of H.I.V.E. and the murderous Jackal."
   },
   {
     "tmdbId": 618354,
@@ -3150,7 +3243,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "It’s the dawn of a new age of heroes, and Metropolis has just met its first. But as Daily Planet intern Clark Kent – working alongside reporter Lois Lane – secretly wields his alien powers of flight, super-strength and x-ray vision in the battle for good, there’s even greater trouble on the horizon."
   },
   {
     "tmdbId": 618353,
@@ -3179,7 +3273,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "Tragedy strikes the Batman's life again when Robin Jason Todd tracks down his birth mother only to run afoul of the Joker. An adaptation of the 1988 comic book storyline of the same name."
   },
   {
     "tmdbId": 97456,
@@ -3200,7 +3295,8 @@ module.exports = [
         "id": 16,
         "name": "Animation"
       }
-    ]
+    ],
+    "overview": "Ten years ago, Slade Wilson-aka the super-assassin called Deathstroke-made a tragic mistake and his wife and son paid a terrible price. Now, a decade later, Wilson's family is threatened once again by the murderous Jackal and the terrorists of H.IV.E. Can Deathstroke atone for the sins of the past-or will his family pay the ultimate price?"
   },
   {
     "tmdbId": 732450,
@@ -3237,7 +3333,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Bruce Wayne faces a deadly menace from his past, with the help of three former classmates: world-renowned martial artists Richard Dragon, Ben Turner and Lady Shiva."
   },
   {
     "tmdbId": 791343,
@@ -3270,7 +3367,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Kamandi and his friends Prince Tuftan of the Tiger Kingdom and humanoid mutant Ben Boxer are kidnapped by a gorilla cult dedicated to finding the reincarnation of their god, The Mighty One. Golgan, the cult’s leader, puts Kamandi’s team through a series of deadly tests to find if any of them know the secret of … The Mighty One."
   },
   {
     "tmdbId": 736069,
@@ -3303,7 +3401,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "When the Flash finds himself dropped into the middle of World War II, he joins forces with Wonder Woman and her top-secret team known as the Justice Society of America."
   },
   {
     "tmdbId": 834404,
@@ -3340,7 +3439,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "The Teen Titans are visited by the Nerdlucks, the Space Jam villains who tried to capture Michael Jordan and the Looney Tunes. Astonished to discover his fellow Titans have never seen Space Jam, Cyborg organizes an exclusive watch party."
   },
   {
     "tmdbId": 736073,
@@ -3377,7 +3477,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Following a brutal series of murders taking place on Halloween, Thanksgiving, and Christmas, Gotham City's young vigilante known as the Batman sets out to pursue the mysterious serial killer alongside police officer James Gordon and district attorney Harvey Dent."
   },
   {
     "tmdbId": 791344,
@@ -3410,7 +3511,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "The legendary rag-tag team of World War II outcasts – Captain Storm, Johnny Cloud, “Mile-a Minute” Jones, rookie Gunner and Sarge – find themselves marooned on an uncharted island in the South Pacific that is completely overrun with dinosaurs! Their would-be ally on this deadly mission, the mysterious and beautiful Fan Long of the Chinese Security Agency, tells them their job is to rescue the scientists that have been sent to study the time/space anomaly. Perhaps… but what is her mission?"
   },
   {
     "tmdbId": 736074,
@@ -3447,7 +3549,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "As Gotham City's young vigilante, the Batman, struggles to pursue a brutal serial killer, district attorney Harvey Dent gets caught in a feud involving the criminal family of the Falcones."
   },
   {
     "tmdbId": 791346,
@@ -3480,7 +3583,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "SUFFERIN' SCARABS! Silver Age Blue Beetle is back! Thrill to the adventures of Ted Kord, alias the Blue Beetle, as he teams up with fellow Charlton Comics heroes Captain Atom, The Questions and Nightshade to battle the nefarious finagler of feelings, Doctor Spectro!"
   },
   {
     "tmdbId": 831405,
@@ -3513,7 +3617,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "When Lois Lane is killed, an unhinged Superman decides to take control of the Earth. Determined to stop him, Batman creates a team of freedom-fighting heroes. But when superheroes go to war, can the world survive?"
   },
   {
     "tmdbId": 98137,
@@ -3542,7 +3647,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "It’s Aquaman’s first day on the job as king of Atlantis and he’s got a LOT of catching up to do. Luckily, he has his two royal advisors to back him up – Vulko, the scholar, and Mera, the water controlling warrior-princess. Between dealing with unscrupulous surface dwellers, elder evils from beyond time and his own half-brother who wants to overthrow him, Aquaman is going to have to rise to the challenge and prove to his subjects, and to himself, that he’s the right man for the trident!"
   },
   {
     "tmdbId": 862491,
@@ -3575,7 +3681,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Catwoman's attempt to steal a priceless jewel puts her squarely in the crosshairs of both a powerful consortium of villains and the ever-resourceful Interpol, not to mention Batwoman."
   },
   {
     "tmdbId": 791348,
@@ -3603,7 +3710,8 @@ module.exports = [
         "id": 27,
         "name": "Horror"
       }
-    ]
+    ],
+    "overview": "John Constantine wakes up in the eerie House of Mystery with no recollection of how he got there. Fortunately, Zatanna and his friends are all there. Unfortunately, they have a bad habit of turning into demons and ripping him to shreds, over and over again!"
   },
   {
     "tmdbId": 887357,
@@ -3640,7 +3748,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Recently discharged Marine sniper John Stewart is at a crossroads in his life, one which is only complicated by receiving an extraterrestrial ring which grants him the powers of the Green Lantern of Earth. Unfortunately, the ring doesn't come with instructions - but it does come with baggage, like a horde of interplanetary killers bent on eliminating every Green Lantern in the universe. Now, with the aid of the light-hearted Green Arrow, Adam Strange and Hawkgirl, this reluctant soldier must journey into the heart of a galactic Rann/Thanagar war and somehow succeed where all other Green Lanterns have failed."
   },
   {
     "tmdbId": 913205,
@@ -3669,7 +3778,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "With the help of an ancient Kryptonian power, Lex Luthor unites the world’s Super-Villains to capture all of Earth's Super Heroes, until…only the DC Super Hero Girls are left to stop the Legion of Doom. Our heroes must cross dimensions to rescue their fellow Super Heroes from the Phantom Zone, but a fortuitous wrong turn leads them to Titans Tower – where they find much-needed allies in the Teen Titans!"
   },
   {
     "tmdbId": 539681,
@@ -3714,7 +3824,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "When Superman and the rest of the Justice League are kidnapped, Krypto the Super-Dog must convince a rag-tag shelter pack - Ace the hound, PB the potbellied pig, Merton the turtle and Chip the squirrel - to master their own newfound powers and help him rescue the superheroes."
   },
   {
     "tmdbId": 886396,
@@ -3738,7 +3849,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "After discovering he has powers, 11-year-old Jonathan Kent and assassin-turned-Boy-Wonder Damian Wayne must join forces to rescue their fathers (Superman & Batman) and save the planet from the malevolent alien force known as Starro."
   },
   {
     "tmdbId": 155780,
@@ -3767,7 +3879,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "The Batwheels are a team of sentient super-powered crimefighting vehicles that help Batman, Robin and Batgirl—as well as a host of additional DC Super Heroes—keep Gotham City safe. Created only recently by the Batcomputer, our mechanized heroes must navigate the growing pains of being a newly formed super-team as well as the growing pains that come with just being a kid."
   },
   {
     "tmdbId": 1003580,
@@ -3796,7 +3909,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Kara, devastated by the loss of Krypton, struggles to adjust to her new life on Earth. Her cousin, Superman, mentors her and suggests she leave their space-time to attend the Legion Academy in the 31st century, where she makes new friends and a new enemy: Brainiac 5. Meanwhile, she must contend with a mysterious group called the Dark Circle as it searches for a powerful weapon held in the Academy’s vault."
   },
   {
     "tmdbId": 1003579,
@@ -3824,7 +3938,8 @@ module.exports = [
         "id": 9648,
         "name": "Mystery"
       }
-    ]
+    ],
+    "overview": "Explorer Bruce Wayne accidentally unleashes an ancient evil, and returns to Gotham after being away for two decades. There, Batman battles Lovecraftian supernatural forces and encounters allies and enemies such as Green Arrow, Ra's al Ghul, Mr. Freeze, Killer Croc, Two-Face and James Gordon."
   },
   {
     "tmdbId": 997776,
@@ -3848,7 +3963,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Superman, Batman, Wonder Woman, Flash, Cyborg, Green Lantern and Vixen are transported to the strange world of Remnant and find themselves turned into teenagers. Meanwhile, Remnant heroes Ruby, Weiss, Blake and Yang must combine forces with the Justice League to uncover why their planet has been mysteriously altered before a superpowered Grimm destroys everything."
   },
   {
     "tmdbId": 1003581,
@@ -3885,7 +4001,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Until now, the Justice League has been a loose association of superpowered individuals. But when they are swept away to Warworld, a place of unending brutal gladiatorial combat, Batman, Superman, Wonder Woman and the others must somehow unite to form an unbeatable resistance able to lead an entire planet to freedom."
   },
   {
     "tmdbId": 1146348,
@@ -3917,7 +4034,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "When the Justice League goes missing and villains overrun Metropolis, there's only one team that can solve this mystery: Scooby-Doo and the gang! But wait, there's a new dog in town – Krypto – Superman's Superdog with Super Powers. Mystery Inc. will need all the help it can get when phantoms menace the Justice League's headquarters."
   },
   {
     "tmdbId": 1150537,
@@ -3945,7 +4063,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "On the heels of successfully escaping a deadly digital trap, the members of the Justice League emerge in their own world to discover that Grimm, ravenous creatures from Remnant, have overtaken Earth! In order to defeat the monsters, they must call on their new friends – Team RWBY – for help!"
   },
   {
     "tmdbId": 870358,
@@ -3982,7 +4101,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "This Christmas, Damian Wayne wants to be a superhero like his dad – the one and only Batman. When Damian is left home alone while Batman takes on Gotham’s worst supervillains on Christmas Eve, he stumbles upon a villainous plot to steal Christmas and leaps at the chance to save the day."
   },
   {
     "tmdbId": 125928,
@@ -4015,7 +4135,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "Twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet."
   },
   {
     "tmdbId": 1155089,
@@ -4048,7 +4169,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "Death is coming. Worse than death: oblivion. Not just for our Earth, but for everyone, everywhere, in every universe! Against this ultimate destruction, the mysterious Monitor has gathered the greatest team of Super Heroes ever assembled. But what can the combined might of Superman, Wonder Woman, Batman, The Flash, Green Lantern and hundreds of Super Heroes from multiple Earths even do to save all of reality from an unstoppable antimatter armageddon?!"
   },
   {
     "tmdbId": 1209288,
@@ -4081,7 +4203,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "An endless army of shadow demons bent on the destruction of all reality swarms over our world and all parallel Earths! The only thing opposing them is the mightiest team of metahumans ever assembled. But not even the combined power of Superman, Batman, Wonder Woman, Green Lantern and all their fellow superheroes can slow down the onslaught of this invincible horde. What mysterious force is driving them? And how do the long-buried secrets of the Monitor and Supergirl threaten to crush our last defense?"
   },
   {
     "tmdbId": 1209290,
@@ -4114,7 +4237,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "Now fully revealed as the ultimate threat to existence, the Anti-Monitor wages an unrelenting attack on the surviving Earths that struggle for survival in a pocket universe. One by one, these worlds and all their inhabitants are vaporized! On the planets that remain, even time itself is shattered, and heroes from the past join the Justice League and their rag-tag allies against the epitome of evil. But as they make their last stand, will the sacrifice of the superheroes be enough to save us all?"
   },
   {
     "tmdbId": 1155058,
@@ -4151,7 +4275,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "In 1985, the murder of a government-sponsored superhero draws his outlawed colleagues out of retirement and into a mystery that threatens to upend their personal lives and the world itself."
   },
   {
     "tmdbId": 1299652,
@@ -4188,7 +4313,8 @@ module.exports = [
         "id": 18,
         "name": "Drama"
       }
-    ]
+    ],
+    "overview": "Suspicious of the events ensnaring their former colleagues, Nite Owl and Silk Spectre are spurred out of retirement to investigate. As they grapple with personal ethics, inner demons and a society turned against them, they race the clock to uncover a deepening plot that might trigger global nuclear war."
   },
   {
     "tmdbId": 200753,
@@ -4213,7 +4339,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "Lovable loser Kite Man and his new squeeze Golden Glider moonlight as criminals to support their foolish purchase of Noonan's, Gotham's seediest dive bar, where everybody knows your name, but not necessarily your secret identity!"
   },
   {
     "tmdbId": 219543,
@@ -4242,7 +4369,8 @@ module.exports = [
         "id": 10759,
         "name": "Action & Adventure"
       }
-    ]
+    ],
+    "overview": "Follow the exploits of the Creature Commandos, a secret team of incarcerated monsters recruited for missions deemed too dangerous for humans. When all else fails... they're your last, worst option."
   },
   {
     "tmdbId": 125909,
@@ -4275,7 +4403,8 @@ module.exports = [
         "id": 9648,
         "name": "Mystery"
       }
-    ]
+    ],
+    "overview": "Welcome to Gotham City, where the corrupt outnumber the good, criminals run rampant and law-abiding citizens live in a constant state of fear. Forged in the fire of tragedy, wealthy socialite Bruce Wayne becomes something both more and less than human—the Batman. His one-man crusade for justice attracts unexpected allies within the GCPD and City Hall, but his heroic actions spawn deadly, unforeseen ramifications."
   },
   {
     "tmdbId": 229926,
@@ -4304,7 +4433,8 @@ module.exports = [
         "id": 10765,
         "name": "Sci-Fi & Fantasy"
       }
-    ]
+    ],
+    "overview": "In the crime-ridden city of Gotham, Amanda Waller, the head of A.R.G.U.S., assembles a group of notorious criminals—Harley Quinn, Deadshot, Peacemaker, Clayface and King Shark—for a mission into an otherworldly realm that's connected to this world through a gate. It's a realm of swords and magic where orcs rampage and dragons rule the skies. Can Harley Quinn and her crew conquer this perilous realm?"
   },
   {
     "tmdbId": 1364797,
@@ -4320,6 +4450,7 @@ module.exports = [
         "id": 16,
         "name": "Animation"
       }
-    ]
+    ],
+    "overview": "Follow the early days of Dick Grayson and Jason Todd and explore how their friendship becomes tested by their diverging ideas for what their future should be."
   }
 ];

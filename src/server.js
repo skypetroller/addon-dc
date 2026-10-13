@@ -92,6 +92,19 @@ function replaceRpdbPosters(rpdbKey, metas) {
     });
 }
 
+// Helper function to extract the IMDb rating from stored OMDb ratings.
+// The fetch scripts populate item.ratings weekly, so serving it from disk
+// avoids a live OMDb call (1000 req/day quota) for every catalog item.
+function getStoredImdbRating(item) {
+    const ratings = item.ratings || [];
+    const imdb = ratings.find(r => r && r.Source === 'Internet Movie Database');
+    if (imdb && typeof imdb.Value === 'string') {
+        const m = imdb.Value.match(/^([\d.]+)\/10$/);
+        return m ? m[1] : imdb.Value;
+    }
+    return null;
+}
+
 // Helper function to fetch additional metadata
 async function fetchAdditionalData(item) {
   console.log('\n--- Fetching details for item: ---', item); // Log raw item
@@ -104,6 +117,51 @@ async function fetchAdditionalData(item) {
   const lookupId = item.imdbId || item.id; // Prefer imdbId but use item.id as fallback
   const idPrefix = lookupId.split('_')[0]; // Check prefix (e.g., 'tt' or 'tmdb')
   const isImdb = idPrefix === 'tt' || (item.imdbId && !item.imdbId.startsWith('tmdb_'));
+
+  const storedImdbRating = getStoredImdbRating(item);
+  // Fast path: items refreshed by the fetch scripts already carry poster,
+  // overview, genres and ratings — serve those directly. Only the logo
+  // (TMDB images, never stored) still needs a single live call.
+  const hasFullLocal = Boolean(
+      item.poster && item.overview && item.genres && item.genres.length > 0 && storedImdbRating
+  );
+
+  const toStoredMeta = (logoUrl) => ({
+      id: lookupId, // Use the ID we actually used for lookup
+      type: item.type === 'tv' ? 'series' : item.type, // Map 'tv' to 'series' for Stremio
+      name: (item.type === 'series' || item.type === 'tv') ? item.title.replace(/ Season \d+/, '') : item.title,
+      logo: logoUrl || null,
+      poster: item.poster || null,
+      description: item.overview || 'No description available.',
+      releaseInfo: item.releaseYear || 'N/A',
+      imdbRating: storedImdbRating || 'N/A',
+      genres: item.genres ? item.genres.map(g => g.name) : []
+  });
+
+  if (hasFullLocal) {
+      let logoUrl = null;
+      const logoTmdbId = item.tmdbId || (idPrefix === 'tmdb' ? lookupId.split('_')[1] : null);
+      if (tmdbKey && logoTmdbId) {
+          const tmdbType = item.type === 'series' ? 'tv' : item.type;
+          try {
+              const imgRes = await axios.get(`https://api.themoviedb.org/3/${tmdbType}/${logoTmdbId}/images?api_key=${tmdbKey}`);
+              const logos = (imgRes.data && imgRes.data.logos) || [];
+              if (logos.length > 0) {
+                  const bestLogo = logos.find(logo => logo.iso_639_1 === 'en') || logos[0];
+                  if (bestLogo && bestLogo.file_path) {
+                      logoUrl = `https://image.tmdb.org/t/p/original${bestLogo.file_path}`;
+                  }
+              }
+          } catch (err) {
+              if (!err.response || err.response.status !== 404) {
+                  console.warn(`TMDb Images error for ${item.title}: ${err.message}`);
+              }
+          }
+      }
+      const meta = toStoredMeta(logoUrl);
+      console.log('   > Returning stored metadata for:', meta.name);
+      return meta;
+  }
 
   // Check if API keys are available
   if (!tmdbKey || (!omdbKey && isImdb)) { // OMDb key only needed if we have an IMDb ID
@@ -126,8 +184,8 @@ async function fetchAdditionalData(item) {
   let tmdbImagesData = {};
 
   try {
-    // OMDb call only if we have a real IMDb ID
-    const omdbPromise = isImdb
+    // OMDb call only if we have a real IMDb ID and no stored rating
+    const omdbPromise = (isImdb && !storedImdbRating)
         ? axios.get(`http://www.omdbapi.com/?i=${lookupId}&apikey=${omdbKey}`).catch((err) => {
               console.error(`OMDB error for ${lookupId}: ${err.message}`);
               return {};
@@ -221,7 +279,7 @@ async function fetchAdditionalData(item) {
       poster: poster,
       description: description,
       releaseInfo: item.releaseYear || (tmdbData.release_date ? tmdbData.release_date.split('-')[0] : (tmdbData.first_air_date ? tmdbData.first_air_date.split('-')[0] : 'N/A')),
-      imdbRating: omdbData.imdbRating || 'N/A',
+      imdbRating: omdbData.imdbRating || storedImdbRating || 'N/A',
       // Use TMDb genres if available, otherwise fallback to local genres
       genres: tmdbData.genres ? tmdbData.genres.map(g => g.name) : (item.genres ? item.genres.map(g => g.name) : [])
     };

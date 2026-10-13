@@ -185,6 +185,7 @@ async function fetchSpecificMovies() {
         const imdbId = details.external_ids?.imdb_id || null; // Can be null
         const poster = details.poster_path ? `https://image.tmdb.org/t/p/w500${details.poster_path}` : null;
         const genres = details.genres || [];
+        const overview = details.overview || null;
 
         // Fetch additional info from OMDb (only if key provided and IMDb ID exists)
         const omdbDetails = await getOmdbDetails(imdbId);
@@ -199,7 +200,8 @@ async function fetchSpecificMovies() {
             releaseYear,
             poster,
             ratings,
-            genres
+            genres,
+            overview
         });
         console.log(`   Successfully processed "${title}" with required metadata.`);
     }

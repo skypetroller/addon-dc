@@ -30,7 +30,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese."
   },
   {
     "tmdbId": 219543,
@@ -59,7 +60,8 @@ module.exports = [
         "id": 10759,
         "name": "Action & Adventure"
       }
-    ]
+    ],
+    "overview": "Follow the exploits of the Creature Commandos, a secret team of incarcerated monsters recruited for missions deemed too dangerous for humans. When all else fails... they're your last, worst option."
   },
   {
     "tmdbId": 1061474,
@@ -96,7 +98,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent."
   },
   {
     "tmdbId": 110492,
@@ -125,7 +128,8 @@ module.exports = [
         "id": 35,
         "name": "Comedy"
       }
-    ]
+    ],
+    "overview": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price."
   },
   {
     "tmdbId": 95350,
@@ -154,7 +158,8 @@ module.exports = [
         "id": 10765,
         "name": "Sci-Fi & Fantasy"
       }
-    ]
+    ],
+    "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland."
   },
   {
     "tmdbId": 1081003,
@@ -191,7 +196,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice."
   },
   {
     "tmdbId": 1400940,
@@ -215,7 +221,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge."
   },
   {
     "tmdbId": 1523140,
@@ -239,6 +246,7 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Superman and Lex Luthor find themselves forced to work together—to a certain degree—against a much, much bigger threat when Brainiac sets his sights on Earth."
   }
 ];

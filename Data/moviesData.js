@@ -34,7 +34,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Mild-mannered Clark Kent works as a reporter at the Daily Planet alongside his crush, Lois Lane. Clark must summon his superhero alter-ego when the nefarious Lex Luthor launches a plan to take over the world."
   },
   {
     "tmdbId": 8536,
@@ -71,7 +72,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Three Kryptonian criminals led by General Zod team up with Lex Luthor to conquer Earth, forcing a depowered Superman to regain his strength and stop them."
   },
   {
     "tmdbId": 9531,
@@ -112,7 +114,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Aiming to defeat the Man of Steel, wealthy executive Ross Webster hires bumbling but brilliant Gus Gorman to develop synthetic kryptonite, which yields some unexpected psychological effects. Between rekindling romance with his high school sweetheart and saving himself, Superman must contend with a powerful supercomputer."
   },
   {
     "tmdbId": 11411,
@@ -149,7 +152,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "With global superpowers engaged in an increasingly hostile arms race, Superman leads a crusade to rid the world of nuclear weapons. But Lex Luthor, recently sprung from jail, is declaring war on the Man of Steel and his quest to save the planet. Using a strand of Superman's hair, Luthor synthesizes a powerful ally known as Nuclear Man and ignites an epic battle spanning Earth and space."
   },
   {
     "tmdbId": 268,
@@ -186,7 +190,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Having witnessed his parents' brutal murder as a child, millionaire philanthropist Bruce Wayne fights crime in Gotham City disguised as Batman, a costumed hero who strikes fear into the hearts of villains. But when a deformed madman known as 'The Joker' seizes control of Gotham's criminal underworld, Batman must face his most ruthless nemesis ever while protecting both his identity and his love interest, reporter Vicki Vale."
   },
   {
     "tmdbId": 364,
@@ -219,7 +224,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "The monstrous Penguin, who dwells in the sewers beneath Gotham, joins up with corrupt mayoral candidate Max Shreck to topple the Batman once and for all. But when Shreck's timid assistant Selina Kyle finds out, and Shreck tries to kill her, she's transformed into the sexy Catwoman. She teams up with the Penguin and Shreck to destroy Batman, but sparks fly unexpectedly when she confronts the caped crusader."
   },
   {
     "tmdbId": 414,
@@ -256,7 +262,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Batman faces off against two foes: the schizophrenic, horribly scarred former District Attorney Harvey Dent, aka Two-Face, and the Riddler, a disgruntled ex-Wayne Enterprises inventor seeking revenge against his former employer by unleashing his brain-sucking weapon on Gotham City's residents. As the caped crusader also copes with tortured memories of his parents' murder, he has a new romance, with psychologist Chase Meridian."
   },
   {
     "tmdbId": 415,
@@ -293,7 +300,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Batman and his sidekick Robin attempt to the foil the sinister schemes of a deranged set of new villains, most notably the melancholy Mr. Freeze, who wants to make Gotham City into an arctic region, and the sultry Poison Ivy, a botanical femme fatale. As the Dynamic Duo contend with these bad guys, a third hero, Batgirl, joins the ranks of the city's crime-fighters."
   },
   {
     "tmdbId": 8854,
@@ -334,7 +342,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "When a renegade military reject puts new superweapons in dangerous hands, John Henry Irons becomes Steel. Wearing body armor, wielding a fearsome electrohammer and riding a gadget-packed motorcycle, he's ready to wage war... if he can fix the untimely glitches in his untested gear."
   },
   {
     "tmdbId": 314,
@@ -371,7 +380,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Liquidated after discovering a corporate conspiracy, mild-mannered graphic artist Patience Phillips washes up on an island, where she's resurrected and endowed with the prowess of a cat — and she's eager to use her new skills... as a vigilante. Before you can say \"cat and mouse\", handsome gumshoe Tom Lone is on her tail, fascinated by both of her personas."
   },
   {
     "tmdbId": 272,
@@ -408,7 +418,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City.  Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman."
   },
   {
     "tmdbId": 561,
@@ -445,7 +456,8 @@ module.exports = [
         "id": 27,
         "name": "Horror"
       }
-    ]
+    ],
+    "overview": "John Constantine has literally been to Hell and back. When he teams up with a policewoman to solve the mysterious suicide of her twin sister, their investigation takes them through the world of demons and angels that exists beneath the landscape of contemporary Los Angeles."
   },
   {
     "tmdbId": 1452,
@@ -482,7 +494,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Superman returns to discover his 5-year absence has allowed Lex Luthor to walk free, and that those he was closest to felt abandoned and have moved on. Luthor plots his ultimate revenge that could see millions killed and change the face of the planet forever, as well as ridding himself of the Man of Steel."
   },
   {
     "tmdbId": 155,
@@ -519,7 +532,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker."
   },
   {
     "tmdbId": 13183,
@@ -556,7 +570,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "In a gritty and alternate 1985, the glory days of costumed vigilantes have been brought to a close by a government crackdown. But after one of the masked veterans is brutally murdered, an investigation into the killer is initiated. The reunited heroes set out to prevent their own destruction, but in doing so they uncover a sinister plot that puts all of humanity in grave danger."
   },
   {
     "tmdbId": 20533,
@@ -593,7 +608,8 @@ module.exports = [
         "id": 53,
         "name": "Thriller"
       }
-    ]
+    ],
+    "overview": "Gunslinger Jonah Hex is appointed by President Ulysses Grant to track down terrorist Quentin Turnbull, a former Confederate officer determined on unleashing hell on earth. Jonah not only secures freedom by accepting this task, he also gets revenge on the man who slew his wife and child."
   },
   {
     "tmdbId": 44912,
@@ -630,7 +646,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "For centuries, a small but powerful force of warriors called the Green Lantern Corps has sworn to keep intergalactic order. Each Green Lantern wears a ring that grants him superpowers. But when a new enemy called Parallax threatens to destroy the balance of power in the Universe, their fate and the fate of Earth lie in the hands of the first human ever recruited."
   },
   {
     "tmdbId": 49026,
@@ -667,7 +684,8 @@ module.exports = [
         "id": 53,
         "name": "Thriller"
       }
-    ]
+    ],
+    "overview": "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy."
   },
   {
     "tmdbId": 49521,
@@ -704,7 +722,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "A young boy learns that he has extraordinary powers and is not of this earth. As a young man, he journeys to discover where he came from and what he was sent here to do. But the hero in him must emerge if he is to save the world from annihilation and become the symbol of hope for all mankind."
   },
   {
     "tmdbId": 209112,
@@ -741,7 +760,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Fearing the actions of a god-like Super Hero left unchecked, Gotham City’s own formidable, forceful vigilante takes on Metropolis’s most revered, modern-day savior, while the world wrestles with what sort of hero it really needs. And with Batman and Superman at war with one another, a new threat quickly arises, putting mankind in greater danger than it’s ever known before."
   },
   {
     "tmdbId": 297761,
@@ -778,7 +798,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "From DC Comics comes the Suicide Squad, an antihero team of incarcerated supervillains who act as deniable assets for the United States government, undertaking high-risk black ops missions in exchange for commuted prison sentences."
   },
   {
     "tmdbId": 297762,
@@ -815,7 +836,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "An Amazon princess comes to the world of Man in the grips of the First World War to confront the forces of evil and bring an end to human conflict."
   },
   {
     "tmdbId": 141052,
@@ -852,7 +874,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Fuelled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne and Diana Prince assemble a team of metahumans consisting of Barry Allen, Arthur Curry and Victor Stone to face the catastrophic threat of Steppenwolf and the Parademons who are on the hunt for three Mother Boxes on Earth."
   },
   {
     "tmdbId": 297802,
@@ -889,7 +912,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Half-human, half-Atlantean Arthur Curry is taken on the journey of his lifetime to discover if he is worth of being a king."
   },
   {
     "tmdbId": 287947,
@@ -926,7 +950,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "A boy is given the ability to become an adult superhero in times of need with a single magic word."
   },
   {
     "tmdbId": 475557,
@@ -963,7 +988,8 @@ module.exports = [
         "id": 18,
         "name": "Drama"
       }
-    ]
+    ],
+    "overview": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure."
   },
   {
     "tmdbId": 495764,
@@ -996,7 +1022,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Harley Quinn joins forces with a singer, an assassin and a police detective to help a young girl who had a hit placed on her after she stole a rare diamond from a crime lord."
   },
   {
     "tmdbId": 464052,
@@ -1033,7 +1060,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "A botched store robbery places Wonder Woman in a global battle against a powerful and mysterious ancient force that puts her powers in jeopardy."
   },
   {
     "tmdbId": 791373,
@@ -1070,7 +1098,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
   },
   {
     "tmdbId": 436969,
@@ -1103,7 +1132,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese."
   },
   {
     "tmdbId": 436270,
@@ -1140,7 +1170,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world."
   },
   {
     "tmdbId": 414906,
@@ -1177,7 +1208,8 @@ module.exports = [
         "id": 53,
         "name": "Thriller"
       }
-    ]
+    ],
+    "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler."
   },
   {
     "tmdbId": 594767,
@@ -1214,7 +1246,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Billy Batson and his foster siblings, who transform into superheroes by saying \"Shazam!\", are forced to get back into action and fight the Daughters of Atlas, who they must stop from using a weapon that could destroy the world."
   },
   {
     "tmdbId": 298618,
@@ -1251,7 +1284,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "When his attempt to save his family inadvertently alters the future, Barry Allen becomes trapped in a reality in which General Zod has returned and there are no Super Heroes to turn to. In order to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?"
   },
   {
     "tmdbId": 565770,
@@ -1288,7 +1322,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Recent college grad Jaime Reyes returns home full of aspirations for his future, only to find that home is not quite as he left it. As he searches to find his purpose in the world, fate intervenes when Jaime unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab."
   },
   {
     "tmdbId": 572802,
@@ -1325,7 +1360,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "overview": "Black Manta seeks revenge on Aquaman for his father's death. Wielding the Black Trident's power, he becomes a formidable foe. To defend Atlantis, Arthur (Aquaman) forges an alliance with his imprisoned brother. They must protect the kingdom."
   },
   {
     "tmdbId": 889737,
@@ -1362,7 +1398,8 @@ module.exports = [
         "id": 53,
         "name": "Thriller"
       }
-    ]
+    ],
+    "overview": "While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him."
   },
   {
     "tmdbId": 1061474,
@@ -1399,7 +1436,8 @@ module.exports = [
         "id": 28,
         "name": "Action"
       }
-    ]
+    ],
+    "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent."
   },
   {
     "tmdbId": 1081003,
@@ -1436,7 +1474,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice."
   },
   {
     "tmdbId": 1400940,
@@ -1460,7 +1499,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "overview": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge."
   },
   {
     "tmdbId": 1523140,
@@ -1484,7 +1524,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "overview": "Superman and Lex Luthor find themselves forced to work together—to a certain degree—against a much, much bigger threat when Brainiac sets his sights on Earth."
   },
   {
     "tmdbId": 806704,
@@ -1508,6 +1549,7 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "overview": "Sequel to the 2022 film The Batman."
   }
 ];

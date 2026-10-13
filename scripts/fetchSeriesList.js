@@ -198,6 +198,7 @@ async function fetchSpecificSeries() {
         const imdbId = details.external_ids?.imdb_id || null;
         const poster = details.poster_path ? `https://image.tmdb.org/t/p/w500${details.poster_path}` : null;
         const genres = details.genres || [];
+        const overview = details.overview || null;
         // Check if explicitly marked as animated or if Animation genre ID is present
         const isAnimated = series.animated || (genres && genres.some(g => g && g.id === animationGenreId));
 
@@ -216,6 +217,7 @@ async function fetchSpecificSeries() {
                 poster,
                 ratings,
                 genres,
+                overview,
                 // isAnimated: isAnimated // We know it's false if we're here, could omit
             });
             console.log(`   Successfully processed "${title}" (Live-Action with required metadata)`);
