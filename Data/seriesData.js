@@ -7,7 +7,12 @@ module.exports = [
     "id": "dc_tt0044231",
     "releaseYear": "1952",
     "poster": "https://image.tmdb.org/t/p/w500/3eKmwXE2A394l3GB9eIOy7kYm25.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -39,7 +44,12 @@ module.exports = [
     "id": "dc_tt0059968",
     "releaseYear": "1966",
     "poster": "https://image.tmdb.org/t/p/w500/1ZEJuuDh0Zpi5ELM3Zev0GBhQ3R.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      }
+    ],
     "genres": [
       {
         "id": 10765,
@@ -63,7 +73,12 @@ module.exports = [
     "id": "dc_tt0071050",
     "releaseYear": "1974",
     "poster": "https://image.tmdb.org/t/p/w500/iXNoY4ThylStpcDKrGJ3LIYiasE.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.5/10"
+      }
+    ],
     "genres": [
       {
         "id": 10765,
@@ -83,7 +98,12 @@ module.exports = [
     "id": "dc_tt0072516",
     "releaseYear": "1975",
     "poster": "https://image.tmdb.org/t/p/w500/lIc5LUIoshHlFXrC40e229Bu6IU.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.7/10"
+      }
+    ],
     "genres": [
       {
         "id": 10765,
@@ -99,7 +119,12 @@ module.exports = [
     "id": "dc_tt0074074",
     "releaseYear": "1975",
     "poster": "https://image.tmdb.org/t/p/w500/7vHxWO6ahByDWzWufFL48MXaktT.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.0/10"
+      }
+    ],
     "genres": [
       {
         "id": 10765,
@@ -123,7 +148,12 @@ module.exports = [
     "id": "dc_tt0094559",
     "releaseYear": "1988",
     "poster": "https://image.tmdb.org/t/p/w500/g8QxvkOSGiGRk0nW6U8QLX0Y8NV.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.2/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -147,7 +177,12 @@ module.exports = [
     "id": "dc_tt0098919",
     "releaseYear": "1990",
     "poster": "https://image.tmdb.org/t/p/w500/8Wtr63bGIp0kog5MVb27wky7d3q.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.3/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -171,7 +206,12 @@ module.exports = [
     "id": "dc_tt0098798",
     "releaseYear": "1990",
     "poster": "https://image.tmdb.org/t/p/w500/fi1GEdCbyWRDHpyJcB25YYK7fh4.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.1/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -191,7 +231,12 @@ module.exports = [
     "id": "dc_tt0103447",
     "releaseYear": "1992",
     "poster": "https://image.tmdb.org/t/p/w500/550hahC7sDSi3UEvBxCmrIDJrHD.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.7/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -207,7 +252,12 @@ module.exports = [
     "id": "dc_tt0106057",
     "releaseYear": "1993",
     "poster": "https://image.tmdb.org/t/p/w500/veNiZIiBsSWSAfVcJzudcuD7N0e.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.7/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -235,7 +285,12 @@ module.exports = [
     "id": "dc_tt0279600",
     "releaseYear": "2001",
     "poster": "https://image.tmdb.org/t/p/w500/pUhJGETy2sec4vEkiqJ9eGeIywc.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      }
+    ],
     "genres": [
       {
         "id": 10765,
@@ -259,7 +314,12 @@ module.exports = [
     "id": "dc_tt0312098",
     "releaseYear": "2002",
     "poster": "https://image.tmdb.org/t/p/w500/gXeFSST0xqy5XNgrbuEaa5BxvDM.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.4/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -283,7 +343,12 @@ module.exports = [
     "id": "dc_tt1439741",
     "releaseYear": "2010",
     "poster": "https://image.tmdb.org/t/p/w500/28DQmHuzVetpvq3dcK0snfEXflG.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -303,7 +368,12 @@ module.exports = [
     "id": "dc_tt2193021",
     "releaseYear": "2012",
     "poster": "https://image.tmdb.org/t/p/w500/u8ZHFj1jC384JEkTt3vNg1DfWEb.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      }
+    ],
     "genres": [
       {
         "id": 80,
@@ -327,7 +397,12 @@ module.exports = [
     "id": "dc_tt3749900",
     "releaseYear": "2014",
     "poster": "https://image.tmdb.org/t/p/w500/zLpSNnVoL2bjQdc1PcaHUPUzttP.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.8/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -351,7 +426,12 @@ module.exports = [
     "id": "dc_tt3107288",
     "releaseYear": "2014",
     "poster": "https://image.tmdb.org/t/p/w500/yZevl2vHQgmosfwUdVNzviIfaWS.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.4/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -371,7 +451,12 @@ module.exports = [
     "id": "dc_tt3489184",
     "releaseYear": "2014",
     "poster": "https://image.tmdb.org/t/p/w500/gQ3bA1DBKyZwkDCHJFEAT0MkKpu.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -395,7 +480,12 @@ module.exports = [
     "id": "dc_tt4016454",
     "releaseYear": "2015",
     "poster": "https://image.tmdb.org/t/p/w500/90mSQajf4STPROA6H7Hh8OvyWdK.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.2/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -419,7 +509,12 @@ module.exports = [
     "id": "dc_tt4532368",
     "releaseYear": "2016",
     "poster": "https://image.tmdb.org/t/p/w500/qNgAcg4gNYbZ9mySLB9ZX4ehZb6.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.7/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -443,7 +538,12 @@ module.exports = [
     "id": "dc_tt4052886",
     "releaseYear": "2016",
     "poster": "https://image.tmdb.org/t/p/w500/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.0/10"
+      }
+    ],
     "genres": [
       {
         "id": 80,
@@ -463,7 +563,12 @@ module.exports = [
     "id": "dc_tt5083928",
     "releaseYear": "2017",
     "poster": "https://image.tmdb.org/t/p/w500/oAAAqgKiWVeZbotsR0zukHjM9B1.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.4/10"
+      }
+    ],
     "genres": [
       {
         "id": 10765,
@@ -483,7 +588,12 @@ module.exports = [
     "id": "dc_tt6045840",
     "releaseYear": "2018",
     "poster": "https://image.tmdb.org/t/p/w500/h1xbvvO6oqchfLe6xh0yLNnQxeM.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.1/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -507,7 +617,12 @@ module.exports = [
     "id": "dc_tt4276624",
     "releaseYear": "2018",
     "poster": "https://image.tmdb.org/t/p/w500/kMMWb4zIZKBnO3lOpVBXCL1BeNI.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.8/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -531,7 +646,16 @@ module.exports = [
     "id": "dc_tt1043813",
     "releaseYear": "2018",
     "poster": "https://image.tmdb.org/t/p/w500/8e6QiSexmYKaiHGPvbhaFMmQEhc.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.4/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "50%"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -555,7 +679,12 @@ module.exports = [
     "id": "dc_tt8416494",
     "releaseYear": "2019",
     "poster": "https://image.tmdb.org/t/p/w500/nVN7Dt0Xr78gnJepRsRLaLYklbY.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+      }
+    ],
     "genres": [
       {
         "id": 10765,
@@ -575,7 +704,12 @@ module.exports = [
     "id": "dc_tt8362852",
     "releaseYear": "2019",
     "poster": "https://image.tmdb.org/t/p/w500/dD3HcMczLC9wNvfNzx4pZVyl6q8.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.3/10"
+      }
+    ],
     "genres": [
       {
         "id": 9648,
@@ -599,7 +733,12 @@ module.exports = [
     "id": "dc_tt8722888",
     "releaseYear": "2020",
     "poster": "https://image.tmdb.org/t/p/w500/JJxVsQPPiuLcArALotMHsCubeo.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.1/10"
+      }
+    ],
     "genres": [
       {
         "id": 10765,
@@ -623,7 +762,12 @@ module.exports = [
     "id": "dc_tt10306320",
     "releaseYear": "2020",
     "poster": "https://image.tmdb.org/t/p/w500/ddmZnaxFkAl2yTCjiaHnxsaydtT.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.5/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -643,7 +787,12 @@ module.exports = [
     "id": "dc_tt11192306",
     "releaseYear": "2021",
     "poster": "https://image.tmdb.org/t/p/w500/vlv1gn98GqMnKHLSh0dNciqGfBl.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.8/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -663,7 +812,12 @@ module.exports = [
     "id": "dc_tt13624900",
     "releaseYear": "2022",
     "poster": "https://image.tmdb.org/t/p/w500/xwS6ggTI8hTkVTz1I4U6BZ48pgZ.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "4.9/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -683,7 +837,12 @@ module.exports = [
     "id": "dc_tt13146488",
     "releaseYear": "2022",
     "poster": "https://image.tmdb.org/t/p/w500/yb4F1Oocq8GfQt6iIuAgYEBokhG.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.2/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -707,7 +866,12 @@ module.exports = [
     "id": "dc_tt1751634",
     "releaseYear": "2022",
     "poster": "https://image.tmdb.org/t/p/w500/q54qEgagGOYCq5D1903eBVMNkbo.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+      }
+    ],
     "genres": [
       {
         "id": 10765,
@@ -731,7 +895,12 @@ module.exports = [
     "id": "dc_tt16418896",
     "releaseYear": "2023",
     "poster": "https://image.tmdb.org/t/p/w500/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.3/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -751,7 +920,12 @@ module.exports = [
     "id": "dc_tt15358446",
     "releaseYear": "2024",
     "poster": "https://image.tmdb.org/t/p/w500/346ju9C5zy0tkzfQoetOYtM74gw.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -775,7 +949,12 @@ module.exports = [
     "id": "dc_tt15435876",
     "releaseYear": "2024",
     "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.6/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -795,7 +974,12 @@ module.exports = [
     "id": "dc_tt26545992",
     "releaseYear": "2026",
     "poster": "https://image.tmdb.org/t/p/w500/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.8/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,

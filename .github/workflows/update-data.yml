@@ -37,6 +37,9 @@ jobs:
           node scripts/combineReleaseData.js
           node scripts/buildGunnChronological.js
 
+      - name: Guard against degraded data
+        run: node scripts/guardDataQuality.js
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"

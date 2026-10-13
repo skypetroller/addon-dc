@@ -69,7 +69,20 @@ module.exports = [
     "id": "dc_tt5950044",
     "releaseYear": "2025",
     "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.0/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "83%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "68/100"
+      }
+    ],
     "genres": [
       {
         "id": 878,
@@ -93,7 +106,12 @@ module.exports = [
     "id": "dc_tt13146488",
     "releaseYear": "2022",
     "poster": "https://image.tmdb.org/t/p/w500/yb4F1Oocq8GfQt6iIuAgYEBokhG.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.2/10"
+      }
+    ],
     "genres": [
       {
         "id": 10759,
@@ -117,7 +135,12 @@ module.exports = [
     "id": "dc_tt26545992",
     "releaseYear": "2026",
     "poster": "https://image.tmdb.org/t/p/w500/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.8/10"
+      }
+    ],
     "genres": [
       {
         "id": 18,
@@ -141,7 +164,20 @@ module.exports = [
     "id": "dc_tt8814476",
     "releaseYear": "2026",
     "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.8/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "53%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "50/100"
+      }
+    ],
     "genres": [
       {
         "id": 28,
