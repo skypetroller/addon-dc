@@ -30,6 +30,7 @@ const moviesToFetch = [
     { title: "Zack Snyder's Justice League", year: 2021 }, // Features Superman
     // Upcoming Superman Films
     { title: "Superman", year: 2025 }, // James Gunn version
+    { title: "Man of Tomorrow", year: 2027 },
 ];
 
 

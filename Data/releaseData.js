@@ -2459,6 +2459,30 @@ module.exports = [
     ]
   },
   {
+    "tmdbId": 1523140,
+    "title": "Man of Tomorrow",
+    "type": "movie",
+    "imdbId": "tt37833661",
+    "id": "dc_tt37833661",
+    "releaseYear": "2027",
+    "poster": "https://image.tmdb.org/t/p/w500/tYLgfKk3cEk7LskgxWyW37Nty01.jpg",
+    "ratings": [],
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      }
+    ]
+  },
+  {
     "tmdbId": 806704,
     "title": "The Batman: Part II",
     "type": "movie",

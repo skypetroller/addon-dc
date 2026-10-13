@@ -468,5 +468,30 @@ module.exports = [
       }
     ],
     "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent."
+  },
+  {
+    "tmdbId": 1523140,
+    "title": "Man of Tomorrow",
+    "type": "movie",
+    "imdbId": "tt37833661",
+    "id": "dc_tt37833661",
+    "releaseYear": "2027",
+    "poster": "https://image.tmdb.org/t/p/w500/tYLgfKk3cEk7LskgxWyW37Nty01.jpg",
+    "ratings": [],
+    "genres": [
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      }
+    ],
+    "overview": "Superman and Lex Luthor find themselves forced to work together—to a certain degree—against a much, much bigger threat when Brainiac sets his sights on Earth."
   }
 ];
