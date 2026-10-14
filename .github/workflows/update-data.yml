@@ -34,6 +34,7 @@ jobs:
           node scripts/fetchModernDCSeries.js
           node scripts/fetchBatmanMovies.js
           node scripts/fetchSupermanMovies.js
+          node scripts/discoverNewReleases.js
           node scripts/combineReleaseData.js
           node scripts/buildGunnChronological.js
 
