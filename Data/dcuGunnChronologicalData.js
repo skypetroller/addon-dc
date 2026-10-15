@@ -175,37 +175,6 @@ module.exports = [
     "addedAt": "2026-10-15"
   },
   {
-    "tmdbId": 95350,
-    "title": "Lanterns",
-    "type": "series",
-    "imdbId": "tt26545992",
-    "id": "dc_tt26545992",
-    "releaseYear": "2026",
-    "poster": "https://image.tmdb.org/t/p/w500/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.8/10"
-      }
-    ],
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 9648,
-        "name": "Mystery"
-      },
-      {
-        "id": 10765,
-        "name": "Sci-Fi & Fantasy"
-      }
-    ],
-    "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
-    "addedAt": "2026-10-15"
-  },
-  {
     "tmdbId": 1081003,
     "title": "Supergirl",
     "type": "movie",
@@ -242,6 +211,37 @@ module.exports = [
       }
     ],
     "overview": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.",
+    "addedAt": "2026-10-15"
+  },
+  {
+    "tmdbId": 95350,
+    "title": "Lanterns",
+    "type": "series",
+    "imdbId": "tt26545992",
+    "id": "dc_tt26545992",
+    "releaseYear": "2026",
+    "poster": "https://image.tmdb.org/t/p/w500/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.8/10"
+      }
+    ],
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      }
+    ],
+    "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
     "addedAt": "2026-10-15"
   },
   {

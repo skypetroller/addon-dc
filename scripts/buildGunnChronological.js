@@ -10,17 +10,21 @@ const movies = require('../Data/moviesData.js');
 const find = (arr, title, year) =>
   arr.find((i) => i.title === title && (!year || i.releaseYear === year));
 
-// James Gunn DCU in story order (The Suicide Squad bridges DCEU -> DCU).
+// James Gunn DCU watch order (The Suicide Squad bridges DCEU -> DCU).
 const gunnOrder = [
   [movies, 'The Suicide Squad', '2021'],
   [movies, 'Blue Beetle', '2023'],
   [anim, 'Creature Commandos', '2024'],
   [movies, 'Superman', '2025'],
   [series, 'Peacemaker', undefined],
-  [series, 'Lanterns', '2026'],
   [movies, 'Supergirl', '2026'],
+  [series, 'Lanterns', '2026'],
   [movies, 'Clayface', '2026'],
   [movies, 'Man of Tomorrow', '2027'],
+  // Pre-wired confirmed DCU projects — join the catalog automatically once
+  // the weekly updater discovers them in the data (needs TMDB poster + date).
+  [series, 'The People v. Gorilla Grodd', undefined],
+  [anim, 'Mister Miracle', undefined],
 ];
 
 const out = [];
