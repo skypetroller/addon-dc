@@ -296,7 +296,7 @@ async function fetchAdditionalData(item) {
 
 // Get all available catalogs
 function getAllCatalogs() {
-    return [
+    const catalogs = [
         {
             type: "DC",
             id: "dc-new",
@@ -363,6 +363,8 @@ function getAllCatalogs() {
             name: "Superman Collection"
         }
     ];
+    // Attach Stremio extras (search box, genre dropdown, paging) to every catalog.
+    return catalogs.map((catalog) => ({ ...catalog, extra: getCatalogExtras(catalog.id) }));
 }
 
 // Define the configuration page
@@ -645,11 +647,50 @@ function resolveCatalogSource(id) {
     return arr;
 }
 
+// Stremio "extra" declarations per catalog: search box + genre dropdown + paging.
+// Genre options are derived from the catalog's own items so every filter has hits.
+const catalogExtrasCache = {};
+function getCatalogExtras(id) {
+    if (catalogExtrasCache[id]) return catalogExtrasCache[id];
+    let genres = [];
+    try {
+        const source = resolveCatalogSource(id) || [];
+        const seen = new Set();
+        source.forEach(item => (item.genres || []).forEach(g => {
+            if (g && g.name) seen.add(g.name);
+        }));
+        genres = [...seen].sort();
+    } catch (e) {
+        // Unknown catalog or bad source — declare search/skip only.
+    }
+    const extras = [{ name: 'search' }, { name: 'skip' }];
+    if (genres.length) extras.splice(1, 0, { name: 'genre', options: genres });
+    catalogExtrasCache[id] = extras;
+    return extras;
+}
+
+// Reads request extras from both the Stremio path style
+// (/catalog/<type>/<id>/search=x&skip=100.json) and the query-string style.
+function parseExtras(req) {
+    const extras = Object.assign({}, req.query);
+    if (req.params && req.params.extra) {
+        try {
+            for (const [key, value] of new URLSearchParams(req.params.extra)) {
+                extras[key] = value;
+            }
+        } catch (e) {
+            // Malformed extras segment — ignore.
+        }
+    }
+    return extras;
+}
+
 // Builds the response for a catalog request, generating metas on first hit,
 // then serving from cache. Supports Stremio pagination (skip/limit) and RPDB.
 async function buildCatalogResponse(res, req, type, id, rpdbKey, cacheKey) {
-    const skip = Math.max(0, parseInt(req.query.skip, 10) || 0);
-    const limit = Math.min(100, Math.max(1, parseInt(req.query.limit, 10) || 100));
+    const extras = parseExtras(req);
+    const skip = Math.max(0, parseInt(extras.skip, 10) || 0);
+    const limit = Math.min(100, Math.max(1, parseInt(extras.limit, 10) || 100));
 
     let metas;
     if (cachedCatalog[cacheKey]) {
@@ -678,7 +719,19 @@ async function buildCatalogResponse(res, req, type, id, rpdbKey, cacheKey) {
     if (rpdbKey) {
         metas = replaceRpdbPosters(rpdbKey, metas);
     }
-    return res.json({ metas: metas.slice(skip, skip + limit) });
+
+    // Apply search/genre filters before pagination (skip counts filtered items).
+    const genre = extras.genre;
+    const search = (extras.search || '').trim().toLowerCase();
+    let filtered = metas;
+    if (genre) {
+        filtered = filtered.filter(m => Array.isArray(m.genres) && m.genres.includes(genre));
+    }
+    if (search) {
+        filtered = filtered.filter(m => (m.name || '').toLowerCase().includes(search));
+    }
+
+    return res.json({ metas: filtered.slice(skip, skip + limit) });
 }
 
 // RPDB path-based catalog endpoint
@@ -735,6 +788,36 @@ app.get('/catalog/:type/:id.json', async (req, res) => {
         console.log(`RPDB key detected: ${rpdbKey}`);
     }
     
+    return buildCatalogResponse(res, req, type, id, rpdbKey, `default-${id}`);
+});
+
+// Path-embedded extras variants: Stremio requests
+// /catalog/<type>/<id>/search=x&genre=y&skip=100.json, so mirror all three
+// catalog endpoints with a trailing extras segment.
+app.get('/rpdb/:rpdbKey/catalog/:type/:id/:extra.json', async (req, res) => {
+    const { rpdbKey, type, id } = req.params;
+    return buildCatalogResponse(res, req, type, id, rpdbKey, `default-${id}`);
+});
+
+app.get('/catalog/:catalogsParam/catalog/:type/:id/:extra.json', async (req, res) => {
+    const { catalogsParam, type, id } = req.params;
+    let rpdbKey = null;
+    if (catalogsParam.includes(':')) {
+        rpdbKey = catalogsParam.split(':')[1];
+    }
+    return buildCatalogResponse(res, req, type, id, rpdbKey, `custom-${id}-${catalogsParam}`);
+});
+
+app.get('/catalog/:type/:id/:extra.json', async (req, res) => {
+    const { type, id } = req.params;
+    let rpdbKey = req.query.rpdb || null;
+    const referer = req.get('Referrer') || '';
+    if (!rpdbKey && referer) {
+        const rpdbMatch = referer.match(/\/rpdb\/([^\/]+)\/manifest\.json/);
+        if (rpdbMatch && rpdbMatch[1]) {
+            rpdbKey = decodeURIComponent(rpdbMatch[1]);
+        }
+    }
     return buildCatalogResponse(res, req, type, id, rpdbKey, `default-${id}`);
 });
 
