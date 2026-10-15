@@ -31,7 +31,8 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese."
+    "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 565770,
@@ -69,7 +70,8 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Recent college grad Jaime Reyes returns home full of aspirations for his future, only to find that home is not quite as he left it. As he searches to find his purpose in the world, fate intervenes when Jaime unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab."
+    "overview": "Recent college grad Jaime Reyes returns home full of aspirations for his future, only to find that home is not quite as he left it. As he searches to find his purpose in the world, fate intervenes when Jaime unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 219543,
@@ -99,7 +101,8 @@ module.exports = [
         "name": "Action & Adventure"
       }
     ],
-    "overview": "Follow the exploits of the Creature Commandos, a secret team of incarcerated monsters recruited for missions deemed too dangerous for humans. When all else fails... they're your last, worst option."
+    "overview": "Follow the exploits of the Creature Commandos, a secret team of incarcerated monsters recruited for missions deemed too dangerous for humans. When all else fails... they're your last, worst option.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 1061474,
@@ -137,7 +140,8 @@ module.exports = [
         "name": "Action"
       }
     ],
-    "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent."
+    "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 110492,
@@ -167,7 +171,8 @@ module.exports = [
         "name": "Comedy"
       }
     ],
-    "overview": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price."
+    "overview": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 95350,
@@ -197,7 +202,8 @@ module.exports = [
         "name": "Sci-Fi & Fantasy"
       }
     ],
-    "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland."
+    "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 1081003,
@@ -235,7 +241,8 @@ module.exports = [
         "name": "Science Fiction"
       }
     ],
-    "overview": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice."
+    "overview": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 1400940,
@@ -260,7 +267,8 @@ module.exports = [
         "name": "Science Fiction"
       }
     ],
-    "overview": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge."
+    "overview": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 1523140,
@@ -285,6 +293,7 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Superman and Lex Luthor find themselves forced to work together—to a certain degree—against a much, much bigger threat when Brainiac sets his sights on Earth."
+    "overview": "Superman and Lex Luthor find themselves forced to work together—to a certain degree—against a much, much bigger threat when Brainiac sets his sights on Earth.",
+    "addedAt": "2026-10-15"
   }
 ];

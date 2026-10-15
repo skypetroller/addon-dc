@@ -8,6 +8,11 @@
   "catalogs": [
     {
       "type": "DC",
+      "id": "dc-new",
+      "name": "New Releases"
+    },
+    {
+      "type": "DC",
       "id": "dcu-gunn-chronological",
       "name": "James Gunn Chronological"
     },

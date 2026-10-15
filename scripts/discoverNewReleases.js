@@ -154,6 +154,7 @@ async function main() {
         overview: details.overview,
         ratings,
         genres,
+        addedAt: new Date().toISOString().split('T')[0],
       };
 
       if (isAnimated) {

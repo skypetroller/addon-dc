@@ -27,7 +27,8 @@ module.exports = [
         "name": "Action & Adventure"
       }
     ],
-    "overview": "Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow."
+    "overview": "Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 60735,
@@ -53,7 +54,8 @@ module.exports = [
         "name": "Sci-Fi & Fantasy"
       }
     ],
-    "overview": "After being struck by lightning, CSI investigator Barry Allen awakens from a nine-month coma to discover he has been  granted the gift of super speed.  Teaming up with S.T.A.R. Labs, Barry takes on the persona of The Flash, the Fastest  Man Alive, to protect his city."
+    "overview": "After being struck by lightning, CSI investigator Barry Allen awakens from a nine-month coma to discover he has been  granted the gift of super speed.  Teaming up with S.T.A.R. Labs, Barry takes on the persona of The Flash, the Fastest  Man Alive, to protect his city.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 60708,
@@ -83,7 +85,8 @@ module.exports = [
         "name": "Sci-Fi & Fantasy"
       }
     ],
-    "overview": "Everyone knows the name Commissioner Gordon. He is one of the crime world's greatest foes, a man whose reputation is synonymous with law and order. But what is known of Gordon's story and his rise from rookie detective to Police Commissioner? What did it take to navigate the multiple layers of corruption that secretly ruled Gotham City, the spawning ground of the world's most iconic villains? And what circumstances created them – the larger-than-life personas who would become Catwoman, The Penguin, The Riddler, Two-Face and The Joker?"
+    "overview": "Everyone knows the name Commissioner Gordon. He is one of the crime world's greatest foes, a man whose reputation is synonymous with law and order. But what is known of Gordon's story and his rise from rookie detective to Police Commissioner? What did it take to navigate the multiple layers of corruption that secretly ruled Gotham City, the spawning ground of the world's most iconic villains? And what circumstances created them – the larger-than-life personas who would become Catwoman, The Penguin, The Riddler, Two-Face and The Joker?",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 62688,
@@ -113,7 +116,8 @@ module.exports = [
         "name": "Action & Adventure"
       }
     ],
-    "overview": "Twenty-four-year-old Kara Zor-El, who was taken in by the Danvers family when she was 13 after being sent away from Krypton, must learn to embrace her powers after previously hiding them. The Danvers teach her to be careful with her powers, until she has to reveal them during an unexpected disaster, setting her on her journey of heroism."
+    "overview": "Twenty-four-year-old Kara Zor-El, who was taken in by the Danvers family when she was 13 after being sent away from Krypton, must learn to embrace her powers after previously hiding them. The Danvers teach her to be careful with her powers, until she has to reveal them during an unexpected disaster, setting her on her journey of heroism.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 62643,
@@ -143,7 +147,8 @@ module.exports = [
         "name": "Drama"
       }
     ],
-    "overview": "When heroes alone are not enough ... the world needs legends. Having seen the future, one he will desperately try to prevent from happening, time-traveling rogue Rip Hunter is tasked with assembling a disparate group of both heroes and villains to confront an unstoppable threat — one in which not only is the planet at stake, but all of time itself. Can this ragtag team defeat an immortal threat unlike anything they have ever known?"
+    "overview": "When heroes alone are not enough ... the world needs legends. Having seen the future, one he will desperately try to prevent from happening, time-traveling rogue Rip Hunter is tasked with assembling a disparate group of both heroes and villains to confront an unstoppable threat — one in which not only is the planet at stake, but all of time itself. Can this ragtag team defeat an immortal threat unlike anything they have ever known?",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 63174,
@@ -169,7 +174,8 @@ module.exports = [
         "name": "Sci-Fi & Fantasy"
       }
     ],
-    "overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape."
+    "overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 71663,
@@ -199,7 +205,8 @@ module.exports = [
         "name": "Drama"
       }
     ],
-    "overview": "Jefferson Pierce is a man wrestling with a secret. As the father of two daughters and principal of a charter high school that also serves as a safe haven for young people in a New Orleans neighborhood overrun by gang violence, he is a hero to his community."
+    "overview": "Jefferson Pierce is a man wrestling with a secret. As the father of two daughters and principal of a charter high school that also serves as a safe haven for young people in a New Orleans neighborhood overrun by gang violence, he is a hero to his community.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 75450,
@@ -233,7 +240,8 @@ module.exports = [
         "name": "Sci-Fi & Fantasy"
       }
     ],
-    "overview": "A team of young superheroes led by Nightwing (formerly Batman's first Robin) form to combat evil and other perils."
+    "overview": "A team of young superheroes led by Nightwing (formerly Batman's first Robin) form to combat evil and other perils.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 89247,
@@ -259,7 +267,8 @@ module.exports = [
         "name": "Action & Adventure"
       }
     ],
-    "overview": "Kate Kane, armed with a passion for social justice and a flair for speaking her mind, soars onto the streets of Gotham as Batwoman, an out lesbian and highly trained street fighter primed to snuff out the failing city's criminal resurgence. But don't call her a hero yet. In a city desperate for a savior, Kate must overcome her own demons before embracing the call to be Gotham's symbol of hope"
+    "overview": "Kate Kane, armed with a passion for social justice and a flair for speaking her mind, soars onto the streets of Gotham as Batwoman, an out lesbian and highly trained street fighter primed to snuff out the failing city's criminal resurgence. But don't call her a hero yet. In a city desperate for a savior, Kate must overcome her own demons before embracing the call to be Gotham's symbol of hope",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 79501,
@@ -285,7 +294,8 @@ module.exports = [
         "name": "Drama"
       }
     ],
-    "overview": "The Doom Patrol’s members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find."
+    "overview": "The Doom Patrol’s members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 79240,
@@ -315,7 +325,8 @@ module.exports = [
         "name": "Drama"
       }
     ],
-    "overview": "CDC researcher Abby Arcane investigates what seems to be a deadly swamp-born virus in a small town in Louisiana but she soon discovers that the swamp holds mystical and terrifying secrets. When unexplainable and chilling horrors emerge from the murky marsh, no one is safe."
+    "overview": "CDC researcher Abby Arcane investigates what seems to be a deadly swamp-born virus in a small town in Louisiana but she soon discovers that the swamp holds mystical and terrifying secrets. When unexplainable and chilling horrors emerge from the murky marsh, no one is safe.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 79588,
@@ -341,7 +352,8 @@ module.exports = [
         "name": "Crime"
       }
     ],
-    "overview": "The origin story of Bruce Wayne's legendary butler, Alfred Pennyworth, a former British SAS soldier who forms a security company in 1960s London and goes to work with young billionaire Thomas Wayne and his wife Martha, before they become Bruce Wayne’s parents."
+    "overview": "The origin story of Bruce Wayne's legendary butler, Alfred Pennyworth, a former British SAS soldier who forms a security company in 1960s London and goes to work with young billionaire Thomas Wayne and his wife Martha, before they become Bruce Wayne’s parents.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 79788,
@@ -375,7 +387,8 @@ module.exports = [
         "name": "Mystery"
       }
     ],
-    "overview": "Set in an alternate history where “superheroes” are treated as outlaws, “Watchmen” embraces the nostalgia of the original groundbreaking graphic novel while attempting to break new ground of its own."
+    "overview": "Set in an alternate history where “superheroes” are treated as outlaws, “Watchmen” embraces the nostalgia of the original groundbreaking graphic novel while attempting to break new ground of its own.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 80986,
@@ -405,7 +418,8 @@ module.exports = [
         "name": "Drama"
       }
     ],
-    "overview": "Courtney Whitmore, a smart, athletic and above all else kind girl, discovers her step-father has a secret: he used to be the sidekick to a superhero. \"Borrowing\" the long-lost hero’s cosmic staff, she becomes the unlikely inspiration for an entirely new generation of superheroes."
+    "overview": "Courtney Whitmore, a smart, athletic and above all else kind girl, discovers her step-father has a secret: he used to be the sidekick to a superhero. \"Borrowing\" the long-lost hero’s cosmic staff, she becomes the unlikely inspiration for an entirely new generation of superheroes.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 96195,
@@ -431,7 +445,8 @@ module.exports = [
         "name": "Mystery"
       }
     ],
-    "overview": "A psychiatrist moves with her family from California to her husband’s hometown in Mississippi only to uncover shameful secrets that irrevocably change the lives of everyone involved."
+    "overview": "A psychiatrist moves with her family from California to her husband’s hometown in Mississippi only to uncover shameful secrets that irrevocably change the lives of everyone involved.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 95057,
@@ -457,7 +472,8 @@ module.exports = [
         "name": "Sci-Fi & Fantasy"
       }
     ],
-    "overview": "After years of facing megalomaniacal supervillains, monsters wreaking havoc on Metropolis, and alien invaders intent on wiping out the human race, The Man of Steel aka Clark Kent and Lois Lane come face to face with one of their greatest challenges ever: dealing with all the stress, pressures and complexities that come with being working parents in today's society."
+    "overview": "After years of facing megalomaniacal supervillains, monsters wreaking havoc on Metropolis, and alien invaders intent on wiping out the human race, The Man of Steel aka Clark Kent and Lois Lane come face to face with one of their greatest challenges ever: dealing with all the stress, pressures and complexities that come with being working parents in today's society.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 90802,
@@ -487,7 +503,8 @@ module.exports = [
         "name": "Action & Adventure"
       }
     ],
-    "overview": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power."
+    "overview": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 110492,
@@ -517,7 +534,8 @@ module.exports = [
         "name": "Comedy"
       }
     ],
-    "overview": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price."
+    "overview": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 195868,
@@ -543,7 +561,8 @@ module.exports = [
         "name": "Drama"
       }
     ],
-    "overview": "In the aftermath of Bruce Wayne's murder, his rebellious adopted son forges an unlikely alliance with the children of Batman's enemies when they are all framed for killing the Caped Crusader."
+    "overview": "In the aftermath of Bruce Wayne's murder, his rebellious adopted son forges an unlikely alliance with the children of Batman's enemies when they are all framed for killing the Caped Crusader.",
+    "addedAt": "2026-10-15"
   },
   {
     "tmdbId": 95350,
@@ -573,6 +592,7 @@ module.exports = [
         "name": "Sci-Fi & Fantasy"
       }
     ],
-    "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland."
+    "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+    "addedAt": "2026-10-15"
   }
 ];

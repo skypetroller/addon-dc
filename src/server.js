@@ -297,6 +297,11 @@ function getAllCatalogs() {
     return [
         {
             type: "DC",
+            id: "dc-new",
+            name: "New Releases"
+        },
+        {
+            type: "DC",
             id: "dcu-gunn-chronological",
             name: "James Gunn Chronological"
         },
@@ -489,6 +494,13 @@ app.get('/api/catalogs', (req, res) => {
     
     const catalogInfo = [
         { 
+            id: 'dc-new', 
+            name: 'New Releases', 
+            category: 'Timeline',
+            description: 'DC titles added in the last 120 days',
+            icon: 'star'
+        },
+        { 
             id: 'dcu-gunn-chronological', 
             name: 'James Gunn Chronological', 
             category: 'Timeline',
@@ -577,91 +589,80 @@ app.get('/api/catalogs', (req, res) => {
     res.json(catalogInfo);
 });
 
+// Registry of every catalog source, keyed by catalog ID.
+// Add new catalogs here — all three endpoints pick them up automatically.
+const CATALOG_SOURCES = {
+    'dcu-gunn-chronological': () => dcuGunnChronologicalData,
+    'dc-chronological': () => require('../Data/chronologicalData'),
+    'dc-release': () => releaseData,
+    'dc-movies': () => moviesData,
+    'dc-series': () => seriesData,
+    'dc-animations': () => animationsData,
+    'dc-batman': () => batmanData,
+    'dc-batman-animations': () => batmanAnimationData,
+    'dc-superman': () => supermanData,
+    'dc-superman-animations': () => supermanAnimationData,
+    'dceu_movies': () => dceuMoviesData,
+    'dc_modern_series': () => modernDCSeriesData,
+    // Dynamic catalogs
+    'dc-new': () => {
+        const cutoff = Date.now() - 120 * 24 * 60 * 60 * 1000;
+        return releaseData
+            .filter(item => item.addedAt && new Date(item.addedAt).getTime() >= cutoff)
+            .sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt));
+    }
+};
+
+// Resolves a catalog ID to its data array. Returns null for unknown IDs.
+function resolveCatalogSource(id) {
+    const getter = CATALOG_SOURCES[id];
+    if (!getter) return null;
+    const arr = getter();
+    if (!Array.isArray(arr)) throw new Error(`Data source for ID ${id} is not a valid array.`);
+    return arr;
+}
+
+// Builds the response for a catalog request, generating metas on first hit,
+// then serving from cache. Supports Stremio pagination (skip/limit) and RPDB.
+async function buildCatalogResponse(res, req, type, id, rpdbKey, cacheKey) {
+    const skip = Math.max(0, parseInt(req.query.skip, 10) || 0);
+    const limit = Math.min(100, Math.max(1, parseInt(req.query.limit, 10) || 100));
+
+    let metas;
+    if (cachedCatalog[cacheKey]) {
+        console.log(`✅ Returning cached catalog for ID: ${cacheKey}`);
+        metas = cachedCatalog[cacheKey].metas;
+    } else {
+        let dataSource;
+        try {
+            dataSource = resolveCatalogSource(id);
+        } catch (error) {
+            console.error(`❌ Error loading data for catalog ID ${id}:`, error.message);
+            return res.json({ metas: [] });
+        }
+        if (!dataSource) {
+            console.warn(`Unrecognized catalog ID: ${id}`);
+            return res.json({ metas: [] });
+        }
+
+        console.log(`⏳ Generating catalog for ${id} (${dataSource.length} items)...`);
+        const generated = await Promise.all(dataSource.map(item => fetchAdditionalData(item)));
+        metas = generated.filter(item => item !== null);
+        cachedCatalog[cacheKey] = { metas };
+        console.log(`✅ Catalog generated with ${metas.length} items for ID: ${id}`);
+    }
+
+    if (rpdbKey) {
+        metas = replaceRpdbPosters(rpdbKey, metas);
+    }
+    return res.json({ metas: metas.slice(skip, skip + limit) });
+}
+
 // RPDB path-based catalog endpoint
 app.get('/rpdb/:rpdbKey/catalog/:type/:id.json', async (req, res) => {
     const { rpdbKey, type, id } = req.params;
     console.log(`RPDB path-based catalog requested - Type: ${type}, ID: ${id}, RPDB Key: ${rpdbKey}`);
-    
-    // Check cache
-    const cacheKey = `default-${id}`;
-    if (cachedCatalog[cacheKey]) {
-        console.log(`✅ Returning cached catalog for ID: ${cacheKey} with RPDB posters`);
-        const metasWithRpdbPosters = replaceRpdbPosters(rpdbKey, cachedCatalog[cacheKey].metas);
-        return res.json({ metas: metasWithRpdbPosters });
-    }
-    
-    let dataSource;
-    let dataSourceName = id;
-    
-    // Load data based on catalog ID
-    try {
-        switch (id) {
-            case 'dcu-gunn-chronological':
-                dataSource = dcuGunnChronologicalData;
-                break;
-            case 'dc-chronological':
-                dataSource = require('../Data/chronologicalData');
-                break;
-            case 'dc-release':
-                dataSource = releaseData;
-                break;
-            case 'dc-movies':
-                dataSource = moviesData;
-                break;
-            case 'dc-series':
-                dataSource = seriesData;
-                break;
-            case 'dc-animations':
-                dataSource = animationsData;
-                break;
-            case 'dc-batman':
-                dataSource = batmanData;
-                break;
-            case 'dc-batman-animations':
-                dataSource = batmanAnimationData;
-                break;
-            case 'dc-superman':
-                dataSource = supermanData;
-                break;
-            case 'dc-superman-animations':
-                dataSource = supermanAnimationData;
-                break;
-            case 'dceu_movies':
-                dataSource = dceuMoviesData;
-                dataSourceName = 'DCEU Movies';
-                break;
-            case 'dc_modern_series':
-                dataSource = modernDCSeriesData;
-                dataSourceName = 'DC Modern Series';
-                break;
-            default:
-                console.warn(`Unrecognized catalog ID: ${id}`);
-                return res.json({ metas: [] });
-        }
-        
-        if (!Array.isArray(dataSource)) {
-            throw new Error(`Data source for ID ${id} is not a valid array.`);
-        }
-        console.log(`Loaded ${dataSource.length} items for catalog: ${dataSourceName}`);
-    } catch (error) {
-        console.error(`❌ Error loading data for catalog ID ${id}:`, error.message);
-        return res.json({ metas: [] });
-    }
-    
-    console.log(`⏳ Generating catalog for ${dataSourceName} with RPDB posters...`);
-    const metas = await Promise.all(
-        dataSource.map(item => fetchAdditionalData(item))
-    );
-    
-    const validMetas = metas.filter(item => item !== null);
-    console.log(`✅ Catalog generated with ${validMetas.length} items for ID: ${id}`);
-    
-    // Store in cache (without RPDB posters)
-    cachedCatalog[cacheKey] = { metas: validMetas };
-    
-    // Apply RPDB posters 
-    const metasWithRpdbPosters = replaceRpdbPosters(rpdbKey, validMetas);
-    return res.json({ metas: metasWithRpdbPosters });
+    return buildCatalogResponse(res, req, type, id, rpdbKey, `default-${id}`);
 });
 
 // Custom catalog endpoint
@@ -681,95 +682,7 @@ app.get('/catalog/:catalogsParam/catalog/:type/:id.json', async (req, res) => {
         console.log(`RPDB key detected: ${rpdbKey}`);
     }
     
-    // Check cache
-    const cacheKey = `custom-${id}-${catalogsParam}`;
-    if (cachedCatalog[cacheKey]) {
-        console.log(`✅ Returning cached catalog for ID: ${cacheKey}`);
-        // Apply RPDB posters to cached results if key is provided
-        if (rpdbKey) {
-            const metasWithRpdbPosters = replaceRpdbPosters(rpdbKey, cachedCatalog[cacheKey].metas);
-            return res.json({ metas: metasWithRpdbPosters });
-        }
-        return res.json(cachedCatalog[cacheKey]);
-    }
-    
-    let dataSource;
-    let dataSourceName = id;
-    
-    // Load data based on catalog ID
-    try {
-        switch (id) {
-            case 'dcu-gunn-chronological':
-                dataSource = dcuGunnChronologicalData;
-                break;
-            case 'dc-chronological':
-                dataSource = require('../Data/chronologicalData');
-                break;
-            case 'dc-release':
-                dataSource = releaseData;
-                break;
-            case 'dc-movies':
-                dataSource = moviesData;
-                break;
-            case 'dc-series':
-                dataSource = seriesData;
-                break;
-            case 'dc-animations':
-                dataSource = animationsData;
-                break;
-            case 'dc-batman':
-                dataSource = batmanData;
-                break;
-            case 'dc-batman-animations':
-                dataSource = batmanAnimationData;
-                break;
-            case 'dc-superman':
-                dataSource = supermanData;
-                break;
-            case 'dc-superman-animations':
-                dataSource = supermanAnimationData;
-                break;
-            case 'dceu_movies':
-                dataSource = dceuMoviesData;
-                dataSourceName = 'DCEU Movies';
-                break;
-            case 'dc_modern_series':
-                dataSource = modernDCSeriesData;
-                dataSourceName = 'DC Modern Series';
-                break;
-            default:
-                console.warn(`Unrecognized catalog ID: ${id}`);
-                return res.json({ metas: [] });
-        }
-        
-        if (!Array.isArray(dataSource)) {
-            throw new Error(`Data source for ID ${id} is not a valid array.`);
-        }
-        console.log(`Loaded ${dataSource.length} items for catalog: ${dataSourceName}`);
-    } catch (error) {
-        console.error(`❌ Error loading data for catalog ID ${id}:`, error.message);
-        return res.json({ metas: [] });
-    }
-    
-    console.log(`⏳ Generating catalog for ${dataSourceName}...`);
-    const metas = await Promise.all(
-        dataSource.map(item => fetchAdditionalData(item))
-    );
-    
-    const validMetas = metas.filter(item => item !== null);
-    console.log(`✅ Catalog generated with ${validMetas.length} items for ID: ${id}`);
-    
-    // Store in cache
-    cachedCatalog[cacheKey] = { metas: validMetas };
-    
-    // Apply RPDB posters if key is provided
-    if (rpdbKey) {
-        const metasWithRpdbPosters = replaceRpdbPosters(rpdbKey, validMetas);
-        return res.json({ metas: metasWithRpdbPosters });
-    }
-    
-    // Return the data
-    return res.json(cachedCatalog[cacheKey]);
+    return buildCatalogResponse(res, req, type, id, rpdbKey, `custom-${id}-${catalogsParam}`);
 });
 
 // Default catalog endpoint
@@ -799,95 +712,12 @@ app.get('/catalog/:type/:id.json', async (req, res) => {
         console.log(`RPDB key detected: ${rpdbKey}`);
     }
     
-    // Check cache
-    const cacheKey = `default-${id}`;
-    if (cachedCatalog[cacheKey]) {
-        console.log(`✅ Returning cached catalog for ID: ${cacheKey}`);
-        // Apply RPDB posters to cached results if key is provided
-        if (rpdbKey) {
-            const metasWithRpdbPosters = replaceRpdbPosters(rpdbKey, cachedCatalog[cacheKey].metas);
-            return res.json({ metas: metasWithRpdbPosters });
-        }
-        return res.json(cachedCatalog[cacheKey]);
-    }
-    
-    let dataSource;
-    let dataSourceName = id;
-    
-    // Load data based on catalog ID
-    try {
-        switch (id) {
-            case 'dcu-gunn-chronological':
-                dataSource = dcuGunnChronologicalData;
-                break;
-            case 'dc-chronological':
-                dataSource = require('../Data/chronologicalData');
-                break;
-            case 'dc-release':
-                dataSource = releaseData;
-                break;
-            case 'dc-movies':
-                dataSource = moviesData;
-                break;
-            case 'dc-series':
-                dataSource = seriesData;
-                break;
-            case 'dc-animations':
-                dataSource = animationsData;
-                break;
-            case 'dc-batman':
-                dataSource = batmanData;
-                break;
-            case 'dc-batman-animations':
-                dataSource = batmanAnimationData;
-                break;
-            case 'dc-superman':
-                dataSource = supermanData;
-                break;
-            case 'dc-superman-animations':
-                dataSource = supermanAnimationData;
-                break;
-            case 'dceu_movies':
-                dataSource = dceuMoviesData;
-                dataSourceName = 'DCEU Movies';
-                break;
-            case 'dc_modern_series':
-                dataSource = modernDCSeriesData;
-                dataSourceName = 'DC Modern Series';
-                break;
-            default:
-                console.warn(`Unrecognized catalog ID: ${id}`);
-                return res.json({ metas: [] });
-        }
-        
-        if (!Array.isArray(dataSource)) {
-            throw new Error(`Data source for ID ${id} is not a valid array.`);
-        }
-        console.log(`Loaded ${dataSource.length} items for catalog: ${dataSourceName}`);
-    } catch (error) {
-        console.error(`❌ Error loading data for catalog ID ${id}:`, error.message);
-        return res.json({ metas: [] });
-    }
-    
-    console.log(`⏳ Generating catalog for ${dataSourceName}...`);
-    const metas = await Promise.all(
-        dataSource.map(item => fetchAdditionalData(item))
-    );
-    
-    const validMetas = metas.filter(item => item !== null);
-    console.log(`✅ Catalog generated with ${validMetas.length} items for ID: ${id}`);
-    
-    // Store in cache
-    cachedCatalog[cacheKey] = { metas: validMetas };
-    
-    // Apply RPDB posters if key is provided
-    if (rpdbKey) {
-        const metasWithRpdbPosters = replaceRpdbPosters(rpdbKey, validMetas);
-        return res.json({ metas: metasWithRpdbPosters });
-    }
-    
-    // Return the data
-    return res.json(cachedCatalog[cacheKey]);
+    return buildCatalogResponse(res, req, type, id, rpdbKey, `default-${id}`);
+});
+
+// Health check endpoint (lightweight, for uptime monitors)
+app.get('/health', (req, res) => {
+    res.json({ status: 'ok', uptime: Math.round(process.uptime()) });
 });
 
 // Default routes
