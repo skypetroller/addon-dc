@@ -13,6 +13,7 @@ const find = (arr, title, year) =>
 // James Gunn DCU in story order (The Suicide Squad bridges DCEU -> DCU).
 const gunnOrder = [
   [movies, 'The Suicide Squad', '2021'],
+  [movies, 'Blue Beetle', '2023'],
   [anim, 'Creature Commandos', '2024'],
   [movies, 'Superman', '2025'],
   [series, 'Peacemaker', undefined],
