@@ -740,7 +740,18 @@ app.get('/catalog/:type/:id.json', async (req, res) => {
 
 // Health check endpoint (lightweight, for uptime monitors)
 app.get('/health', (req, res) => {
-    res.json({ status: 'ok', uptime: Math.round(process.uptime()) });
+    let updatedAt = null;
+    try {
+        updatedAt = require('../Data/lastUpdated.json').updatedAt;
+    } catch (e) {
+        // Stamp file not present yet (pre-first updater run).
+    }
+    res.json({
+        status: 'ok',
+        uptime: Math.round(process.uptime()),
+        version: require('./manifest.json').version,
+        updatedAt
+    });
 });
 
 // Default routes

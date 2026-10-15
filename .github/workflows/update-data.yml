@@ -3,6 +3,7 @@ name: Auto-update DC catalog data
 on:
   schedule:
     - cron: '0 6 * * 1' # Every Monday at 06:00 UTC
+    - cron: '0 6 * * 4' # Every Thursday at 06:00 UTC
   workflow_dispatch: # Allow manual runs from the Actions tab
 
 permissions:
@@ -42,13 +43,20 @@ jobs:
       - name: Guard against degraded data
         run: node scripts/guardDataQuality.js
 
+      - name: Stamp data freshness
+        run: node scripts/writeLastUpdated.js
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add Data/
           if git diff --staged --quiet; then
-            echo "No data changes to commit."
+            echo "Nothing changed."
+          elif git diff --staged --quiet -- . ':(exclude)Data/lastUpdated.json'; then
+            # Only the freshness stamp changed — no version bump needed.
+            git commit -m "Updater ran, no data changes"
+            git push
           else
             node scripts/bumpVersion.js
             git add src/manifest.json src/server.js
