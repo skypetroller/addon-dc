@@ -33,6 +33,7 @@ try {
 }
 
 const app = express();
+app.set('trust proxy', true);
 
 // Middleware
 app.use(compression());
@@ -40,6 +41,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/assets', express.static(path.join(__dirname, '../assets')));
 
 // Cache for 3 weeks
 app.use((req, res, next) => {
@@ -410,8 +412,8 @@ app.get('/catalog/:catalogsParam/manifest.json', (req, res) => {
         name: "DC Universe Custom",
         description: `Your personalized selection of DC catalogs: ${selectedApiCatalogs.map(c => c.name).join(', ')}`,
         version: "1.3.0",
-        logo: "https://github.com/tapframe/addon-dc/blob/main/assets/icon.png?raw=true",
-        background: "https://github.com/tapframe/addon-dc/blob/main/assets/background.jpg?raw=true",
+        logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
+        background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: selectedApiCatalogs,
         resources: ["catalog"],
         types: ["movie", "series"],
@@ -445,8 +447,8 @@ app.get('/manifest.json', (req, res) => {
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations!",
         version: "1.3.0",
-        logo: "https://github.com/tapframe/addon-dc/blob/main/assets/icon.png?raw=true",
-        background: "https://github.com/tapframe/addon-dc/blob/main/assets/background.jpg?raw=true",
+        logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
+        background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
         resources: ["catalog"],
         types: ["movie", "series"],
@@ -473,8 +475,8 @@ app.get('/rpdb/:rpdbKey/manifest.json', (req, res) => {
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations! (with IMDb ratings on posters)",
         version: "1.3.0",
-        logo: "https://github.com/tapframe/addon-dc/blob/main/assets/icon.png?raw=true",
-        background: "https://github.com/tapframe/addon-dc/blob/main/assets/background.jpg?raw=true",
+        logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
+        background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
         resources: ["catalog"],
         types: ["movie", "series"],
@@ -586,7 +588,17 @@ app.get('/api/catalogs', (req, res) => {
         }
     ];
     
-    res.json(catalogInfo);
+    // Attach live item counts so users can see the data is current
+    const withCounts = catalogInfo.map(info => {
+        try {
+            const source = resolveCatalogSource(info.id);
+            return { ...info, count: source ? source.length : 0 };
+        } catch {
+            return { ...info, count: 0 };
+        }
+    });
+    
+    res.json(withCounts);
 });
 
 // Registry of every catalog source, keyed by catalog ID.
