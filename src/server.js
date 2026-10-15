@@ -43,9 +43,18 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/assets', express.static(path.join(__dirname, '../assets')));
 
-// Short cache (1 hour): catalogs rebuild in ~1s, so updates propagate fast.
+// Cache policy:
+//   - Catalog data responses (what Stremio scrolls through) are cached for an
+//     hour — the data changes at most twice a week, so this is a big win.
+//   - Everything else (manifests, the configure page, /health, /api/catalogs)
+//     must revalidate on every request, otherwise new catalogs, version bumps
+//     and freshness stamps get stuck in a 1-hour browser/CDN cache.
 app.use((req, res, next) => {
-    res.setHeader('Cache-Control', 'public, max-age=3600');
+    const isCatalogData =
+        /^\/(catalog|rpdb)\//.test(req.path) &&
+        req.path.endsWith('.json') &&
+        !req.path.endsWith('manifest.json');
+    res.setHeader('Cache-Control', isCatalogData ? 'public, max-age=3600' : 'no-cache');
     next();
 });
 
@@ -441,7 +450,7 @@ app.get('/catalog/:catalogsParam/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe Custom",
         description: `Your personalized selection of DC catalogs: ${selectedApiCatalogs.map(c => c.name).join(', ')}`,
-        version: "1.3.4",
+        version: "1.3.5",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: selectedApiCatalogs,
@@ -476,7 +485,7 @@ app.get('/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations!",
-        version: "1.3.4",
+        version: "1.3.5",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
@@ -504,7 +513,7 @@ app.get('/rpdb/:rpdbKey/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations! (with IMDb ratings on posters)",
-        version: "1.3.4",
+        version: "1.3.5",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),

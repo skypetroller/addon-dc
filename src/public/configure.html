@@ -254,6 +254,7 @@
                     <img src="/assets/icon.png" alt="DC Universe Logo" class="w-16 h-16 mx-auto mb-4 rounded-2xl">
                     <h1 class="text-2xl font-bold mb-1">Configure addon</h1>
                     <p class="text-sm text-gray-400">Select catalogs to include in your DC Universe addon</p>
+                    <p class="text-xs text-gray-500 mt-1">Click any catalog tile to toggle it on or off before installing</p>
                 </div>
             </div>
             
@@ -413,11 +414,11 @@
             },
             mounted() {
                 this.fetchCatalogs();
-                fetch('/manifest.json')
+                fetch('/manifest.json?v=' + Date.now(), { cache: 'no-store' })
                     .then(response => response.json())
                     .then(data => { this.version = data.version || ''; })
                     .catch(() => {});
-                fetch('/health')
+                fetch('/health?v=' + Date.now(), { cache: 'no-store' })
                     .then(response => response.json())
                     .then(data => {
                         if (data.updatedAt) {
@@ -432,7 +433,7 @@
                 fetchCatalogs() {
                     this.loading = true;
                     this.error = false;
-                    fetch('/api/catalogs')
+                    fetch('/api/catalogs?v=' + Date.now(), { cache: 'no-store' })
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error(`HTTP error! status: ${response.status}`);
