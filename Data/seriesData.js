@@ -6,6 +6,7 @@ module.exports = [
     "imdbId": "tt0044231",
     "id": "dc_tt0044231",
     "releaseYear": "1952",
+    "releaseDate": "1952-09-19",
     "poster": "https://image.tmdb.org/t/p/w500/3eKmwXE2A394l3GB9eIOy7kYm25.jpg",
     "ratings": [
       {
@@ -36,7 +37,8 @@ module.exports = [
       }
     ],
     "overview": "It's a bird! It's a plane! It's a syndicated TV adaptation of the beloved DC Comics superhero! You know the drill: When he isn't fighting for truth, justice and the American way, the man in tights dons a suit and glasses for his secret identity as Daily Planet newspaper reporter Clark Kent, who works alongside friends Lois Lane and Jimmy Olsen for gruff boss Perry White.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "8peLLeQrZSI"
   },
   {
     "tmdbId": 2287,
@@ -45,6 +47,7 @@ module.exports = [
     "imdbId": "tt0059968",
     "id": "dc_tt0059968",
     "releaseYear": "1966",
+    "releaseDate": "1966-01-12",
     "poster": "https://image.tmdb.org/t/p/w500/1ZEJuuDh0Zpi5ELM3Zev0GBhQ3R.jpg",
     "ratings": [
       {
@@ -76,6 +79,7 @@ module.exports = [
     "imdbId": "tt0071050",
     "id": "dc_tt0071050",
     "releaseYear": "1974",
+    "releaseDate": "1974-09-07",
     "poster": "https://image.tmdb.org/t/p/w500/iXNoY4ThylStpcDKrGJ3LIYiasE.jpg",
     "ratings": [
       {
@@ -103,6 +107,7 @@ module.exports = [
     "imdbId": "tt0072516",
     "id": "dc_tt0072516",
     "releaseYear": "1975",
+    "releaseDate": "1975-09-06",
     "poster": "https://image.tmdb.org/t/p/w500/lIc5LUIoshHlFXrC40e229Bu6IU.jpg",
     "ratings": [
       {
@@ -126,6 +131,7 @@ module.exports = [
     "imdbId": "tt0074074",
     "id": "dc_tt0074074",
     "releaseYear": "1975",
+    "releaseDate": "1975-11-07",
     "poster": "https://image.tmdb.org/t/p/w500/7vHxWO6ahByDWzWufFL48MXaktT.jpg",
     "ratings": [
       {
@@ -148,7 +154,8 @@ module.exports = [
       }
     ],
     "overview": "With the strength of Hercules, the wisdom of Athena, the speed of Mercury and the beauty of Aphrodite, she’s Wonder Woman. Beautiful Amazon princess Wonder Woman travels to 1940s America disguised as Diana Prince, assistant to handsome but trouble-prone Major Steve Trevor. Using her golden belt, which imbues her with astonishing strength, her bullet-deflecting bracelets, a golden lasso that dispels dishonesty and an invisible supersonic plane, Wonder Woman combats evil.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "G9dV-I7uYd0"
   },
   {
     "tmdbId": 4532,
@@ -157,6 +164,7 @@ module.exports = [
     "imdbId": "tt0094559",
     "id": "dc_tt0094559",
     "releaseYear": "1988",
+    "releaseDate": "1988-10-08",
     "poster": "https://image.tmdb.org/t/p/w500/g8QxvkOSGiGRk0nW6U8QLX0Y8NV.jpg",
     "ratings": [
       {
@@ -188,6 +196,7 @@ module.exports = [
     "imdbId": "tt0098919",
     "id": "dc_tt0098919",
     "releaseYear": "1990",
+    "releaseDate": "1990-07-27",
     "poster": "https://image.tmdb.org/t/p/w500/8Wtr63bGIp0kog5MVb27wky7d3q.jpg",
     "ratings": [
       {
@@ -219,6 +228,7 @@ module.exports = [
     "imdbId": "tt0098798",
     "id": "dc_tt0098798",
     "releaseYear": "1990",
+    "releaseDate": "1990-09-20",
     "poster": "https://image.tmdb.org/t/p/w500/fi1GEdCbyWRDHpyJcB25YYK7fh4.jpg",
     "ratings": [
       {
@@ -246,6 +256,7 @@ module.exports = [
     "imdbId": "tt0103447",
     "id": "dc_tt0103447",
     "releaseYear": "1992",
+    "releaseDate": "1992-07-20",
     "poster": "https://image.tmdb.org/t/p/w500/550hahC7sDSi3UEvBxCmrIDJrHD.jpg",
     "ratings": [
       {
@@ -269,6 +280,7 @@ module.exports = [
     "imdbId": "tt0106057",
     "id": "dc_tt0106057",
     "releaseYear": "1993",
+    "releaseDate": "1993-09-12",
     "poster": "https://image.tmdb.org/t/p/w500/veNiZIiBsSWSAfVcJzudcuD7N0e.jpg",
     "ratings": [
       {
@@ -295,7 +307,8 @@ module.exports = [
       }
     ],
     "overview": "A much more lavish version of the popular Superman television series which had first aired forty years earlier, Lois & Clark focused more on the Man of Steel's early adult years in Metropolis. With the unknowing help of Lois Lane, Clark Kent created Superman there in Metropolis after finding work at the world-famous Daily Planet newspaper, where he meets fellow reporter Lois Lane.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "Uxiu29masIo"
   },
   {
     "tmdbId": 4604,
@@ -304,6 +317,7 @@ module.exports = [
     "imdbId": "tt0279600",
     "id": "dc_tt0279600",
     "releaseYear": "2001",
+    "releaseDate": "2001-10-16",
     "poster": "https://image.tmdb.org/t/p/w500/pUhJGETy2sec4vEkiqJ9eGeIywc.jpg",
     "ratings": [
       {
@@ -326,7 +340,8 @@ module.exports = [
       }
     ],
     "overview": "The origins of the world’s greatest hero–from Krypton refugee Kal-el’s arrival on Earth through his tumultuous teen years to Clark Kent’s final steps toward embracing his destiny as the Man of Steel.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "70Y32si4yb8"
   },
   {
     "tmdbId": 1469,
@@ -335,6 +350,7 @@ module.exports = [
     "imdbId": "tt0312098",
     "id": "dc_tt0312098",
     "releaseYear": "2002",
+    "releaseDate": "2002-10-09",
     "poster": "https://image.tmdb.org/t/p/w500/gXeFSST0xqy5XNgrbuEaa5BxvDM.jpg",
     "ratings": [
       {
@@ -366,6 +382,7 @@ module.exports = [
     "imdbId": "tt1439741",
     "id": "dc_tt1439741",
     "releaseYear": "2010",
+    "releaseDate": "2010-01-15",
     "poster": "https://image.tmdb.org/t/p/w500/28DQmHuzVetpvq3dcK0snfEXflG.jpg",
     "ratings": [
       {
@@ -393,6 +410,7 @@ module.exports = [
     "imdbId": "tt2193021",
     "id": "dc_tt2193021",
     "releaseYear": "2012",
+    "releaseDate": "2012-10-10",
     "poster": "https://image.tmdb.org/t/p/w500/u8ZHFj1jC384JEkTt3vNg1DfWEb.jpg",
     "ratings": [
       {
@@ -415,7 +433,8 @@ module.exports = [
       }
     ],
     "overview": "Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "QLVHmovfMQI"
   },
   {
     "tmdbId": 60708,
@@ -424,6 +443,7 @@ module.exports = [
     "imdbId": "tt3749900",
     "id": "dc_tt3749900",
     "releaseYear": "2014",
+    "releaseDate": "2014-09-22",
     "poster": "https://image.tmdb.org/t/p/w500/zLpSNnVoL2bjQdc1PcaHUPUzttP.jpg",
     "ratings": [
       {
@@ -446,7 +466,8 @@ module.exports = [
       }
     ],
     "overview": "Everyone knows the name Commissioner Gordon. He is one of the crime world's greatest foes, a man whose reputation is synonymous with law and order. But what is known of Gordon's story and his rise from rookie detective to Police Commissioner? What did it take to navigate the multiple layers of corruption that secretly ruled Gotham City, the spawning ground of the world's most iconic villains? And what circumstances created them – the larger-than-life personas who would become Catwoman, The Penguin, The Riddler, Two-Face and The Joker?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "0d1zpt6k5OI"
   },
   {
     "tmdbId": 60735,
@@ -455,6 +476,7 @@ module.exports = [
     "imdbId": "tt3107288",
     "id": "dc_tt3107288",
     "releaseYear": "2014",
+    "releaseDate": "2014-10-07",
     "poster": "https://image.tmdb.org/t/p/w500/yZevl2vHQgmosfwUdVNzviIfaWS.jpg",
     "ratings": [
       {
@@ -473,7 +495,8 @@ module.exports = [
       }
     ],
     "overview": "After being struck by lightning, CSI investigator Barry Allen awakens from a nine-month coma to discover he has been  granted the gift of super speed.  Teaming up with S.T.A.R. Labs, Barry takes on the persona of The Flash, the Fastest  Man Alive, to protect his city.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "IgVyroQjZbE"
   },
   {
     "tmdbId": 60743,
@@ -482,6 +505,7 @@ module.exports = [
     "imdbId": "tt3489184",
     "id": "dc_tt3489184",
     "releaseYear": "2014",
+    "releaseDate": "2014-10-24",
     "poster": "https://image.tmdb.org/t/p/w500/gQ3bA1DBKyZwkDCHJFEAT0MkKpu.jpg",
     "ratings": [
       {
@@ -513,6 +537,7 @@ module.exports = [
     "imdbId": "tt4016454",
     "id": "dc_tt4016454",
     "releaseYear": "2015",
+    "releaseDate": "2015-10-26",
     "poster": "https://image.tmdb.org/t/p/w500/90mSQajf4STPROA6H7Hh8OvyWdK.jpg",
     "ratings": [
       {
@@ -535,7 +560,8 @@ module.exports = [
       }
     ],
     "overview": "Twenty-four-year-old Kara Zor-El, who was taken in by the Danvers family when she was 13 after being sent away from Krypton, must learn to embrace her powers after previously hiding them. The Danvers teach her to be careful with her powers, until she has to reveal them during an unexpected disaster, setting her on her journey of heroism.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "G3feO7J7U9E"
   },
   {
     "tmdbId": 62643,
@@ -544,6 +570,7 @@ module.exports = [
     "imdbId": "tt4532368",
     "id": "dc_tt4532368",
     "releaseYear": "2016",
+    "releaseDate": "2016-01-21",
     "poster": "https://image.tmdb.org/t/p/w500/qNgAcg4gNYbZ9mySLB9ZX4ehZb6.jpg",
     "ratings": [
       {
@@ -566,7 +593,8 @@ module.exports = [
       }
     ],
     "overview": "When heroes alone are not enough ... the world needs legends. Having seen the future, one he will desperately try to prevent from happening, time-traveling rogue Rip Hunter is tasked with assembling a disparate group of both heroes and villains to confront an unstoppable threat — one in which not only is the planet at stake, but all of time itself. Can this ragtag team defeat an immortal threat unlike anything they have ever known?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "_j_mEixBPMw"
   },
   {
     "tmdbId": 63174,
@@ -575,6 +603,7 @@ module.exports = [
     "imdbId": "tt4052886",
     "id": "dc_tt4052886",
     "releaseYear": "2016",
+    "releaseDate": "2016-01-25",
     "poster": "https://image.tmdb.org/t/p/w500/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
     "ratings": [
       {
@@ -593,7 +622,8 @@ module.exports = [
       }
     ],
     "overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "X4bF_quwNtw"
   },
   {
     "tmdbId": 68001,
@@ -602,6 +632,7 @@ module.exports = [
     "imdbId": "tt5083928",
     "id": "dc_tt5083928",
     "releaseYear": "2017",
+    "releaseDate": "2017-02-02",
     "poster": "https://image.tmdb.org/t/p/w500/oAAAqgKiWVeZbotsR0zukHjM9B1.jpg",
     "ratings": [
       {
@@ -620,7 +651,8 @@ module.exports = [
       }
     ],
     "overview": "Emily Locke lands her dream job as Director of Research and Development for Wayne Security in Charm City, home to super heroes and villains and citizens fed up with the collateral damage of their constant fighting.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "FB8KclKoUe4"
   },
   {
     "tmdbId": 71663,
@@ -629,6 +661,7 @@ module.exports = [
     "imdbId": "tt6045840",
     "id": "dc_tt6045840",
     "releaseYear": "2018",
+    "releaseDate": "2018-01-16",
     "poster": "https://image.tmdb.org/t/p/w500/h1xbvvO6oqchfLe6xh0yLNnQxeM.jpg",
     "ratings": [
       {
@@ -651,7 +684,8 @@ module.exports = [
       }
     ],
     "overview": "Jefferson Pierce is a man wrestling with a secret. As the father of two daughters and principal of a charter high school that also serves as a safe haven for young people in a New Orleans neighborhood overrun by gang violence, he is a hero to his community.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "3LAUGA01mUc"
   },
   {
     "tmdbId": 71340,
@@ -660,6 +694,7 @@ module.exports = [
     "imdbId": "tt4276624",
     "id": "dc_tt4276624",
     "releaseYear": "2018",
+    "releaseDate": "2018-03-21",
     "poster": "https://image.tmdb.org/t/p/w500/kMMWb4zIZKBnO3lOpVBXCL1BeNI.jpg",
     "ratings": [
       {
@@ -682,7 +717,8 @@ module.exports = [
       }
     ],
     "overview": "Set two generations before the destruction of the legendary Man of Steel’s home planet, Krypton follows Superman’s grandfather — whose House of El was ostracized and shamed — as he fights to redeem his family’s honor and save his beloved world from chaos.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "JvSZKB2WNKg"
   },
   {
     "tmdbId": 75450,
@@ -691,6 +727,7 @@ module.exports = [
     "imdbId": "tt1043813",
     "id": "dc_tt1043813",
     "releaseYear": "2018",
+    "releaseDate": "2018-10-12",
     "poster": "https://image.tmdb.org/t/p/w500/8e6QiSexmYKaiHGPvbhaFMmQEhc.jpg",
     "ratings": [
       {
@@ -717,7 +754,36 @@ module.exports = [
       }
     ],
     "overview": "A team of young superheroes led by Nightwing (formerly Batman's first Robin) form to combat evil and other perils.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "9xIZoih_DaE"
+  },
+  {
+    "tmdbId": 89247,
+    "title": "Batwoman",
+    "type": "series",
+    "imdbId": "tt8712204",
+    "id": "dc_tt8712204",
+    "releaseYear": "2019",
+    "releaseDate": "2019-10-06",
+    "poster": "https://image.tmdb.org/t/p/w500/pBpxKiitMuYXvtsXNSzya8DKKzV.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "3.6/10"
+      }
+    ],
+    "genres": [
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      }
+    ],
+    "overview": "Kate Kane, armed with a passion for social justice and a flair for speaking her mind, soars onto the streets of Gotham as Batwoman, an out lesbian and highly trained street fighter primed to snuff out the failing city's criminal resurgence. But don't call her a hero yet. In a city desperate for a savior, Kate must overcome her own demons before embracing the call to be Gotham's symbol of hope",
+    "trailer": "mPMjcNKsHTE"
   },
   {
     "tmdbId": 79501,
@@ -726,6 +792,7 @@ module.exports = [
     "imdbId": "tt8416494",
     "id": "dc_tt8416494",
     "releaseYear": "2019",
+    "releaseDate": "2019-02-15",
     "poster": "https://image.tmdb.org/t/p/w500/nVN7Dt0Xr78gnJepRsRLaLYklbY.jpg",
     "ratings": [
       {
@@ -744,7 +811,8 @@ module.exports = [
       }
     ],
     "overview": "The Doom Patrol’s members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "6tTM9nbRk5A"
   },
   {
     "tmdbId": 79240,
@@ -753,6 +821,7 @@ module.exports = [
     "imdbId": "tt8362852",
     "id": "dc_tt8362852",
     "releaseYear": "2019",
+    "releaseDate": "2019-05-31",
     "poster": "https://image.tmdb.org/t/p/w500/dD3HcMczLC9wNvfNzx4pZVyl6q8.jpg",
     "ratings": [
       {
@@ -775,7 +844,8 @@ module.exports = [
       }
     ],
     "overview": "CDC researcher Abby Arcane investigates what seems to be a deadly swamp-born virus in a small town in Louisiana but she soon discovers that the swamp holds mystical and terrifying secrets. When unexplainable and chilling horrors emerge from the murky marsh, no one is safe.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "xVnHZ5SF1Jg"
   },
   {
     "tmdbId": 80986,
@@ -784,6 +854,7 @@ module.exports = [
     "imdbId": "tt8722888",
     "id": "dc_tt8722888",
     "releaseYear": "2020",
+    "releaseDate": "2020-05-18",
     "poster": "https://image.tmdb.org/t/p/w500/JJxVsQPPiuLcArALotMHsCubeo.jpg",
     "ratings": [
       {
@@ -806,34 +877,8 @@ module.exports = [
       }
     ],
     "overview": "Courtney Whitmore, a smart, athletic and above all else kind girl, discovers her step-father has a secret: he used to be the sidekick to a superhero. \"Borrowing\" the long-lost hero’s cosmic staff, she becomes the unlikely inspiration for an entirely new generation of superheroes.",
-    "addedAt": "2026-10-15"
-  },
-  {
-    "tmdbId": 96195,
-    "title": "Paradise Lost",
-    "type": "series",
-    "imdbId": "tt10306320",
-    "id": "dc_tt10306320",
-    "releaseYear": "2020",
-    "poster": "https://image.tmdb.org/t/p/w500/ddmZnaxFkAl2yTCjiaHnxsaydtT.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.5/10"
-      }
-    ],
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 9648,
-        "name": "Mystery"
-      }
-    ],
-    "overview": "A psychiatrist moves with her family from California to her husband’s hometown in Mississippi only to uncover shameful secrets that irrevocably change the lives of everyone involved.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "9MyzBTmEQDo"
   },
   {
     "tmdbId": 95057,
@@ -842,6 +887,7 @@ module.exports = [
     "imdbId": "tt11192306",
     "id": "dc_tt11192306",
     "releaseYear": "2021",
+    "releaseDate": "2021-02-23",
     "poster": "https://image.tmdb.org/t/p/w500/vlv1gn98GqMnKHLSh0dNciqGfBl.jpg",
     "ratings": [
       {
@@ -860,7 +906,8 @@ module.exports = [
       }
     ],
     "overview": "After years of facing megalomaniacal supervillains, monsters wreaking havoc on Metropolis, and alien invaders intent on wiping out the human race, The Man of Steel aka Clark Kent and Lois Lane come face to face with one of their greatest challenges ever: dealing with all the stress, pressures and complexities that come with being working parents in today's society.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "SJPJPUpNvDw"
   },
   {
     "tmdbId": 125474,
@@ -869,6 +916,7 @@ module.exports = [
     "imdbId": "tt13624900",
     "id": "dc_tt13624900",
     "releaseYear": "2022",
+    "releaseDate": "2022-01-11",
     "poster": "https://image.tmdb.org/t/p/w500/xwS6ggTI8hTkVTz1I4U6BZ48pgZ.jpg",
     "ratings": [
       {
@@ -896,6 +944,7 @@ module.exports = [
     "imdbId": "tt13146488",
     "id": "dc_tt13146488",
     "releaseYear": "2022",
+    "releaseDate": "2022-01-13",
     "poster": "https://image.tmdb.org/t/p/w500/yb4F1Oocq8GfQt6iIuAgYEBokhG.jpg",
     "ratings": [
       {
@@ -918,7 +967,8 @@ module.exports = [
       }
     ],
     "overview": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "O9DAiLI7Cn8"
   },
   {
     "tmdbId": 90802,
@@ -927,6 +977,7 @@ module.exports = [
     "imdbId": "tt1751634",
     "id": "dc_tt1751634",
     "releaseYear": "2022",
+    "releaseDate": "2022-08-05",
     "poster": "https://image.tmdb.org/t/p/w500/q54qEgagGOYCq5D1903eBVMNkbo.jpg",
     "ratings": [
       {
@@ -949,7 +1000,8 @@ module.exports = [
       }
     ],
     "overview": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "ZJXamnPUm0I"
   },
   {
     "tmdbId": 195868,
@@ -958,6 +1010,7 @@ module.exports = [
     "imdbId": "tt16418896",
     "id": "dc_tt16418896",
     "releaseYear": "2023",
+    "releaseDate": "2023-03-14",
     "poster": "https://image.tmdb.org/t/p/w500/tbCGmkR3TRDug4weDnHEGCu3WEC.jpg",
     "ratings": [
       {
@@ -976,7 +1029,8 @@ module.exports = [
       }
     ],
     "overview": "In the aftermath of Bruce Wayne's murder, his rebellious adopted son forges an unlikely alliance with the children of Batman's enemies when they are all framed for killing the Caped Crusader.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "UTr1Icyluag"
   },
   {
     "tmdbId": 132750,
@@ -985,6 +1039,7 @@ module.exports = [
     "imdbId": "tt15358446",
     "id": "dc_tt15358446",
     "releaseYear": "2024",
+    "releaseDate": "2024-04-25",
     "poster": "https://image.tmdb.org/t/p/w500/346ju9C5zy0tkzfQoetOYtM74gw.jpg",
     "ratings": [
       {
@@ -1007,7 +1062,8 @@ module.exports = [
       }
     ],
     "overview": "Two teen ghosts work alongside a clairvoyant to solve mysteries for their supernatural clientele — until a powerful witch complicates their plans.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "8bGICMgXEn0"
   },
   {
     "tmdbId": 194764,
@@ -1016,6 +1072,7 @@ module.exports = [
     "imdbId": "tt15435876",
     "id": "dc_tt15435876",
     "releaseYear": "2024",
+    "releaseDate": "2024-09-19",
     "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
     "ratings": [
       {
@@ -1034,7 +1091,8 @@ module.exports = [
       }
     ],
     "overview": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "sfJG6IiA_s8"
   },
   {
     "tmdbId": 95350,
@@ -1043,6 +1101,7 @@ module.exports = [
     "imdbId": "tt26545992",
     "id": "dc_tt26545992",
     "releaseYear": "2026",
+    "releaseDate": "2026-08-16",
     "poster": "https://image.tmdb.org/t/p/w500/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
     "ratings": [
       {
@@ -1065,6 +1124,7 @@ module.exports = [
       }
     ],
     "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "7UIBOsuUwc4"
   }
 ];

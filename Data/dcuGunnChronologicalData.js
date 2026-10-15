@@ -6,6 +6,7 @@ module.exports = [
     "imdbId": "tt6334354",
     "id": "dc_tt6334354",
     "releaseYear": "2021",
+    "releaseDate": "2021-07-28",
     "poster": "https://image.tmdb.org/t/p/w500/q61qEyssk2ku3okWICKArlAdhBn.jpg",
     "ratings": [
       {
@@ -32,7 +33,8 @@ module.exports = [
       }
     ],
     "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "eg5ciqQzmK0"
   },
   {
     "tmdbId": 565770,
@@ -41,6 +43,7 @@ module.exports = [
     "imdbId": "tt9362930",
     "id": "dc_tt9362930",
     "releaseYear": "2023",
+    "releaseDate": "2023-08-16",
     "poster": "https://image.tmdb.org/t/p/w500/mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg",
     "ratings": [
       {
@@ -71,7 +74,8 @@ module.exports = [
       }
     ],
     "overview": "Recent college grad Jaime Reyes returns home full of aspirations for his future, only to find that home is not quite as he left it. As he searches to find his purpose in the world, fate intervenes when Jaime unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "4wxyy8Rcz4k"
   },
   {
     "tmdbId": 219543,
@@ -102,7 +106,8 @@ module.exports = [
       }
     ],
     "overview": "Follow the exploits of the Creature Commandos, a secret team of incarcerated monsters recruited for missions deemed too dangerous for humans. When all else fails... they're your last, worst option.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "VdahDEpqPA8"
   },
   {
     "tmdbId": 1061474,
@@ -111,6 +116,7 @@ module.exports = [
     "imdbId": "tt5950044",
     "id": "dc_tt5950044",
     "releaseYear": "2025",
+    "releaseDate": "2025-07-09",
     "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
     "ratings": [
       {
@@ -141,7 +147,8 @@ module.exports = [
       }
     ],
     "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "MikgqM0LXr4"
   },
   {
     "tmdbId": 110492,
@@ -150,6 +157,7 @@ module.exports = [
     "imdbId": "tt13146488",
     "id": "dc_tt13146488",
     "releaseYear": "2022",
+    "releaseDate": "2022-01-13",
     "poster": "https://image.tmdb.org/t/p/w500/yb4F1Oocq8GfQt6iIuAgYEBokhG.jpg",
     "ratings": [
       {
@@ -172,7 +180,8 @@ module.exports = [
       }
     ],
     "overview": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "O9DAiLI7Cn8"
   },
   {
     "tmdbId": 1081003,
@@ -181,6 +190,7 @@ module.exports = [
     "imdbId": "tt8814476",
     "id": "dc_tt8814476",
     "releaseYear": "2026",
+    "releaseDate": "2026-06-24",
     "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
     "ratings": [
       {
@@ -211,7 +221,8 @@ module.exports = [
       }
     ],
     "overview": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "rbLyjarG_bU"
   },
   {
     "tmdbId": 95350,
@@ -220,6 +231,7 @@ module.exports = [
     "imdbId": "tt26545992",
     "id": "dc_tt26545992",
     "releaseYear": "2026",
+    "releaseDate": "2026-08-16",
     "poster": "https://image.tmdb.org/t/p/w500/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
     "ratings": [
       {
@@ -242,7 +254,8 @@ module.exports = [
       }
     ],
     "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "7UIBOsuUwc4"
   },
   {
     "tmdbId": 1400940,
@@ -251,6 +264,7 @@ module.exports = [
     "imdbId": "tt34890576",
     "id": "dc_tt34890576",
     "releaseYear": "2026",
+    "releaseDate": "2026-10-21",
     "poster": "https://image.tmdb.org/t/p/w500/5jCpQnWPikggmQZoDp1eAi6BI6w.jpg",
     "ratings": [],
     "genres": [
@@ -268,7 +282,8 @@ module.exports = [
       }
     ],
     "overview": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "KCR-rz0YfD4"
   },
   {
     "tmdbId": 1523140,
@@ -277,6 +292,7 @@ module.exports = [
     "imdbId": "tt37833661",
     "id": "dc_tt37833661",
     "releaseYear": "2027",
+    "releaseDate": "2027-07-07",
     "poster": "https://image.tmdb.org/t/p/w500/tYLgfKk3cEk7LskgxWyW37Nty01.jpg",
     "ratings": [],
     "genres": [

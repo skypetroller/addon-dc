@@ -2,79 +2,531 @@
   "id": "com.skypetroller.dcuniverse",
   "name": "DC Universe",
   "description": "Explore the DC Universe by release date, movies, series, and animations!",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "logo": "https://github.com/tapframe/addon-dc/blob/main/assets/icon.png?raw=true",
   "background": "https://github.com/tapframe/addon-dc/blob/main/assets/background.jpg?raw=true",
   "catalogs": [
     {
       "type": "DC",
       "id": "dc-new",
-      "name": "New Releases"
+      "name": "New Releases",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Action & Adventure",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "Horror",
+            "Kids",
+            "Mystery",
+            "Sci-Fi & Fantasy",
+            "Science Fiction",
+            "TV Movie",
+            "Thriller",
+            "War",
+            "Western"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dcu-gunn-chronological",
-      "name": "James Gunn Chronological"
+      "name": "James Gunn Chronological",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Action & Adventure",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Drama",
+            "Horror",
+            "Mystery",
+            "Sci-Fi & Fantasy",
+            "Science Fiction",
+            "Thriller"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dc-chronological",
-      "name": "Zack Snyder Chronological"
+      "name": "Zack Snyder Chronological",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Action & Adventure",
+            "Adventure",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Fantasy",
+            "Sci-Fi & Fantasy",
+            "Science Fiction"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "DC",
+      "id": "dc-upcoming",
+      "name": "Coming Soon",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Crime",
+            "Drama",
+            "Horror",
+            "Mystery",
+            "Science Fiction",
+            "Thriller"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "DC",
+      "id": "dc-elseworlds",
+      "name": "DC Elseworlds",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Animation",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Thriller"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "DC",
+      "id": "dc-arrowverse",
+      "name": "Arrowverse",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action & Adventure",
+            "Crime",
+            "Drama",
+            "Sci-Fi & Fantasy"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "DC",
+      "id": "dc-dcau",
+      "name": "DC Animated Universe",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Action & Adventure",
+            "Adventure",
+            "Animation",
+            "Crime",
+            "Drama",
+            "Fantasy",
+            "Kids",
+            "Mystery",
+            "Sci-Fi & Fantasy",
+            "Science Fiction"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
+    {
+      "type": "DC",
+      "id": "dc-dcamu",
+      "name": "DC Animated Movie Universe",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Fantasy",
+            "Horror",
+            "Mystery",
+            "Science Fiction",
+            "Thriller"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dc-release",
-      "name": "Release Order"
+      "name": "Release Order",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Action & Adventure",
+            "Adventure",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "Horror",
+            "Mystery",
+            "Sci-Fi & Fantasy",
+            "Science Fiction",
+            "Thriller",
+            "Western"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dc-movies",
-      "name": "Movies"
+      "name": "Movies",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Fantasy",
+            "Horror",
+            "Mystery",
+            "Science Fiction",
+            "Thriller",
+            "Western"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dceu_movies",
-      "name": "DCEU Movies"
+      "name": "DCEU Movies",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Crime",
+            "Fantasy",
+            "Science Fiction"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dc-series",
-      "name": "Series"
+      "name": "Series",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action & Adventure",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Family",
+            "Mystery",
+            "Sci-Fi & Fantasy"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dc_modern_series",
-      "name": "DC Modern Series"
+      "name": "DC Modern Series",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action & Adventure",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Sci-Fi & Fantasy"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dc-animations",
-      "name": "Animations"
+      "name": "Animations",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Action & Adventure",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "Horror",
+            "Kids",
+            "Mystery",
+            "Sci-Fi & Fantasy",
+            "Science Fiction",
+            "TV Movie",
+            "Thriller",
+            "War"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dc-batman-animations",
-      "name": "Batman Animations"
+      "name": "Batman Animations",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Action & Adventure",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "Horror",
+            "Kids",
+            "Mystery",
+            "Sci-Fi & Fantasy",
+            "Science Fiction",
+            "TV Movie",
+            "Thriller"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dc-superman-animations",
-      "name": "Superman Animations"
+      "name": "Superman Animations",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Action & Adventure",
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "Horror",
+            "Kids",
+            "Mystery",
+            "Sci-Fi & Fantasy",
+            "Science Fiction",
+            "TV Movie",
+            "War"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dc-batman",
-      "name": "Batman Collection"
+      "name": "Batman Collection",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Fantasy",
+            "Mystery",
+            "Science Fiction",
+            "Thriller"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     },
     {
       "type": "DC",
       "id": "dc-superman",
-      "name": "Superman Collection"
+      "name": "Superman Collection",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Crime",
+            "Fantasy",
+            "Science Fiction"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
     }
   ],
-  "resources": ["catalog"],
-  "types": ["movie", "series"],
-  "idPrefixes": ["dc_"],
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "idPrefixes": [
+    "dc_"
+  ],
   "behaviorHints": {
     "configurable": true
   },

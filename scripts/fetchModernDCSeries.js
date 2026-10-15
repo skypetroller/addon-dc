@@ -37,7 +37,7 @@ const seriesToFetch = [
     // { title: "Creature Commandos", year: 2024 }, // Animated - Will be filtered out
     { title: "Waller", year: 2025 }, // Placeholder
     { title: "Lanterns", year: 2026 }, // Placeholder
-    { title: "Paradise Lost", year: 2026 }, // Placeholder, approximate year
+    // { title: "Paradise Lost", year: 2026 }, // Removed: year-less search matched a non-DC 2020 show
     { title: "Booster Gold", year: 2026 }, // Placeholder, approximate year
 ];
 

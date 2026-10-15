@@ -199,6 +199,7 @@ async function fetchSpecificMovies() {
             imdbId: imdbId || `tmdb_${tmdbId}`,
             id: `dc_${imdbId || 'tmdb_' + tmdbId}`,
             releaseYear,
+            releaseDate: details.release_date || null,
             poster,
             ratings,
             genres,

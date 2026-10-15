@@ -17,6 +17,10 @@ const FILES = [
   'Data/everythingsuperman.js',
   'Data/releaseData.js',
   'Data/dcuGunnChronologicalData.js',
+  'Data/elseworldsData.js',
+  'Data/arrowverseData.js',
+  'Data/dcauData.js',
+  'Data/dcamuData.js',
 ];
 
 function loadFromGit(rev, file) {

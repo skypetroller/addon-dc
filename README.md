@@ -1,152 +1,155 @@
 # 🦇 DC Universe Add-on for Stremio
 
-Explore the DC Universe within Stremio! Browse movies and series by **chronological order**, **release date**, or content type (**movies**, **series**, **animations**).
+A self-hosted fork of [tapframe/addon-dc](https://github.com/tapframe/addon-dc) that puts a curated DC library inside Stremio — and **keeps itself up to date automatically**. New movies, series and animations are discovered from TMDb twice a week, committed by CI, and served fresh within the hour.
+
+**Live addon:** https://addon-dc-ila1.onrender.com
+**Configure page:** https://addon-dc-ila1.onrender.com/configure
 
 ---
 
 ## ✨ Features
 
-*   🕰️ **Chronological Order**: Based on a curated DCEU timeline.
-*   📅 **Release Date**: Browse non-animated titles by original release order.
-*   🎬 **Movies, Series & Animations**: Filter by content type.
-*   ⚡ **Data Updates**: Easily refresh content using the included scripts.
-*   🚀 **Fast & Lightweight**: Optimized for performance.
-*   🔍 **Custom Catalogs**: Create your personal catalog selection based on your preferences.
-*   ⭐ **RPDB Support (Optional)**: Show ratings directly on posters by adding your [RatingPosterDB](https://ratingposterdb.com) API key during configuration.
-
----
-
-## 🎉 What's New (June 2024)
-
-*   **Simplified Custom Catalogs**: Now you can select which DC catalogs to include without needing a unique identifier.
-*   **Improved User Experience**: The configuration page has been redesigned for ease of use.
-*   **Streamlined URL Structure**: Cleaner, simpler URLs for custom catalog configurations.
-
-### Previous Updates (May 2024)
-
-*   **Curated Catalogs**: Added specific, curated catalogs for:
-    *   DCEU Movies
-    *   Modern DC Series (Live-Action, 2010s-Present)
-    *   All Batman Movies (Live-Action & Serials)
-    *   All Superman Movies (Live-Action & Serials)
-*   **Improved Data Quality**: Items without essential metadata (poster image, overview) are now filtered out during data generation.
-*   **Catalog Reordering**: Catalogs are now ordered more logically in the Stremio interface.
-*   **Manifest Update**: Catalogs now use the `DC` type for better grouping in Stremio.
+*   🤖 **Automatic updates** — GitHub Actions refreshes every catalog twice a week (Mondays + Thursdays), auto-discovers new DC releases via TMDb, and commits them with a version bump. No manual pings.
+*   🕰️ **Curated universes** — James Gunn DCU in story order, Zack Snyder DCEU in story order, Arrowverse, the classic DCAU, the 15-film DCAMU, and Elseworlds (Joker / The Batman / The Penguin).
+*   📅 **Coming Soon** — announced titles with a confirmed future release date.
+*   🔍 **Search, genre filters & paging** — every catalog ships a search box, a genre dropdown and infinite scrolling.
+*   ▶️ **Trailers** — YouTube trailer links are stored with the data and surfaced by Stremio.
+*   🆕 **New Releases** — everything added to the library in the last 120 days, animations included.
+*   ⭐ **RPDB support (optional)** — show ratings on posters by adding your [RatingPosterDB](https://ratingposterdb.com) API key on the configure page.
+*   🛡️ **Data quality guard** — CI refuses to commit degraded data (counting drops, missing posters/overviews/ratings after a quota hiccup), and weekly failures open a GitHub issue automatically.
+*   🌡️ **Freshness visible** — the configure page footer shows the last data refresh, `/health` reports it as JSON, and a keep-alive workflow prevents cold starts on Render's free tier.
 
 ---
 
 ## 📦 Installation
 
-### Standard Installation
+### Standard installation
 
-Install directly from Stremio addon catalog or use this URL:
+Use the addon URL directly:
+
 ```
-https://addon-dc-cq85.onrender.com```
-
-### Custom Catalog Configuration
-
-Create your personalized DC Universe addon with only the catalogs you want:
-
-1. Visit the configuration page: `https://addon-dc.vercel.app/configure`
-2. Select the catalogs you want to include in your addon
-3. Click the "Generate Installation Link" button
-4. Use the generated link to install the addon in Stremio
-
-## Running Locally
-
-### Prerequisites
-- Node.js and npm installed
-
-### Setup
-1. Clone the repository:
+https://addon-dc-ila1.onrender.com/manifest.json
 ```
-git clone https://github.com/tapframe/addon-dc.git
+
+### Custom catalog configuration
+
+1. Visit the configuration page: https://addon-dc-ila1.onrender.com/configure
+2. Select the catalogs you want (optionally add your RPDB key)
+3. Click **Install addon**
+
+The install URL encodes your selection, e.g. `https://addon-dc-ila1.onrender.com/catalog/dc-new,dc-movies/manifest.json`.
+
+---
+
+## 📚 Catalogs
+
+| Catalog | Contents |
+| --- | --- |
+| **New Releases** | DC titles added in the last 120 days |
+| **James Gunn Chronological** | DCU movies & shows in story order |
+| **Zack Snyder Chronological** | Snyder-era DCEU in story order |
+| **Coming Soon** | Announced titles with a confirmed future date |
+| **DC Elseworlds** | Joker, The Batman, The Penguin & more |
+| **Arrowverse** | The CW multiverse shows in premiere order |
+| **DC Animated Universe** | Bruce Timm's DCAU in viewing order |
+| **DC Animated Movie Universe** | The 15-film DCAMU, Flashpoint to Apokolips War |
+| **Release Order** | All non-animated titles by release date |
+| **Movies** | All live-action DC movies |
+| **DCEU Movies** | The official DCEU collection |
+| **Series** | All live-action DC series |
+| **DC Modern Series** | Live-action series from the 2010s on |
+| **Animations** | All animated features and series |
+| **Batman / Superman Animations** | Character-focused animated collections |
+| **Batman / Superman Collections** | Character-focused live-action movies |
+
+---
+
+## 🤖 How the automatic updates work
+
+`.github/workflows/update-data.yml` runs every **Monday and Thursday at 06:00 UTC** (and on demand from the Actions tab):
+
+1. Re-fetches every curated catalog from TMDb/OMDb (posters, overviews, ratings, release dates).
+2. Discovers new DC releases from the last 2 years and appends genuinely new titles.
+3. Rebuilds the derived catalogs (Gunn order, Elseworlds, Arrowverse, DCAU, DCAMU, release data).
+4. Stores YouTube trailer links for new titles.
+5. Runs the data-quality guard, commits, bumps the manifest version and pushes.
+6. Render redeploys automatically; catalogs are cached for one hour.
+
+The commit message lists the new titles. Successful runs close any open "Data updater failed" issue; failures open one.
+
+---
+
+## 🚀 Deploy your own
+
+1. **Fork** this repository.
+2. **Get API keys** (both free): [TMDb](https://www.themoviedb.org/settings/api) and [OMDb](https://www.omdbapi.com/apikey.aspx).
+3. **Add GitHub secrets** (Settings → Secrets and variables → Actions): `TMDB_API_KEY`, `OMDB_API_KEY`.
+4. **Deploy on Render** as a Web Service — build command `npm install`, start command `npm run start:server` — and set the same two env vars (`PORT` is provided by Render).
+5. Optional: update the URLs inside `.github/workflows/keepalive.yml` and the badge links if you rename the service.
+
+---
+
+## 🖥️ Running locally
+
+```bash
+git clone https://github.com/skypetroller/addon-dc.git
 cd addon-dc
-```
-
-2. Install dependencies:
-```
 npm install
 ```
 
-3. Create a `.env` file with your API keys:
+Create a `.env` file:
+
 ```
 TMDB_API_KEY=your_tmdb_key
 OMDB_API_KEY=your_omdb_key
 PORT=7000
 ```
 
-4. Start the server:
+Start the Express server (custom catalogs, configure page, API routes):
 
-For the standard Stremio SDK server:
-```
-npm start
-```
-
-For the Express server with custom catalog support:
-```
+```bash
 npm run start:server
 ```
 
-5. The addon will be available at:
-   - Standard SDK: `http://localhost:7000/manifest.json`
-   - Express server: `http://localhost:7000/configure` (configuration page)
+Then open `http://localhost:7000/configure`.
 
-## Custom Catalog Support
+Refresh the data manually any time:
 
-The Express server version allows you to create personalized catalog selections. The URL format is:
-
-```
-http://localhost:7000/catalog/SELECTED-CATALOG-IDS/manifest.json
-```
-
-Where `SELECTED-CATALOG-IDS` is a comma-separated list of catalog IDs you want to include, such as:
-```
-dc-chronological,dc-movies,dc-batman
+```bash
+node scripts/fetchMoviesList.js && node scripts/fetchSeriesList.js
+node scripts/discoverNewReleases.js
+node scripts/combineReleaseData.js
+node scripts/buildGunnChronological.js
+node scripts/buildElseworlds.js && node scripts/buildArrowverse.js
+node scripts/buildDcau.js && node scripts/buildDcamu.js
+node scripts/fetchTrailers.js
+node scripts/guardDataQuality.js
 ```
 
-## Available Catalogs
+---
 
-- **dc-chronological**: DC Universe in chronological order
-- **dc-release**: DC Universe in release order
-- **dc-movies**: All DC movies
-- **dceu_movies**: DCEU movies only
-- **dc-series**: All DC series
-- **dc_modern_series**: Modern DC series
-- **dc-animations**: All DC animations
-- **dc-batman-animations**: Batman animations
-- **dc-superman-animations**: Superman animations
-- **dc-batman**: Batman movie collection
-- **dc-superman**: Superman movie collection
+## 🧩 Express API routes
 
-## Development
+| Route | Purpose |
+| --- | --- |
+| `/manifest.json` | Full addon manifest (all catalogs) |
+| `/catalog/<ids>/manifest.json` | Manifest limited to selected catalogs |
+| `/catalog/<type>/<id>.json` | Catalog data (also accepts `/search=x&genre=y&skip=100` extras) |
+| `/rpdb/<key>/manifest.json` | Manifest with RPDB posters |
+| `/configure` | Configuration page |
+| `/api/catalogs` | Catalog list with live item counts |
+| `/health` | Status, uptime, version, last data refresh |
 
-This addon uses:
-- The Movie Database (TMDb) API for metadata
-- OMDb API for additional movie information
-- Stremio Addon SDK for standard addon functionality
-- Express.js for the custom server with catalog customization
+---
 
 ## License
 
-This project is under the MIT License.
+MIT — see [LICENSE](LICENSE).
 
 ---
 
 ## 🙏 Acknowledgements
 
-This addon is a modified fork of the original Marvel addon created by **joaogonp**. Many thanks for the initial work!
-
----
-
-## ☕ Support
-
-If you find this addon useful, you can support its development:
-
-[Buy Me a Coffee🍺](https://buymeacoffee.com/tapframe)
-
----
-
-## 📬 Feedback
-
-Issues, suggestions, or questions? Open an issue.
+*   **joaogonp** — creator of the original Marvel addon this project descends from.
+*   **tapframe** — author of the DC fork this repository is based on.
+*   This fork adds automated updates, the curated universes, search/genre filters, Coming Soon, trailers, freshness reporting and the data-quality guard.

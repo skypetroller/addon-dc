@@ -137,7 +137,8 @@ async function fetchAdditionalData(item) {
       description: item.overview || 'No description available.',
       releaseInfo: item.releaseYear || 'N/A',
       imdbRating: storedImdbRating || 'N/A',
-      genres: item.genres ? item.genres.map(g => g.name) : []
+      genres: item.genres ? item.genres.map(g => g.name) : [],
+      ...(item.trailer ? { trailers: [{ source: item.trailer, type: 'Trailer' }] } : {})
   });
 
   if (hasFullLocal) {
@@ -177,7 +178,8 @@ async function fetchAdditionalData(item) {
           description: item.overview || 'Metadata lookup unavailable (API key missing).', // Use local overview
           releaseInfo: item.releaseYear || 'N/A',
           imdbRating: 'N/A',
-          genres: item.genres ? item.genres.map(g => g.name) : []
+          genres: item.genres ? item.genres.map(g => g.name) : [],
+          ...(item.trailer ? { trailers: [{ source: item.trailer, type: 'Trailer' }] } : {})
       };
   }
 
@@ -283,7 +285,8 @@ async function fetchAdditionalData(item) {
       releaseInfo: item.releaseYear || (tmdbData.release_date ? tmdbData.release_date.split('-')[0] : (tmdbData.first_air_date ? tmdbData.first_air_date.split('-')[0] : 'N/A')),
       imdbRating: omdbData.imdbRating || storedImdbRating || 'N/A',
       // Use TMDb genres if available, otherwise fallback to local genres
-      genres: tmdbData.genres ? tmdbData.genres.map(g => g.name) : (item.genres ? item.genres.map(g => g.name) : [])
+      genres: tmdbData.genres ? tmdbData.genres.map(g => g.name) : (item.genres ? item.genres.map(g => g.name) : []),
+      ...(item.trailer ? { trailers: [{ source: item.trailer, type: 'Trailer' }] } : {})
     };
 
     console.log('   > Returning metadata:', { ...meta, description: meta.description.substring(0, 50) + '...'}); // Log truncated desc
@@ -311,6 +314,31 @@ function getAllCatalogs() {
             type: "DC",
             id: "dc-chronological",
             name: "Zack Snyder Chronological"
+        },
+        {
+            type: "DC",
+            id: "dc-upcoming",
+            name: "Coming Soon"
+        },
+        {
+            type: "DC",
+            id: "dc-elseworlds",
+            name: "DC Elseworlds"
+        },
+        {
+            type: "DC",
+            id: "dc-arrowverse",
+            name: "Arrowverse"
+        },
+        {
+            type: "DC",
+            id: "dc-dcau",
+            name: "DC Animated Universe"
+        },
+        {
+            type: "DC",
+            id: "dc-dcamu",
+            name: "DC Animated Movie Universe"
         },
         {
             type: "DC",
@@ -413,7 +441,7 @@ app.get('/catalog/:catalogsParam/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe Custom",
         description: `Your personalized selection of DC catalogs: ${selectedApiCatalogs.map(c => c.name).join(', ')}`,
-        version: "1.3.3",
+        version: "1.3.4",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: selectedApiCatalogs,
@@ -448,7 +476,7 @@ app.get('/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations!",
-        version: "1.3.3",
+        version: "1.3.4",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
@@ -476,7 +504,7 @@ app.get('/rpdb/:rpdbKey/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations! (with IMDb ratings on posters)",
-        version: "1.3.3",
+        version: "1.3.4",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
@@ -517,6 +545,41 @@ app.get('/api/catalogs', (req, res) => {
             category: 'Timeline',
             description: 'Snyder DCEU films and shows in story order',
             icon: 'calendar-alt'
+        },
+        { 
+            id: 'dc-upcoming', 
+            name: 'Coming Soon', 
+            category: 'Timeline',
+            description: 'Announced DC titles with a confirmed future release date',
+            icon: 'clock'
+        },
+        { 
+            id: 'dc-elseworlds', 
+            name: 'DC Elseworlds', 
+            category: 'Curated',
+            description: 'Out-of-continuity stories: Joker, The Batman, The Penguin & more',
+            icon: 'star'
+        },
+        { 
+            id: 'dc-arrowverse', 
+            name: 'Arrowverse', 
+            category: 'Curated',
+            description: 'The CW Arrowverse shows in premiere order',
+            icon: 'tv'
+        },
+        { 
+            id: 'dc-dcau', 
+            name: 'DC Animated Universe', 
+            category: 'Curated',
+            description: 'The classic Bruce Timm DCAU in viewing order',
+            icon: 'play-circle'
+        },
+        { 
+            id: 'dc-dcamu', 
+            name: 'DC Animated Movie Universe', 
+            category: 'Curated',
+            description: 'The 15-film DCAMU, Flashpoint Paradox to Apokolips War',
+            icon: 'play-circle'
         },
         { 
             id: 'dc-release', 
@@ -635,7 +698,33 @@ const CATALOG_SOURCES = {
                 // Same added date (baseline backfill) — newest release year first.
                 return (parseInt(b.releaseYear, 10) || 0) - (parseInt(a.releaseYear, 10) || 0);
             });
-    }
+    },
+    // Announced titles with a confirmed future date — feeds "Coming Soon".
+    'dc-upcoming': () => {
+        const today = new Date().toISOString().split('T')[0];
+        const currentYear = new Date().getFullYear();
+        const seen = new Set();
+        return [...releaseData, ...animationsData]
+            .filter((item) => {
+                // Prefer the full release date; fall back to a future year.
+                if (item.releaseDate) return item.releaseDate > today;
+                return (parseInt(item.releaseYear, 10) || 0) > currentYear;
+            })
+            .filter((item) => {
+                if (seen.has(item.id)) return false;
+                seen.add(item.id);
+                return true;
+            })
+            .sort((a, b) => {
+                const da = a.releaseDate || `${a.releaseYear}-12-31`;
+                const db = b.releaseDate || `${b.releaseYear}-12-31`;
+                return da.localeCompare(db) || String(a.title).localeCompare(String(b.title));
+            });
+    },
+    'dc-elseworlds': () => require('../Data/elseworldsData'),
+    'dc-arrowverse': () => require('../Data/arrowverseData'),
+    'dc-dcau': () => require('../Data/dcauData'),
+    'dc-dcamu': () => require('../Data/dcamuData')
 };
 
 // Resolves a catalog ID to its data array. Returns null for unknown IDs.

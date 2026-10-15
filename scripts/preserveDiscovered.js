@@ -23,12 +23,16 @@ function mergeDiscovered(newData, outputPath) {
   const byKey = new Map(old.map((i) => [key(i), i]));
   const newKeys = new Set(newData.map(key));
 
-  // 1. Carry over addedAt (and the discovered marker) for entries that persist.
+  // 1. Carry over addedAt, the discovered marker, the stored trailer and the
+  //    full release date (trailers are fetched separately by fetchTrailers.js,
+  //    not by the curated fetch scripts).
   for (const item of newData) {
     const prev = byKey.get(key(item));
     if (prev) {
       if (prev.addedAt && !item.addedAt) item.addedAt = prev.addedAt;
       if (prev.discovered) item.discovered = true;
+      if (prev.trailer && !item.trailer) item.trailer = prev.trailer;
+      if (prev.releaseDate && !item.releaseDate) item.releaseDate = prev.releaseDate;
     }
   }
 

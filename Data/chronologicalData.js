@@ -34,7 +34,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "trailer": "VSB4wGIdDwo"
   },
   {
     "tmdbId": 464052,
@@ -71,7 +72,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "trailer": "EMgbWouN4wE"
   },
   {
     "tmdbId": 49521,
@@ -108,7 +110,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "trailer": "vGrBV1C4hgo"
   },
   {
     "tmdbId": 209112,
@@ -145,7 +148,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "trailer": "s9EkdAHqtvU"
   },
   {
     "tmdbId": 297761,
@@ -182,7 +186,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "trailer": "m0Xb9BhfVjY"
   },
   {
     "tmdbId": 141052,
@@ -219,7 +224,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "trailer": "PXrgvNXfN7M"
   },
   {
     "tmdbId": 791373,
@@ -256,7 +262,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "trailer": "ui37YKQ9AC4"
   },
   {
     "tmdbId": 297802,
@@ -293,7 +300,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "trailer": "2wcj6SrX4zw"
   },
   {
     "tmdbId": 287947,
@@ -330,7 +338,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "trailer": "uilJZZ_iVwY"
   },
   {
     "tmdbId": 495764,
@@ -363,7 +372,8 @@ module.exports = [
         "id": 80,
         "name": "Crime"
       }
-    ]
+    ],
+    "trailer": "q2u2raiIlm0"
   },
   {
     "tmdbId": 436969,
@@ -396,7 +406,8 @@ module.exports = [
         "id": 12,
         "name": "Adventure"
       }
-    ]
+    ],
+    "trailer": "eg5ciqQzmK0"
   },
   {
     "tmdbId": 110492,
@@ -425,7 +436,8 @@ module.exports = [
         "id": 18,
         "name": "Drama"
       }
-    ]
+    ],
+    "trailer": "O9DAiLI7Cn8"
   },
   {
     "tmdbId": 436270,
@@ -462,7 +474,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "trailer": "mkomfZHG5q4"
   },
   {
     "tmdbId": 594767,
@@ -499,7 +512,8 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "trailer": "AIc671o9yCI"
   },
   {
     "tmdbId": 298618,
@@ -536,7 +550,8 @@ module.exports = [
         "id": 878,
         "name": "Science Fiction"
       }
-    ]
+    ],
+    "trailer": "jprhe-cWKGs"
   },
   {
     "tmdbId": 572802,
@@ -573,6 +588,7 @@ module.exports = [
         "id": 14,
         "name": "Fantasy"
       }
-    ]
+    ],
+    "trailer": "4cSkHPW-MPE"
   }
 ];

@@ -27,7 +27,8 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Superman comes to Earth as a child and grows up to be his home's first superhero with his first major challenge being to oppose The Spider Lady."
+    "overview": "Superman comes to Earth as a child and grows up to be his home's first superhero with his first major challenge being to oppose The Spider Lady.",
+    "trailer": "YH_5_LFUvNY"
   },
   {
     "tmdbId": 106358,
@@ -53,7 +54,8 @@ module.exports = [
         "name": "Science Fiction"
       }
     ],
-    "overview": "Superman battles Lex Luthor, who is using a teleportation device and a new identity as Atom Man in his criminal plans."
+    "overview": "Superman battles Lex Luthor, who is using a teleportation device and a new identity as Atom Man in his criminal plans.",
+    "trailer": "ovaO93u1qDE"
   },
   {
     "tmdbId": 41800,
@@ -83,7 +85,8 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Reporters Clark Kent and Lois Lane arrive in the small town of Silsby to witness the drilling of the world's deepest oil well. The drill, however, has penetrated the underground home of a race of small, furry people who then come to the surface at night to look around. The fact that they glow in the dark scares the townfolk, who form a mob, led by the vicious Luke Benson, intent on killing the strange people. Only Superman has a chance to prevent this tragedy."
+    "overview": "Reporters Clark Kent and Lois Lane arrive in the small town of Silsby to witness the drilling of the world's deepest oil well. The drill, however, has penetrated the underground home of a race of small, furry people who then come to the surface at night to look around. The fact that they glow in the dark scares the townfolk, who form a mob, led by the vicious Luke Benson, intent on killing the strange people. Only Superman has a chance to prevent this tragedy.",
+    "trailer": "QygK8gYl-2M"
   },
   {
     "tmdbId": 1924,
@@ -121,7 +124,8 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Mild-mannered Clark Kent works as a reporter at the Daily Planet alongside his crush, Lois Lane. Clark must summon his superhero alter-ego when the nefarious Lex Luthor launches a plan to take over the world."
+    "overview": "Mild-mannered Clark Kent works as a reporter at the Daily Planet alongside his crush, Lois Lane. Clark must summon his superhero alter-ego when the nefarious Lex Luthor launches a plan to take over the world.",
+    "trailer": "xXyuUbtpmxE"
   },
   {
     "tmdbId": 8536,
@@ -159,7 +163,8 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Three Kryptonian criminals led by General Zod team up with Lex Luthor to conquer Earth, forcing a depowered Superman to regain his strength and stop them."
+    "overview": "Three Kryptonian criminals led by General Zod team up with Lex Luthor to conquer Earth, forcing a depowered Superman to regain his strength and stop them.",
+    "trailer": "8FF60gilDng"
   },
   {
     "tmdbId": 9531,
@@ -201,7 +206,8 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Aiming to defeat the Man of Steel, wealthy executive Ross Webster hires bumbling but brilliant Gus Gorman to develop synthetic kryptonite, which yields some unexpected psychological effects. Between rekindling romance with his high school sweetheart and saving himself, Superman must contend with a powerful supercomputer."
+    "overview": "Aiming to defeat the Man of Steel, wealthy executive Ross Webster hires bumbling but brilliant Gus Gorman to develop synthetic kryptonite, which yields some unexpected psychological effects. Between rekindling romance with his high school sweetheart and saving himself, Superman must contend with a powerful supercomputer.",
+    "trailer": "O6LHQrfGEW4"
   },
   {
     "tmdbId": 11411,
@@ -239,7 +245,8 @@ module.exports = [
         "name": "Science Fiction"
       }
     ],
-    "overview": "With global superpowers engaged in an increasingly hostile arms race, Superman leads a crusade to rid the world of nuclear weapons. But Lex Luthor, recently sprung from jail, is declaring war on the Man of Steel and his quest to save the planet. Using a strand of Superman's hair, Luthor synthesizes a powerful ally known as Nuclear Man and ignites an epic battle spanning Earth and space."
+    "overview": "With global superpowers engaged in an increasingly hostile arms race, Superman leads a crusade to rid the world of nuclear weapons. But Lex Luthor, recently sprung from jail, is declaring war on the Man of Steel and his quest to save the planet. Using a strand of Superman's hair, Luthor synthesizes a powerful ally known as Nuclear Man and ignites an epic battle spanning Earth and space.",
+    "trailer": "J3IFSj4ebwU"
   },
   {
     "tmdbId": 1452,
@@ -277,7 +284,8 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Superman returns to discover his 5-year absence has allowed Lex Luthor to walk free, and that those he was closest to felt abandoned and have moved on. Luthor plots his ultimate revenge that could see millions killed and change the face of the planet forever, as well as ridding himself of the Man of Steel."
+    "overview": "Superman returns to discover his 5-year absence has allowed Lex Luthor to walk free, and that those he was closest to felt abandoned and have moved on. Luthor plots his ultimate revenge that could see millions killed and change the face of the planet forever, as well as ridding himself of the Man of Steel.",
+    "trailer": "zVCozSQj8TQ"
   },
   {
     "tmdbId": 49521,
@@ -315,7 +323,8 @@ module.exports = [
         "name": "Science Fiction"
       }
     ],
-    "overview": "A young boy learns that he has extraordinary powers and is not of this earth. As a young man, he journeys to discover where he came from and what he was sent here to do. But the hero in him must emerge if he is to save the world from annihilation and become the symbol of hope for all mankind."
+    "overview": "A young boy learns that he has extraordinary powers and is not of this earth. As a young man, he journeys to discover where he came from and what he was sent here to do. But the hero in him must emerge if he is to save the world from annihilation and become the symbol of hope for all mankind.",
+    "trailer": "vGrBV1C4hgo"
   },
   {
     "tmdbId": 209112,
@@ -353,7 +362,8 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "Fearing the actions of a god-like Super Hero left unchecked, Gotham City’s own formidable, forceful vigilante takes on Metropolis’s most revered, modern-day savior, while the world wrestles with what sort of hero it really needs. And with Batman and Superman at war with one another, a new threat quickly arises, putting mankind in greater danger than it’s ever known before."
+    "overview": "Fearing the actions of a god-like Super Hero left unchecked, Gotham City’s own formidable, forceful vigilante takes on Metropolis’s most revered, modern-day savior, while the world wrestles with what sort of hero it really needs. And with Batman and Superman at war with one another, a new threat quickly arises, putting mankind in greater danger than it’s ever known before.",
+    "trailer": "s9EkdAHqtvU"
   },
   {
     "tmdbId": 141052,
@@ -391,7 +401,8 @@ module.exports = [
         "name": "Science Fiction"
       }
     ],
-    "overview": "Fuelled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne and Diana Prince assemble a team of metahumans consisting of Barry Allen, Arthur Curry and Victor Stone to face the catastrophic threat of Steppenwolf and the Parademons who are on the hunt for three Mother Boxes on Earth."
+    "overview": "Fuelled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne and Diana Prince assemble a team of metahumans consisting of Barry Allen, Arthur Curry and Victor Stone to face the catastrophic threat of Steppenwolf and the Parademons who are on the hunt for three Mother Boxes on Earth.",
+    "trailer": "PXrgvNXfN7M"
   },
   {
     "tmdbId": 791373,
@@ -429,7 +440,8 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
+    "overview": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+    "trailer": "ui37YKQ9AC4"
   },
   {
     "tmdbId": 1061474,
@@ -467,7 +479,8 @@ module.exports = [
         "name": "Action"
       }
     ],
-    "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent."
+    "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+    "trailer": "MikgqM0LXr4"
   },
   {
     "tmdbId": 1523140,

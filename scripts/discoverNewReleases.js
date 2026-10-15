@@ -109,7 +109,8 @@ async function main() {
       if (!details) continue;
 
       const title = (details.title || details.name || '').trim();
-      const releaseYear = (details.release_date || details.first_air_date || 'TBD').split('-')[0];
+      const releaseDate = details.release_date || details.first_air_date || null;
+      const releaseYear = (releaseDate || 'TBD').split('-')[0];
       const genres = details.genres || [];
 
       // Must be produced by a core DC company (filters out tag-alongs).
@@ -151,6 +152,7 @@ async function main() {
         imdbId,
         id: `dc_${imdbId}`,
         releaseYear,
+        releaseDate,
         poster: `https://image.tmdb.org/t/p/w500${details.poster_path}`,
         overview: details.overview,
         ratings,

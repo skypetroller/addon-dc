@@ -38,6 +38,7 @@ const seriesToFetch = [
     { title: "Lucifer", year: 2016 },
     { title: "Powerless", year: 2017 },
     { title: "Black Lightning", year: 2018 },
+    { title: "Batwoman", year: 2019 },
     { title: "Krypton", year: 2018 },
     { title: "Titans", year: 2018 },
     { title: "Doom Patrol", year: 2019 },
@@ -58,7 +59,7 @@ const seriesToFetch = [
     // { title: "Peacemaker", year: 2025 }, // Season 2 - fetch main show details?
     { title: "Lanterns", year: 2026 },
     { title: "Waller", year: 2025 }, // Placeholder, may not exist yet
-    { title: "Paradise Lost", year: 2025 }, // Placeholder, Wonder Woman prequel?
+    // { title: "Paradise Lost", year: 2025 }, // Removed: year-less search matched a non-DC 2020 show
     { title: "Booster Gold", year: 2025 }, // Placeholder, may not exist yet
 ];
 
@@ -215,6 +216,7 @@ async function fetchSpecificSeries() {
                 imdbId: imdbId || `tmdb_${tmdbId}`,
                 id: `dc_${imdbId || 'tmdb_' + tmdbId}`,
                 releaseYear, // Storing first air year here
+                releaseDate: details.first_air_date || null,
                 poster,
                 ratings,
                 genres,

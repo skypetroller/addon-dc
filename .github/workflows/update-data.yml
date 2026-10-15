@@ -39,6 +39,11 @@ jobs:
           node scripts/discoverNewReleases.js
           node scripts/combineReleaseData.js
           node scripts/buildGunnChronological.js
+          node scripts/buildElseworlds.js
+          node scripts/buildArrowverse.js
+          node scripts/buildDcau.js
+          node scripts/buildDcamu.js
+          node scripts/fetchTrailers.js
 
       - name: Guard against degraded data
         run: node scripts/guardDataQuality.js

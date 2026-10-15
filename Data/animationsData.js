@@ -59,7 +59,8 @@ module.exports = [
       }
     ],
     "overview": "The Caped Crusader is teamed up with Blue Beetle, Green Arrow, Aquaman and countless others in his quest to uphold justice.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "XoKsfyH6Jcw"
   },
   {
     "tmdbId": 355142,
@@ -90,7 +91,8 @@ module.exports = [
       }
     ],
     "overview": "The Joker kidnaps Batman, Superman and the rest of the DC Super Friends and puts them against their worst enemies in their own secret base, the Hall of Justice.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "EDSj5ZvlbuU"
   },
   {
     "tmdbId": 43641,
@@ -187,7 +189,8 @@ module.exports = [
       }
     ],
     "overview": "A wealthy playboy named Bruce Wayne and a Chicago cop named Jim Gordon both return to Gotham City where their lives unexpectedly intersect.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "s86sUsWRx0Q"
   },
   {
     "tmdbId": 76420,
@@ -218,7 +221,8 @@ module.exports = [
       }
     ],
     "overview": "Catwoman attempts to track down a mysterious cargo shipment that is linked to a Gotham City crime boss called Rough Cut.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "kDqi_8tcxtY"
   },
   {
     "tmdbId": 283746,
@@ -284,7 +288,8 @@ module.exports = [
       }
     ],
     "overview": "The Green Lanterns Hal and his partner Kilowog fight against the forces of the Red Lanterns.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "rLz--y1Cf8I"
   },
   {
     "tmdbId": 76589,
@@ -323,7 +328,8 @@ module.exports = [
       }
     ],
     "overview": "An adaptation of Mark Waid's \"Tower of Babel\" story from the JLA comic. Vandal Savage steals confidential files Batman has compiled on the members of the Justice League, and learns all their weaknesses.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "dBh4HdaEE6A"
   },
   {
     "tmdbId": 103269,
@@ -358,7 +364,8 @@ module.exports = [
       }
     ],
     "overview": "The Man of Steel finds himself outshone by a new team of ruthless superheroes who hold his idealism in contempt.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "50sTUNQCvFg"
   },
   {
     "tmdbId": 123025,
@@ -397,7 +404,8 @@ module.exports = [
       }
     ],
     "overview": "Batman has not been seen for ten years. A new breed of criminal ravages Gotham City, forcing 55-year-old Bruce Wayne back into the cape and cowl. But, does he still have what it takes to fight crime in a new era?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "J0H7Du2txOE"
   },
   {
     "tmdbId": 145174,
@@ -455,7 +463,8 @@ module.exports = [
       }
     ],
     "overview": "A reimagining of the DC Comics character, as he fights crime in 1930's Shanghai.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "IrDiTjsAOFs"
   },
   {
     "tmdbId": 142061,
@@ -490,7 +499,8 @@ module.exports = [
       }
     ],
     "overview": "Batman has stopped the reign of terror that The Mutants had cast upon his city.  Now an old foe wants a reunion and the government wants The Man of Steel to put a stop to Batman.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "dD2VyqyKvwg"
   },
   {
     "tmdbId": 166076,
@@ -525,7 +535,8 @@ module.exports = [
       }
     ],
     "overview": "Superman and Supergirl take on the cybernetic being known as Brainiac, who boasts that he possesses \"the knowledge and strength of 10,000 worlds.\"",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "EpnT__PBd6Q"
   },
   {
     "tmdbId": 1078989,
@@ -595,7 +606,8 @@ module.exports = [
       }
     ],
     "overview": "Joker teams up with Lex Luthor to destroy the world one brick at a time. It's up to Batman, Superman and the rest of the Justice League to stop them.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "1ESRWuw4LoE"
   },
   {
     "tmdbId": 761135,
@@ -626,7 +638,8 @@ module.exports = [
       }
     ],
     "overview": "The Riddler matches wits with Batman, but the encounters never go well.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "ndwC8QkmEpc"
   },
   {
     "tmdbId": 183011,
@@ -669,7 +682,8 @@ module.exports = [
       }
     ],
     "overview": "The Flash finds himself in a war-torn alternate timeline and teams up with alternate versions of his fellow heroes to restore the timeline.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "Q3tochTgPVc"
   },
   {
     "tmdbId": 256421,
@@ -692,7 +706,8 @@ module.exports = [
       }
     ],
     "overview": "An animated short about the 75 years of Superman.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "ebXB0lBoaQ0"
   },
   {
     "tmdbId": 75395,
@@ -727,7 +742,8 @@ module.exports = [
       }
     ],
     "overview": "An ordinary girl is pulled into the fantasy realm of Gemworld to save it from a monstrous villain.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "BZTMv_zBNzQ"
   },
   {
     "tmdbId": 45140,
@@ -766,7 +782,8 @@ module.exports = [
       }
     ],
     "overview": "Robin, Starfire, Raven, Beast Boy and Cyborg return in all-new, comedic adventures. They may be super heroes who save the world every day ... but somebody still has to do the laundry!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "2Cwksub4wdE"
   },
   {
     "tmdbId": 41676,
@@ -863,7 +880,8 @@ module.exports = [
       }
     ],
     "overview": "The world is under attack by an alien armada led by the powerful Apokoliptian, Darkseid. A group of superheroes consisting of Superman, Batman, Wonder Woman, The Flash, Green Lantern, Cyborg, and Shazam must set aside their differences and gather together to defend Earth.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "RGyrxamYhUA"
   },
   {
     "tmdbId": 263484,
@@ -894,7 +912,8 @@ module.exports = [
       }
     ],
     "overview": "The Robot Chicken crew takes a peek at what happens when the DC villains end up on the same beach as the DC heroes on spring break!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "KuRhuT_y3ms"
   },
   {
     "tmdbId": 264170,
@@ -925,7 +944,8 @@ module.exports = [
       }
     ],
     "overview": "A lost tale from Batman's past, the Dark Knight tracks a strange giant to the mysterious lair of Hugo Strange.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "qaLm7XbnFMY"
   },
   {
     "tmdbId": 269246,
@@ -995,7 +1015,8 @@ module.exports = [
       }
     ],
     "overview": "Batman learns he has a violent, unruly pre-teen son, secretly raised by the terrorist group known as The League of Assassins.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "EUgppcUxwlg"
   },
   {
     "tmdbId": 242643,
@@ -1034,7 +1055,8 @@ module.exports = [
       }
     ],
     "overview": "Batman works desperately to find a bomb planted by the Joker while Amanda Waller sends her newly-formed Suicide Squad to break into Arkham Asylum and recover vital information stolen by the Riddler.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "-6abltUcric"
   },
   {
     "tmdbId": 300424,
@@ -1112,7 +1134,8 @@ module.exports = [
       }
     ],
     "overview": "Dubbed the \"Creature Commandos,\" a military squad of soldiers-turned-monsters use their new found powers to do missions for the government and save the world from potential world domination.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "1L0N71ncoEE"
   },
   {
     "tmdbId": 297556,
@@ -1151,7 +1174,8 @@ module.exports = [
       }
     ],
     "overview": "After the events of Justice League: War, Ocean Master and Black Manta have declared a war against the surface in retaliation of the aftermath of Apokoliptian-tyrant Darkseid's planetary invasion. Queen Atlanna seeks out her other son, Ocean Master’s half-brother Arthur Curry, a half-human with aquatic powers with no knowledge of his Atlantean heritage, to restore balance.  Living with powers he doesn’t understand and seeing the danger around him, Curry takes steps to embrace his destiny, joining the Justice League, and with his new teammates he battles to save Earth from total destruction.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "donPLB1xaBw"
   },
   {
     "tmdbId": 506452,
@@ -1217,7 +1241,8 @@ module.exports = [
       }
     ],
     "overview": "Superman’s clone, Bizarro, has become an embarrassing problem. Chaos and destruction follow Bizarro everywhere as he always hears the opposite of what is said, says the opposite of what he means and does the opposite of what is right. And when the citizens of Metropolis keep confusing Bizarro with Superman, the Man of Steel decides it’s time to find a new home for him…on another planet! It’s up to the Justice League to come to terms with their backward counterparts and team up with them to stop Darkseid and save the galaxy!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "0uCLKanLOo8"
   },
   {
     "tmdbId": 321528,
@@ -1272,7 +1297,8 @@ module.exports = [
       }
     ],
     "overview": "Damian Wayne is having a hard time coping with his father's \"no killing\" rule. Meanwhile, Gotham is going through hell with threats such as the insane Dollmaker, and the secretive Court of Owls.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "ICOmWEVuM1U"
   },
   {
     "tmdbId": 327418,
@@ -1303,7 +1329,8 @@ module.exports = [
       }
     ],
     "overview": "Gotham City is under siege by a series of bizarre crimes and only the world's greatest detective, Batman, can unravel the mystery! The trail leads to none other than the Penguin and his Animilitia, an animal-inspired squad of villains including Silverback, Cheetah, Killer Croc and the monstrous Man-Bat.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "3B3xDLdiFxg"
   },
   {
     "tmdbId": 323027,
@@ -1346,7 +1373,8 @@ module.exports = [
       }
     ],
     "overview": "In an alternate universe, very different versions of DC's Trinity fight against the government after they are framed for an embassy bombing.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "yxL1Iw73azg"
   },
   {
     "tmdbId": 342917,
@@ -1377,7 +1405,8 @@ module.exports = [
       }
     ],
     "overview": "The Joker is aided in his Halloween quest to render modern technology useless and take over Gotham City by Solomon Grundy, Silver Banshee, Clayface and Scarecrow.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "eJSZBHFBW7k"
   },
   {
     "tmdbId": 353595,
@@ -1416,7 +1445,8 @@ module.exports = [
       }
     ],
     "overview": "Crime is on the run as the newly formed Justice League keeps Metropolis safe and this makes evil genius Lex Luthor very unhappy. Together with Black Manta, Sinestro and a gang of ruthless recruits, Lex builds his own league and declares them the Legion of Doom. With this super powered team of terror and a plan to attack the top-secret government site, Area 52, can Lex finally be on the verge of victory? Sound the alarm and get ready for the bricks to fly when Superman, Batman, Wonder Woman and the rest of the Justice League face off against the world's greatest Super-Villains! It's the next all-new original movie from LEGO® and DC Comics.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "BXJPwBCJES8"
   },
   {
     "tmdbId": 363863,
@@ -1443,7 +1473,8 @@ module.exports = [
       }
     ],
     "overview": "The Robot Chicken DC Comics Special 3: Magical Friendship surrenders DC Comics' multitude of Super Heroes and Super-Villains to the demented whims of the award-winning Robot Chicken for a triumphant third time. This time around, Batman and Superman’s bromance takes a competitive turn and the fate of the universe somehow hangs in the balance!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "EEIupyS0_yw"
   },
   {
     "tmdbId": 366924,
@@ -1482,7 +1513,8 @@ module.exports = [
       }
     ],
     "overview": "When Batman goes missing, it takes the entire Bat \"family\" - including Batwoman and Batwing - to keep the peace in Gotham and unravel the mystery behind the Dark Knight's disappearance.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "G-0bQpHlpdQ"
   },
   {
     "tmdbId": 382512,
@@ -1521,7 +1553,8 @@ module.exports = [
       }
     ],
     "overview": "Earth, a shiny jewel floating in the blackness of space... and for the robot known as Brainiac, the last piece to capture for his collection of planets. Not if the Justice League has anything to say about it!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "c1pZ7iZxkJU"
   },
   {
     "tmdbId": 403333,
@@ -1560,7 +1593,8 @@ module.exports = [
       }
     ],
     "overview": "School is in session for DC Super Hero Girls! This is where students master their super powers, brain power, and will power to become the Super Heroes of tomorrow. When Supergirl crash lands into the cafeteria, it's evident that though she has incredible power, she has a long way to go before she becomes a Super Hero. As Supergirl learn to harness her powers, the Junior Detective Club investigates a mysterious rash of security breaches. Could it all be because of reformed Super-Villain and Super Hero High Vice-Principal Gorilla Grodd - or something far worse?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "I_r9J4CEMuA"
   },
   {
     "tmdbId": 379291,
@@ -1611,7 +1645,8 @@ module.exports = [
       }
     ],
     "overview": "Robin is sent by Batman to work with the Teen Titans after his volatile behavior botches up a Justice League mission. The Titans must then step up to face Trigon after he possesses the League and threatens to conquer the world.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "dFjg3oNxaJ4"
   },
   {
     "tmdbId": 396330,
@@ -1650,7 +1685,8 @@ module.exports = [
       }
     ],
     "overview": "The caped crusader reluctantly agrees to let Batgirl and Nightwing take him on a long overdue vacation from crime-fighting, while Superman and the Justice League watch over Gotham City.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "LyNSn4aUgjg"
   },
   {
     "tmdbId": 382322,
@@ -1689,7 +1725,8 @@ module.exports = [
       }
     ],
     "overview": "As Batman hunts for the escaped Joker, the Clown Prince of Crime attacks the Gordon family to prove a diabolical point mirroring his own fall into madness.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "ZQTqu1_iQkw"
   },
   {
     "tmdbId": 411802,
@@ -1720,7 +1757,8 @@ module.exports = [
       }
     ],
     "overview": "Mr. Freeze turns Killer Croc and Bane into super-sized monsters, and they bash their way through downtown Gotham until the Caped Crusader and his team of heroes join the fight in their giant robot mechs.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "ZPtGfy5B8uE"
   },
   {
     "tmdbId": 401650,
@@ -1751,7 +1789,8 @@ module.exports = [
       }
     ],
     "overview": "Wonder Woman, Supergirl, Batgirl, Harley Quinn, Bumblebee, Poison Ivy and Katana band together to navigate the twists and turns of high school in DC Super Hero Girls: Hero of the Year.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "6MgkHCOhU-E"
   },
   {
     "tmdbId": 411736,
@@ -1798,7 +1837,8 @@ module.exports = [
       }
     ],
     "overview": "Adam West and Burt Ward return to their iconic roles of Batman and Robin. The film sees the superheroes going up against classic villains like The Joker, The Riddler, The Penguin and Catwoman, both in Gotham City… and in space.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "hGeQKu8RXDc"
   },
   {
     "tmdbId": 68837,
@@ -1880,7 +1920,8 @@ module.exports = [
       }
     ],
     "overview": "When innocent civilians begin committing unthinkable crimes across Metropolis, Gotham City and beyond, Batman must call upon mystical counterparts to eradicate this demonic threat to the planet; enter Justice League Dark. This team of Dark Arts specialists must unravel the mystery of Earth's supernatural plague and contend with the rising, powerful villainous forces behind the siege—before it's too late for all of mankind.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "dpPy3sIxbmA"
   },
   {
     "tmdbId": 324849,
@@ -1923,7 +1964,8 @@ module.exports = [
       }
     ],
     "overview": "A cooler-than-ever Batman must face the usual villains as the Joker plots a takeover of Gotham City. But when Bruce Wayne accidentally adopts a teenage orphan who wishes to become his sidekick, he’s forced to give up his lone-vigilante ways and learn to work with others.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "rGQUKzSDhrg"
   },
   {
     "tmdbId": 408647,
@@ -1958,7 +2000,8 @@ module.exports = [
       }
     ],
     "overview": "Tara Markov is a girl who has power over earth and stone; she is also more than she seems. Is the newest Teen Titan an ally or a threat? And what are the mercenary Deathstroke's plans for the Titans?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "GIeoysdR8AQ"
   },
   {
     "tmdbId": 1081412,
@@ -2011,7 +2054,8 @@ module.exports = [
       }
     ],
     "overview": "Originally from Africa, Mari McCabe grew up an orphan after her parents were killed by local greed, corruption and wanton violence. But Mari refuses to succumb to the terrors surrounding her. Inheriting her family's Anansi Totem, Mari can access the powers of animals - anything from the super-strength of a gorilla to the speed of a cheetah. As Vixen, she fights valiantly to protect the world from threats like those that claimed her family.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "H_GNc-tFDYc"
   },
   {
     "tmdbId": 452931,
@@ -2038,7 +2082,8 @@ module.exports = [
       }
     ],
     "overview": "Super Hero High is facing off against Korugar Academy in the Intergalactic Games, but Lena Luthor takes advantage of the gathering of Supers to enact her villainous plan.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "jdKZuAJ5ZT4"
   },
   {
     "tmdbId": 460135,
@@ -2061,7 +2106,8 @@ module.exports = [
       }
     ],
     "overview": "When Supergirl, Wonder Woman, Batgirl, Bumblebee and Katana suddenly realize they cannot remember a single moment from their Monday at Super Hero High, the young DC Super Heroes spring into sleuthing action! Suspecting foul-play, they band together to retrace their steps and uncover the mystery of who exactly stole their memories – and what nefarious plan might be afoot?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "1YDVbiKIeJ4"
   },
   {
     "tmdbId": 408648,
@@ -2100,7 +2146,8 @@ module.exports = [
       }
     ],
     "overview": "Batman and Nightwing are forced to team with the Joker's sometimes-girlfriend Harley Quinn to stop a global threat brought about by Poison Ivy and Jason Woodrue, the Floronic Man.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "fPL8uL1h8FA"
   },
   {
     "tmdbId": 464882,
@@ -2143,7 +2190,8 @@ module.exports = [
       }
     ],
     "overview": "Former Gotham City District Attorney Harvey Dent, one side of his face scarred by acid, goes on a crime spree based on the number '2'. All of his actions are decided by the flip of a defaced, two-headed silver dollar.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "5VD0kfTeznE"
   },
   {
     "tmdbId": 467172,
@@ -2174,7 +2222,8 @@ module.exports = [
       }
     ],
     "overview": "Joker has come to Japan to steal the Eagle Talon Society's secret weapons in his continued scheme for pure chaos. However, the Justice League is on his trail, but there's something off with Batman. Now, it's up to Eagle Talon to go find out what's wrong with Batman, and that means going back in time to Bruce Wayne's most traumatic experience, the murder of his parents. If that wasn't enough to worry about, the Eagle Talon Society also have to keep their eyes on their production budget, especially with most of that money going towards the licensing fee for DC's popular characters. Will the Eagle Talon Society and the Justice League be able to stop the Joker before their budget dries up, and they're reduced to simple stick figures!?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "k7ouPBr_1WE"
   },
   {
     "tmdbId": 75486,
@@ -2244,7 +2293,8 @@ module.exports = [
       }
     ],
     "overview": "Scooby-Doo and the Mystery Inc. gang meet up with Batman and other friends to defeat evil villains and save the day.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "1lOkHWeyiBI"
   },
   {
     "tmdbId": 471474,
@@ -2283,7 +2333,8 @@ module.exports = [
       }
     ],
     "overview": "In an alternative Victorian Age Gotham City, Batman begins his war on crime while he investigates a new series of murders by Jack the Ripper.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "TJ6EX6zX4FU"
   },
   {
     "tmdbId": 504997,
@@ -2322,7 +2373,8 @@ module.exports = [
       }
     ],
     "overview": "Reverse-Flash manipulates the Speed Force to put the Flash into a time loop that forces him to relive the same day over and over again—with progressively disastrous results, including losing his powers and being fired by the Justice League. The Flash must find a way to restore time to its original path and finally apprehend his worst enemy before all is lost for the Flash…and the world!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "AGKDZNU_HNo"
   },
   {
     "tmdbId": 487242,
@@ -2361,7 +2413,8 @@ module.exports = [
       }
     ],
     "overview": "Amanda Waller's top-secret \"Task Force X\" — consisting of Deadshot, Bronze Tiger, Killer Frost, Captain Boomerang, Harley Quinn, and Copperhead — is on a mission to retrieve a mystical object so powerful that they're willing to risk their lives to steal it. However, the Suicide Squad isn't the only group of villains seeking to possess the object. It's a race for the golden prize, and second place isn't an option if they want to stay alive.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "l0FyWzZtI94"
   },
   {
     "tmdbId": 485942,
@@ -2396,7 +2449,8 @@ module.exports = [
       }
     ],
     "overview": "Batman, along with many of his allies and adversaries, finds himself transported to feudal Japan by Gorilla Grodd's time displacement machine.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "08dHXfIprYE"
   },
   {
     "tmdbId": 506734,
@@ -2427,7 +2481,8 @@ module.exports = [
       }
     ],
     "overview": "After a mysterious school opens across the street, the students of Super Hero High find themselves up against a new threat. Now, Wonder Woman, Supergirl, Batgirl and the rest of the DC Super Hero Girls not only have to worry about the well-being of their grades, but the safety and security of friends, family and the rest of civilization. The girls must figure out how to put a stop to this evil, new cross-town rival and save the world once again",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "tQkxYywhhbI"
   },
   {
     "tmdbId": 536584,
@@ -2501,7 +2556,8 @@ module.exports = [
       }
     ],
     "overview": "All the major DC superheroes are starring in their own films, all but the Teen Titans, so Robin is determined to remedy this situation by getting over his role as a sidekick and becoming a movie star. Thus, with a few madcap ideas and an inspirational song in their hearts, the Teen Titans head to Hollywood to fulfill their dreams.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "r9WhJyyTtqo"
   },
   {
     "tmdbId": 513736,
@@ -2536,7 +2592,8 @@ module.exports = [
       }
     ],
     "overview": "Aquaman must battle foes in the air, on land and in the depths of the Seven Seas, along with some help from The Justice League, to save the day.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "LzyJpiio-zU"
   },
   {
     "tmdbId": 513730,
@@ -2563,7 +2620,8 @@ module.exports = [
       }
     ],
     "overview": "Siren steals the Book of Legends in order to locate the Trident of Atlantis and rule the entire ocean.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "f9Q6oOWtgiI"
   },
   {
     "tmdbId": 487670,
@@ -2606,7 +2664,8 @@ module.exports = [
       }
     ],
     "overview": "When a hulking monster arrives on Earth and begins a mindless rampage, the Justice League is quickly called in to stop it. But it soon becomes apparent that only Superman can stand against the monstrosity.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "J5aMJ1qMgA8"
   },
   {
     "tmdbId": 539626,
@@ -2637,7 +2696,8 @@ module.exports = [
       }
     ],
     "overview": "Earth-X is one of many realities in the multiverse, with one glaring difference from our Earth: The Nazis won World War II. Led by The Ray, a group of heroes known as the Freedom Fighters battle selflessly against tyranny. But when The Ray is transported to our Earth to save his life, he passes his powers to his unsuspecting counterpart, Ray Terrill. Charged with superhuman abilities, Terrill is newly christened The Ray and must adapt and overcome the challenges of crime-fighting with a little help from The Flash and Green Arrow. Seasoned and ready to fight, The Ray now faces his biggest battle: a return to Earth-X to lead the Freedom Fighters against Overgirl and her evil Nazi henchmen!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "mZVG6PZSknQ"
   },
   {
     "tmdbId": 539517,
@@ -2672,7 +2732,8 @@ module.exports = [
       }
     ],
     "overview": "A decade after a tragic mistake, family man Chas Chandler and occult detective John Constantine set out to cure his daughter Trish from a mysterious supernatural coma.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "Tgujmtdj_3c"
   },
   {
     "tmdbId": 487672,
@@ -2711,7 +2772,8 @@ module.exports = [
       }
     ],
     "overview": "In the wake of The Death of Superman, the world is still mourning the loss of the Man of Steel following his fatal battle with the monster Doomsday. However, no sooner as his body been laid to rest than do four new bearers of the Superman shield come forward to take on the mantle. The Last Son of Krypton, Superboy, Steel, and the Cyborg Superman all attempt to fill the vacuum left by the world's greatest champion. Meanwhile, Superman's death has also signaled to the universe that Earth is vulnerable. Can these new Supermen and the rest of the heroes prove them wrong?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "HlC7veaQizk"
   },
   {
     "tmdbId": 537059,
@@ -2750,7 +2812,8 @@ module.exports = [
       }
     ],
     "overview": "The Justice League faces a powerful new threat — the Fatal Five! Superman, Batman and Wonder Woman seek answers as the time-traveling trio of Mano, Persuader and Tharok terrorize Metropolis in search of budding Green Lantern, Jessica Cruz. With her unwilling help, they aim to free remaining Fatal Five members Emerald Empress and Validus to carry out their sinister plan. But the Justice League has also discovered an ally from another time in the peculiar Star Boy — brimming with volatile power, could he be the key to thwarting the Fatal Five? An epic battle against ultimate evil awaits!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "P_AlCgcH9x0"
   },
   {
     "tmdbId": 581997,
@@ -2789,7 +2852,8 @@ module.exports = [
       }
     ],
     "overview": "Batman, Batgirl, and Robin forge an alliance with the Teenage Mutant Ninja Turtles to fight against the Turtles' sworn enemy, The Shredder, who has apparently teamed up with Ra's Al Ghul and The League of Assassins.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "wpZPPrnEd_k"
   },
   {
     "tmdbId": 537056,
@@ -2828,7 +2892,8 @@ module.exports = [
       }
     ],
     "overview": "A mysterious new villain known only as Hush uses a gallery of villains to destroy Batman's crime-fighting career as well as Bruce Wayne's personal life, which has been further complicated by a relationship with Selina Kyle/Catwoman.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "cQFFnUg0u70"
   },
   {
     "tmdbId": 618346,
@@ -2898,7 +2963,8 @@ module.exports = [
       }
     ],
     "overview": "Suspicion is on high after Batman, Batgirl, Robin and other DC superheroes receive mysterious invitations. However, family values must remain strong when Batman and his team encounter the villainous Red Hood, who is obsessed with destroying the Bat-family and all of Gotham City.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "wAKvvUv_wck"
   },
   {
     "tmdbId": 556901,
@@ -2945,7 +3011,8 @@ module.exports = [
       }
     ],
     "overview": "The comedic modern-day quintet takes on their 2003 counterparts when villains from each of their worlds join forces to pit the two Titan teams against each other. They'll need to set aside their differences and work together to combat Trigon, Hexagon, Santa Claus (that's right, Santa!) and time itself in order to save the multiverse.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "vwWw5nQMewU"
   },
   {
     "tmdbId": 537055,
@@ -2976,7 +3043,8 @@ module.exports = [
       }
     ],
     "overview": "Witness the legendary origin of renowned Justice League member Wonder Woman as she fights for good with her sword and magic lasso. Equally strong in body, heart and will, she makes it her mission to help a troubled young girl enlisted by a deadly organization known as Villainy, Inc., whose criminal members have their sights set on invading Themyscira, Wonder Woman’s paradise home. The battle will be epic, because if there's one thing an Amazon knows, it’s war!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "6ljM52nZTAs"
   },
   {
     "tmdbId": 637663,
@@ -3050,7 +3118,8 @@ module.exports = [
       }
     ],
     "overview": "The world may know them as Wonder Woman, Supergirl and Batgirl, but not-so-typical teenagers Diana, Kara and Barbara, alongside their Super Hero friends have much more to deal with than just protecting Metropolis from some of the most sinister school-aged Super-Villains. After all, being teens is tough enough, what with school, friends, family and the chaos that comes with managing a social life. But add super powers and a secret identity to the mix, and things can get a lot more complicated.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "LzhzULFgrjU"
   },
   {
     "tmdbId": 74440,
@@ -3085,7 +3154,8 @@ module.exports = [
       }
     ],
     "overview": "Harley Quinn has finally broken things off once and for all with the Joker. Now, she's trying to make it on her own as the criminal Queenpin of Gotham City, with help from Poison Ivy and a ragtag crew of DC castoffs.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "0FrB7mJoesg"
   },
   {
     "tmdbId": 618355,
@@ -3120,7 +3190,8 @@ module.exports = [
       }
     ],
     "overview": "Set in the thick of the Cold War, Red Son introduces us to a Superman who landed in the USSR during the 1950s and grows up to become a Soviet symbol that fights for the preservation of Stalin’s brand of communism.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "n0s0FJfyqGk"
   },
   {
     "tmdbId": 618352,
@@ -3190,7 +3261,8 @@ module.exports = [
       }
     ],
     "overview": "It’s high time the Justice League took notice of Shazam, but joining the world’s greatest team of superheroes is a lot harder when they’ve all been turned into kids.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "CR9h-iAmNFk"
   },
   {
     "tmdbId": 618344,
@@ -3233,7 +3305,8 @@ module.exports = [
       }
     ],
     "overview": "Earth is decimated after intergalactic tyrant Darkseid has devastated the Justice League in a poorly executed war by the DC Super Heroes. Now the remaining bastions of good – the Justice League, Teen Titans, Suicide Squad and assorted others – must regroup, strategize and take the war to Darkseid in order to save the planet and its surviving inhabitants.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "tnCkn5xD2jg"
   },
   {
     "tmdbId": 618350,
@@ -3303,7 +3376,8 @@ module.exports = [
       }
     ],
     "overview": "The assassin Deathstroke tries to save his family from the wrath of H.I.V.E. and the murderous Jackal.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "MsdVLe2xi9g"
   },
   {
     "tmdbId": 618354,
@@ -3338,7 +3412,8 @@ module.exports = [
       }
     ],
     "overview": "It’s the dawn of a new age of heroes, and Metropolis has just met its first. But as Daily Planet intern Clark Kent – working alongside reporter Lois Lane – secretly wields his alien powers of flight, super-strength and x-ray vision in the battle for good, there’s even greater trouble on the horizon.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "weOF9_FGjOk"
   },
   {
     "tmdbId": 618353,
@@ -3369,7 +3444,8 @@ module.exports = [
       }
     ],
     "overview": "Tragedy strikes the Batman's life again when Robin Jason Todd tracks down his birth mother only to run afoul of the Joker. An adaptation of the 1988 comic book storyline of the same name.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "TGjF_Gal67w"
   },
   {
     "tmdbId": 97456,
@@ -3431,7 +3507,8 @@ module.exports = [
       }
     ],
     "overview": "Bruce Wayne faces a deadly menace from his past, with the help of three former classmates: world-renowned martial artists Richard Dragon, Ben Turner and Lady Shiva.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "eHCAgSuLog4"
   },
   {
     "tmdbId": 791343,
@@ -3501,7 +3578,8 @@ module.exports = [
       }
     ],
     "overview": "When the Flash finds himself dropped into the middle of World War II, he joins forces with Wonder Woman and her top-secret team known as the Justice Society of America.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "s4xXbGFhEFg"
   },
   {
     "tmdbId": 834404,
@@ -3540,7 +3618,8 @@ module.exports = [
       }
     ],
     "overview": "The Teen Titans are visited by the Nerdlucks, the Space Jam villains who tried to capture Michael Jordan and the Looney Tunes. Astonished to discover his fellow Titans have never seen Space Jam, Cyborg organizes an exclusive watch party.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "-2zRHKsVBvU"
   },
   {
     "tmdbId": 736073,
@@ -3579,7 +3658,8 @@ module.exports = [
       }
     ],
     "overview": "Following a brutal series of murders taking place on Halloween, Thanksgiving, and Christmas, Gotham City's young vigilante known as the Batman sets out to pursue the mysterious serial killer alongside police officer James Gordon and district attorney Harvey Dent.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "8qodAY3S7Dg"
   },
   {
     "tmdbId": 791344,
@@ -3614,7 +3694,8 @@ module.exports = [
       }
     ],
     "overview": "The legendary rag-tag team of World War II outcasts – Captain Storm, Johnny Cloud, “Mile-a Minute” Jones, rookie Gunner and Sarge – find themselves marooned on an uncharted island in the South Pacific that is completely overrun with dinosaurs! Their would-be ally on this deadly mission, the mysterious and beautiful Fan Long of the Chinese Security Agency, tells them their job is to rescue the scientists that have been sent to study the time/space anomaly. Perhaps… but what is her mission?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "nQxicQ2YwWk"
   },
   {
     "tmdbId": 736074,
@@ -3653,7 +3734,8 @@ module.exports = [
       }
     ],
     "overview": "As Gotham City's young vigilante, the Batman, struggles to pursue a brutal serial killer, district attorney Harvey Dent gets caught in a feud involving the criminal family of the Falcones.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "u0jEvGBwK44"
   },
   {
     "tmdbId": 791346,
@@ -3723,7 +3805,8 @@ module.exports = [
       }
     ],
     "overview": "When Lois Lane is killed, an unhinged Superman decides to take control of the Earth. Determined to stop him, Batman creates a team of freedom-fighting heroes. But when superheroes go to war, can the world survive?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "EofvPQAyYp8"
   },
   {
     "tmdbId": 98137,
@@ -3789,7 +3872,8 @@ module.exports = [
       }
     ],
     "overview": "Catwoman's attempt to steal a priceless jewel puts her squarely in the crosshairs of both a powerful consortium of villains and the ever-resourceful Interpol, not to mention Batwoman.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "PYPqTLS_g9c"
   },
   {
     "tmdbId": 791348,
@@ -3819,7 +3903,8 @@ module.exports = [
       }
     ],
     "overview": "John Constantine wakes up in the eerie House of Mystery with no recollection of how he got there. Fortunately, Zatanna and his friends are all there. Unfortunately, they have a bad habit of turning into demons and ripping him to shreds, over and over again!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "7W_6J9esLYY"
   },
   {
     "tmdbId": 887357,
@@ -3858,7 +3943,8 @@ module.exports = [
       }
     ],
     "overview": "Recently discharged Marine sniper John Stewart is at a crossroads in his life, one which is only complicated by receiving an extraterrestrial ring which grants him the powers of the Green Lantern of Earth. Unfortunately, the ring doesn't come with instructions - but it does come with baggage, like a horde of interplanetary killers bent on eliminating every Green Lantern in the universe. Now, with the aid of the light-hearted Green Arrow, Adam Strange and Hawkgirl, this reluctant soldier must journey into the heart of a galactic Rann/Thanagar war and somehow succeed where all other Green Lanterns have failed.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "bjD3r8wPQQA"
   },
   {
     "tmdbId": 913205,
@@ -3889,7 +3975,8 @@ module.exports = [
       }
     ],
     "overview": "With the help of an ancient Kryptonian power, Lex Luthor unites the world’s Super-Villains to capture all of Earth's Super Heroes, until…only the DC Super Hero Girls are left to stop the Legion of Doom. Our heroes must cross dimensions to rescue their fellow Super Heroes from the Phantom Zone, but a fortuitous wrong turn leads them to Titans Tower – where they find much-needed allies in the Teen Titans!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "PqiokC8HTOA"
   },
   {
     "tmdbId": 539681,
@@ -3936,7 +4023,8 @@ module.exports = [
       }
     ],
     "overview": "When Superman and the rest of the Justice League are kidnapped, Krypto the Super-Dog must convince a rag-tag shelter pack - Ace the hound, PB the potbellied pig, Merton the turtle and Chip the squirrel - to master their own newfound powers and help him rescue the superheroes.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "xEbpPP-_1Ig"
   },
   {
     "tmdbId": 886396,
@@ -3962,7 +4050,8 @@ module.exports = [
       }
     ],
     "overview": "After discovering he has powers, 11-year-old Jonathan Kent and assassin-turned-Boy-Wonder Damian Wayne must join forces to rescue their fathers (Superman & Batman) and save the planet from the malevolent alien force known as Starro.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "ZDPK7I5BD3g"
   },
   {
     "tmdbId": 155780,
@@ -3993,7 +4082,8 @@ module.exports = [
       }
     ],
     "overview": "The Batwheels are a team of sentient super-powered crimefighting vehicles that help Batman, Robin and Batgirl—as well as a host of additional DC Super Heroes—keep Gotham City safe. Created only recently by the Batcomputer, our mechanized heroes must navigate the growing pains of being a newly formed super-team as well as the growing pains that come with just being a kid.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "XT8ElGIbOc0"
   },
   {
     "tmdbId": 1003580,
@@ -4024,7 +4114,8 @@ module.exports = [
       }
     ],
     "overview": "Kara, devastated by the loss of Krypton, struggles to adjust to her new life on Earth. Her cousin, Superman, mentors her and suggests she leave their space-time to attend the Legion Academy in the 31st century, where she makes new friends and a new enemy: Brainiac 5. Meanwhile, she must contend with a mysterious group called the Dark Circle as it searches for a powerful weapon held in the Academy’s vault.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "DKNjOwuBDbo"
   },
   {
     "tmdbId": 1003579,
@@ -4054,7 +4145,8 @@ module.exports = [
       }
     ],
     "overview": "Explorer Bruce Wayne accidentally unleashes an ancient evil, and returns to Gotham after being away for two decades. There, Batman battles Lovecraftian supernatural forces and encounters allies and enemies such as Green Arrow, Ra's al Ghul, Mr. Freeze, Killer Croc, Two-Face and James Gordon.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "5OzP3grTnz8"
   },
   {
     "tmdbId": 997776,
@@ -4080,7 +4172,8 @@ module.exports = [
       }
     ],
     "overview": "Superman, Batman, Wonder Woman, Flash, Cyborg, Green Lantern and Vixen are transported to the strange world of Remnant and find themselves turned into teenagers. Meanwhile, Remnant heroes Ruby, Weiss, Blake and Yang must combine forces with the Justice League to uncover why their planet has been mysteriously altered before a superpowered Grimm destroys everything.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "6fKpdtyoLJE"
   },
   {
     "tmdbId": 1003581,
@@ -4119,7 +4212,8 @@ module.exports = [
       }
     ],
     "overview": "Until now, the Justice League has been a loose association of superpowered individuals. But when they are swept away to Warworld, a place of unending brutal gladiatorial combat, Batman, Superman, Wonder Woman and the others must somehow unite to form an unbeatable resistance able to lead an entire planet to freedom.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "IPDLodUE9gg"
   },
   {
     "tmdbId": 1146348,
@@ -4153,7 +4247,8 @@ module.exports = [
       }
     ],
     "overview": "When the Justice League goes missing and villains overrun Metropolis, there's only one team that can solve this mystery: Scooby-Doo and the gang! But wait, there's a new dog in town – Krypto – Superman's Superdog with Super Powers. Mystery Inc. will need all the help it can get when phantoms menace the Justice League's headquarters.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "6NfkdZThS4I"
   },
   {
     "tmdbId": 1150537,
@@ -4183,7 +4278,8 @@ module.exports = [
       }
     ],
     "overview": "On the heels of successfully escaping a deadly digital trap, the members of the Justice League emerge in their own world to discover that Grimm, ravenous creatures from Remnant, have overtaken Earth! In order to defeat the monsters, they must call on their new friends – Team RWBY – for help!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "3_oKHpuw55U"
   },
   {
     "tmdbId": 870358,
@@ -4222,7 +4318,8 @@ module.exports = [
       }
     ],
     "overview": "This Christmas, Damian Wayne wants to be a superhero like his dad – the one and only Batman. When Damian is left home alone while Batman takes on Gotham’s worst supervillains on Christmas Eve, he stumbles upon a villainous plot to steal Christmas and leaps at the chance to save the day.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "_GSMmXz0bHA"
   },
   {
     "tmdbId": 125928,
@@ -4257,7 +4354,8 @@ module.exports = [
       }
     ],
     "overview": "Twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "nI9uUv6AdoY"
   },
   {
     "tmdbId": 1155089,
@@ -4292,7 +4390,8 @@ module.exports = [
       }
     ],
     "overview": "Death is coming. Worse than death: oblivion. Not just for our Earth, but for everyone, everywhere, in every universe! Against this ultimate destruction, the mysterious Monitor has gathered the greatest team of Super Heroes ever assembled. But what can the combined might of Superman, Wonder Woman, Batman, The Flash, Green Lantern and hundreds of Super Heroes from multiple Earths even do to save all of reality from an unstoppable antimatter armageddon?!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "Gx2srhhtB_c"
   },
   {
     "tmdbId": 1209288,
@@ -4327,7 +4426,8 @@ module.exports = [
       }
     ],
     "overview": "An endless army of shadow demons bent on the destruction of all reality swarms over our world and all parallel Earths! The only thing opposing them is the mightiest team of metahumans ever assembled. But not even the combined power of Superman, Batman, Wonder Woman, Green Lantern and all their fellow superheroes can slow down the onslaught of this invincible horde. What mysterious force is driving them? And how do the long-buried secrets of the Monitor and Supergirl threaten to crush our last defense?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "w6jtfmXziNQ"
   },
   {
     "tmdbId": 1209290,
@@ -4362,7 +4462,8 @@ module.exports = [
       }
     ],
     "overview": "Now fully revealed as the ultimate threat to existence, the Anti-Monitor wages an unrelenting attack on the surviving Earths that struggle for survival in a pocket universe. One by one, these worlds and all their inhabitants are vaporized! On the planets that remain, even time itself is shattered, and heroes from the past join the Justice League and their rag-tag allies against the epitome of evil. But as they make their last stand, will the sacrifice of the superheroes be enough to save us all?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "tQ3Aahb_PDE"
   },
   {
     "tmdbId": 1155058,
@@ -4401,7 +4502,8 @@ module.exports = [
       }
     ],
     "overview": "In 1985, the murder of a government-sponsored superhero draws his outlawed colleagues out of retirement and into a mystery that threatens to upend their personal lives and the world itself.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "j-s-cxTnH2Q"
   },
   {
     "tmdbId": 1299652,
@@ -4440,7 +4542,8 @@ module.exports = [
       }
     ],
     "overview": "Suspicious of the events ensnaring their former colleagues, Nite Owl and Silk Spectre are spurred out of retirement to investigate. As they grapple with personal ethics, inner demons and a society turned against them, they race the clock to uncover a deepening plot that might trigger global nuclear war.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "VEX3fJMNxwc"
   },
   {
     "tmdbId": 200753,
@@ -4467,7 +4570,8 @@ module.exports = [
       }
     ],
     "overview": "Lovable loser Kite Man and his new squeeze Golden Glider moonlight as criminals to support their foolish purchase of Noonan's, Gotham's seediest dive bar, where everybody knows your name, but not necessarily your secret identity!",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "HnHKPjTUdOs"
   },
   {
     "tmdbId": 219543,
@@ -4498,7 +4602,8 @@ module.exports = [
       }
     ],
     "overview": "Follow the exploits of the Creature Commandos, a secret team of incarcerated monsters recruited for missions deemed too dangerous for humans. When all else fails... they're your last, worst option.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "VdahDEpqPA8"
   },
   {
     "tmdbId": 125909,
@@ -4533,7 +4638,8 @@ module.exports = [
       }
     ],
     "overview": "Welcome to Gotham City, where the corrupt outnumber the good, criminals run rampant and law-abiding citizens live in a constant state of fear. Forged in the fire of tragedy, wealthy socialite Bruce Wayne becomes something both more and less than human—the Batman. His one-man crusade for justice attracts unexpected allies within the GCPD and City Hall, but his heroic actions spawn deadly, unforeseen ramifications.",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "1TRK90KSkFM"
   },
   {
     "tmdbId": 229926,
@@ -4564,7 +4670,8 @@ module.exports = [
       }
     ],
     "overview": "In the crime-ridden city of Gotham, Amanda Waller, the head of A.R.G.U.S., assembles a group of notorious criminals—Harley Quinn, Deadshot, Peacemaker, Clayface and King Shark—for a mission into an otherworldly realm that's connected to this world through a gate. It's a realm of swords and magic where orcs rampage and dragons rule the skies. Can Harley Quinn and her crew conquer this perilous realm?",
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "lsLAMV7lQX4"
   },
   {
     "tmdbId": 231801,
@@ -4586,7 +4693,8 @@ module.exports = [
         "name": "Action & Adventure"
       }
     ],
-    "addedAt": "2026-10-15"
+    "addedAt": "2026-10-15",
+    "trailer": "i8WDv3J7das"
   },
   {
     "tmdbId": 1364797,
