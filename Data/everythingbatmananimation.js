@@ -3779,5 +3779,115 @@ module.exports = [
       }
     ],
     "trailer": "QleeDtH_WWE"
+  },
+  {
+    "tmdbId": 1560520,
+    "title": "Batman: Knightfall Part 1: Knightfall",
+    "type": "movie",
+    "imdbId": "tt32333324",
+    "id": "dc_tt32333324",
+    "releaseYear": "2026",
+    "poster": "https://image.tmdb.org/t/p/w500/360qdtu2hLnqMu8SVHMywn420w1.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.8/10"
+      }
+    ],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "trailer": "90HAqMk7qv0"
+  },
+  {
+    "tmdbId": 1389765,
+    "title": "Batman: Knightfall Part 2: Knightquest",
+    "type": "movie",
+    "imdbId": "tt38807532",
+    "id": "dc_tt38807532",
+    "releaseYear": "2026",
+    "poster": "https://image.tmdb.org/t/p/w500/4zWHei7BJ4dP0DDK4FJ7em9ET7e.jpg",
+    "ratings": [],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      }
+    ],
+    "trailer": "zG8TU7GTaoo"
+  },
+  {
+    "tmdbId": 987400,
+    "title": "Aztec Batman: Clash of Empires",
+    "type": "movie",
+    "imdbId": "tt21110654",
+    "id": "dc_tt21110654",
+    "releaseYear": "2025",
+    "poster": "https://image.tmdb.org/t/p/w500/aNkBvhwnYC9itaHDzlnJPfuZcoO.jpg",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.4/10"
+      }
+    ],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 14,
+        "name": "Fantasy"
+      }
+    ],
+    "trailer": "-bd_AUSkrRA"
+  },
+  {
+    "tmdbId": 225361,
+    "title": "BAT-FAM",
+    "type": "tv",
+    "imdbId": "tt27621333",
+    "id": "dc_tt27621333",
+    "releaseYear": "2025",
+    "poster": "https://image.tmdb.org/t/p/w500/8C34YTylNBt4DWM1a9oAAXqmTSr.jpg",
+    "ratings": [],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 10751,
+        "name": "Family"
+      }
+    ],
+    "trailer": "k6sE5jYOFx0"
   }
 ];

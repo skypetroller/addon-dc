@@ -4674,6 +4674,154 @@ module.exports = [
     "trailer": "lsLAMV7lQX4"
   },
   {
+    "tmdbId": 277587,
+    "title": "DC Metal Force",
+    "type": "series",
+    "imdbId": "tt35128989",
+    "id": "dc_tt35128989",
+    "releaseYear": "2024",
+    "releaseDate": "2024-12-06",
+    "poster": "https://image.tmdb.org/t/p/w500/9S2CtfSartZUFc0MX4h7aOPm1.jpg",
+    "overview": "A mysterious entity has brought the powers of good and evil together to participate in the ultimate super-powered showdown!",
+    "ratings": [],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 10762,
+        "name": "Kids"
+      }
+    ],
+    "addedAt": "2026-10-15",
+    "discovered": true,
+    "trailer": "apjW2I41mLo"
+  },
+  {
+    "tmdbId": 260192,
+    "title": "DC Heroes United",
+    "type": "series",
+    "imdbId": "tt34771292",
+    "id": "dc_tt34771292",
+    "releaseYear": "2024",
+    "releaseDate": "2024-11-20",
+    "poster": "https://image.tmdb.org/t/p/w500/jpYTKKw8NYsu3cRQEXUqlGPWJPt.jpg",
+    "overview": "When the story of Earth-212 begin,s our favorite Super Heroes and Super-Villains remain in the shadows, largely unknown to one another and mostly serving as legend and rumor to civilians. The appearance of the magical Tower of Fate in Gotham City thrusts these fledgling heroes into the spotlight – together and in opposition.",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.6/10"
+      }
+    ],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      }
+    ],
+    "addedAt": "2026-10-15",
+    "discovered": true,
+    "trailer": "TT6zcWEgJHE"
+  },
+  {
+    "tmdbId": 987400,
+    "title": "Aztec Batman: Clash of Empires",
+    "type": "movie",
+    "imdbId": "tt21110654",
+    "id": "dc_tt21110654",
+    "releaseYear": "2025",
+    "releaseDate": "2025-09-18",
+    "poster": "https://image.tmdb.org/t/p/w500/aNkBvhwnYC9itaHDzlnJPfuZcoO.jpg",
+    "overview": "In the time of the Aztec empire, tragedy strikes Yohualli Coatl when his father is murdered by Spanish conquistadors. To warn King Moctezuma and his high priest, Yoka, of imminent danger, Yohualli escapes to Tenochtitlán. There, he trains in the temple of the bat god Tzinacan with his mentor, developing equipment and weaponry to confront the Spanish invasion and avenge his father’s death. Along the way, he encounters key figures like the fierce Jaguar Woman and the conquistador Hernán Cortés.",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.4/10"
+      }
+    ],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 14,
+        "name": "Fantasy"
+      }
+    ],
+    "addedAt": "2026-10-15",
+    "discovered": true,
+    "trailer": "-bd_AUSkrRA"
+  },
+  {
+    "tmdbId": 1297763,
+    "title": "Batman Ninja vs. Yakuza League",
+    "type": "movie",
+    "imdbId": "tt32508210",
+    "id": "dc_tt32508210",
+    "releaseYear": "2025",
+    "releaseDate": "2025-03-17",
+    "poster": "https://image.tmdb.org/t/p/w500/sVVT6GYFErVv0Lcc9NvqCu0iOxO.jpg",
+    "overview": "The Batman family has returned to the present to discover that Japan has disappeared, and a giant island - Hinomoto - is now in the sky over Gotham City.  At the top sit the Yakuza, a group of superpowered individuals who reign without honor or humanity and look suspiciously like the Justice League. Now, it’s up to Batman and his allies to save Gotham!",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.2/10"
+      }
+    ],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      }
+    ],
+    "addedAt": "2026-10-15",
+    "discovered": true,
+    "trailer": "QleeDtH_WWE"
+  },
+  {
+    "tmdbId": 225361,
+    "title": "BAT-FAM",
+    "type": "series",
+    "imdbId": "tt27621333",
+    "id": "dc_tt27621333",
+    "releaseYear": "2025",
+    "releaseDate": "2025-11-10",
+    "poster": "https://image.tmdb.org/t/p/w500/8C34YTylNBt4DWM1a9oAAXqmTSr.jpg",
+    "overview": "Follow Batman, Alfred, and young Damian Wayne—who has taken on the mantle of Little Batman—alongside a few newcomers to Wayne Manor, as they navigate the fun and frustrations of life as a super family",
+    "ratings": [],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 10751,
+        "name": "Family"
+      }
+    ],
+    "addedAt": "2026-10-15",
+    "discovered": true,
+    "trailer": "k6sE5jYOFx0"
+  },
+  {
     "tmdbId": 231801,
     "title": "GET JIRO",
     "type": "series",
@@ -4697,18 +4845,98 @@ module.exports = [
     "trailer": "i8WDv3J7das"
   },
   {
+    "tmdbId": 1389765,
+    "title": "Batman: Knightfall Part 2: Knightquest",
+    "type": "movie",
+    "imdbId": "tt38807532",
+    "id": "dc_tt38807532",
+    "releaseYear": "2026",
+    "releaseDate": "2026-12-08",
+    "poster": "https://image.tmdb.org/t/p/w500/4zWHei7BJ4dP0DDK4FJ7em9ET7e.jpg",
+    "overview": "Batman lies broken at the hands of the villainous mastermind Bane. With Bruce Wayne paralyzed from the waist down and unable to continue as Batman, a new successor must be chosen to defend Gotham City. Jean-Paul Valley, the man also known as Azrael, must take up the mantle of the Batman. But will his more violent methods be enough to stop Bane?",
+    "ratings": [],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      }
+    ],
+    "addedAt": "2026-10-15",
+    "discovered": true,
+    "trailer": "zG8TU7GTaoo"
+  },
+  {
+    "tmdbId": 1560520,
+    "title": "Batman: Knightfall Part 1: Knightfall",
+    "type": "movie",
+    "imdbId": "tt32333324",
+    "id": "dc_tt32333324",
+    "releaseYear": "2026",
+    "releaseDate": "2026-06-23",
+    "poster": "https://image.tmdb.org/t/p/w500/360qdtu2hLnqMu8SVHMywn420w1.jpg",
+    "overview": "Arkham Asylum has been destroyed, and all its inmates have been unleashed upon Gotham City. As Batman races to round up some of his greatest enemies, he is pushed to his physical and mental limits and into a final confrontation with a new threat: the man called Bane!",
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.8/10"
+      }
+    ],
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "addedAt": "2026-10-15",
+    "discovered": true,
+    "trailer": "90HAqMk7qv0"
+  },
+  {
     "tmdbId": 1364797,
     "title": "Dynamic Duo",
     "type": "movie",
     "imdbId": "tt33549695",
     "id": "dc_tt33549695",
     "releaseYear": "2028",
+    "releaseDate": "2028-09-21",
     "poster": "https://image.tmdb.org/t/p/w500/byZZQsE933kaBCq6i2yGQnJF6TN.jpg",
     "ratings": [],
     "genres": [
       {
         "id": 16,
         "name": "Animation"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
       }
     ],
     "overview": "Follow the early days of Dick Grayson and Jason Todd and explore how their friendship becomes tested by their diverging ideas for what their future should be.",

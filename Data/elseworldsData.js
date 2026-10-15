@@ -185,12 +185,25 @@ module.exports = [
     "imdbId": "tt33549695",
     "id": "dc_tt33549695",
     "releaseYear": "2028",
+    "releaseDate": "2028-09-21",
     "poster": "https://image.tmdb.org/t/p/w500/byZZQsE933kaBCq6i2yGQnJF6TN.jpg",
     "ratings": [],
     "genres": [
       {
         "id": 16,
         "name": "Animation"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
       }
     ],
     "overview": "Follow the early days of Dick Grayson and Jason Todd and explore how their friendship becomes tested by their diverging ideas for what their future should be.",

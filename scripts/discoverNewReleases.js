@@ -12,9 +12,11 @@ const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const OMDB_API_KEY = process.env.OMDB_API_KEY;
 
 // Core DC production companies only (OR). WB Pictures/Animation IDs are
-// deliberately excluded — they'd match every Warner release.
-const DC_COMPANY_IDS = '9993|128064|184898';
-const CORE_DC_IDS = [9993, 128064, 184898];
+// deliberately excluded — they'd match every Warner release. "DC" (429) is
+// included because WB Animation co-productions (e.g. Batman: Knightfall,
+// Batman Ninja vs. Yakuza League) are tagged with it instead of DC Studios.
+const DC_COMPANY_IDS = '429|9993|128064|184898';
+const CORE_DC_IDS = [429, 9993, 128064, 184898];
 const ANIMATION_GENRE_ID = 16;
 
 // Only consider releases from the last 2 years + upcoming.
