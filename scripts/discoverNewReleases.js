@@ -97,6 +97,7 @@ async function main() {
 
   const [movieResults, tvResults] = await Promise.all([discover('movie'), discover('tv')]);
   const added = { movies: 0, series: 0, animations: 0 };
+  const addedEntries = [];
 
   for (const [media, results, fallbackType] of [
     ['movie', movieResults, 'movie'],
@@ -155,6 +156,7 @@ async function main() {
         ratings,
         genres,
         addedAt: new Date().toISOString().split('T')[0],
+        discovered: true,
       };
 
       if (isAnimated) {
@@ -168,6 +170,7 @@ async function main() {
         added.series++;
       }
       knownIds.add(r.id);
+      addedEntries.push({ title, year: releaseYear, type: isAnimated ? 'animation' : fallbackType });
       console.log(`   ➕ New ${isAnimated ? 'animated' : fallbackType}: "${title}" (${releaseYear})`);
     }
   }
@@ -182,6 +185,11 @@ async function main() {
   ]) {
     fs.writeFileSync(file, `module.exports = ${JSON.stringify(data, null, 2)};\n`);
   }
+  // Machine-readable report consumed by the update workflow (commit message).
+  fs.writeFileSync(
+    path.join(__dirname, '../discovery-report.json'),
+    `${JSON.stringify({ generatedAt: new Date().toISOString(), items: addedEntries }, null, 2)}\n`
+  );
   console.log(
     `✅ Discovery complete: +${added.movies} movies, +${added.series} series, +${added.animations} animations`
   );

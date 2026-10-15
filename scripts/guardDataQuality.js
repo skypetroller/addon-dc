@@ -2,12 +2,15 @@
 // e.g. when the OMDb daily quota is exhausted and all ratings come back empty.
 // Compares the working tree against the last committed state and fails when:
 //   - any catalog file loses items, or
-//   - the number of entries with ratings drops sharply (quota failure signature).
+//   - ratings / overview / poster coverage drops sharply (quota failure or
+//     broken metadata fetch signature — the server's fast path depends on
+//     stored overviews and posters being present).
 const { execSync } = require('child_process');
 
 const FILES = [
   'Data/moviesData.js',
   'Data/seriesData.js',
+  'Data/animationsData.js',
   'Data/DCEUMovies.js',
   'Data/DCSeries.js',
   'Data/everythingbatman.js',
@@ -25,7 +28,9 @@ function loadFromGit(rev, file) {
 
 function stats(data) {
   const rated = data.filter((i) => i.ratings && i.ratings.length > 0).length;
-  return { count: data.length, rated };
+  const withOverview = data.filter((i) => i.overview && String(i.overview).trim()).length;
+  const withPoster = data.filter((i) => i.poster).length;
+  return { count: data.length, rated, withOverview, withPoster };
 }
 
 let failed = false;
@@ -44,14 +49,27 @@ for (const file of FILES) {
     console.error(`❌ ${file}: item count dropped ${before.count} -> ${after.count}`);
     failed = true;
   }
-  // Ratings may legitimately be empty for unreleased titles; only fail on collapse.
+  // Coverage checks only fail on collapse, so legitimately missing metadata
+  // for brand-new unreleased titles never trips the guard.
   if (before.rated > 0 && after.rated < before.rated * 0.5) {
     console.error(
       `❌ ${file}: rated entries collapsed ${before.rated} -> ${after.rated} (likely OMDb quota exhausted)`
     );
     failed = true;
   }
-  if (!failed) console.log(`✅ ${file}: ${after.count} items, ${after.rated} rated`);
+  if (before.withOverview > 0 && after.withOverview < before.withOverview * 0.5) {
+    console.error(`❌ ${file}: overview coverage collapsed ${before.withOverview} -> ${after.withOverview}`);
+    failed = true;
+  }
+  if (before.withPoster > 0 && after.withPoster < before.withPoster * 0.5) {
+    console.error(`❌ ${file}: poster coverage collapsed ${before.withPoster} -> ${after.withPoster}`);
+    failed = true;
+  }
+  if (!failed) {
+    console.log(
+      `✅ ${file}: ${after.count} items, ${after.rated} rated, ${after.withOverview} with overview, ${after.withPoster} with poster`
+    );
+  }
 }
 
 if (failed) {

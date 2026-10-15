@@ -2,6 +2,7 @@ require('dotenv').config();
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const { mergeDiscovered } = require('./preserveDiscovered');
 
 // --- Configuration ---
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
@@ -226,11 +227,12 @@ async function fetchSpecificSeries() {
         }
     }
 
-    // Sort the final list by first air year
-    finalSeriesData.sort(sortByFirstAirYear);
+    // Preserve auto-discovered entries and their addedAt timestamps
+    const mergedSeriesData = mergeDiscovered(finalSeriesData, outputSeriesPath);
+    mergedSeriesData.sort(sortByFirstAirYear);
 
     // Write the collected data to the output file
-    writeDataFile(outputSeriesPath, finalSeriesData);
+    writeDataFile(outputSeriesPath, mergedSeriesData);
 
     console.log('\n✨ Specific series data fetching complete!');
 }

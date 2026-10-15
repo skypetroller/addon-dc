@@ -2,6 +2,7 @@ require('dotenv').config();
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const { mergeDiscovered } = require('./preserveDiscovered');
 
 // --- Configuration ---
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
@@ -206,11 +207,12 @@ async function fetchSpecificMovies() {
         console.log(`   Successfully processed "${title}" with required metadata.`);
     }
 
-    // Sort the final list by release year
-    finalMovieData.sort(sortByReleaseYear);
+    // Preserve auto-discovered entries and their addedAt timestamps
+    const mergedMovieData = mergeDiscovered(finalMovieData, outputMoviesPath);
+    mergedMovieData.sort(sortByReleaseYear);
 
     // Write the collected data to the output file
-    writeDataFile(outputMoviesPath, finalMovieData);
+    writeDataFile(outputMoviesPath, mergedMovieData);
 
     console.log('\n✨ Specific movie data fetching complete!');
 }

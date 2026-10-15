@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   update-data:
@@ -46,4 +47,34 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add Data/
-          git diff --staged --quiet || (git commit -m "Auto-update DC catalog data" && git push)
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            node scripts/bumpVersion.js
+            git add src/manifest.json src/server.js
+            BODY=$(node -e "try{const r=require('./discovery-report.json');const items=r.items||[];console.log(items.length?items.map(i=>'- '+i.title+' ('+i.year+') ['+i.type+']').join('\n'):'Routine refresh, no new titles.')}catch(e){console.log('Routine refresh.')}")
+            git commit -m "Auto-update DC catalog data" -m "$BODY"
+            git push
+          fi
+
+      - name: Close failure issue on success
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Data updater failed" --json number --jq '.[].number' | while read -r n; do
+            gh issue close "$n" --repo "$GITHUB_REPOSITORY" --comment "The updater succeeded again: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          done
+
+      - name: Report failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          EXISTING=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Data updater failed" --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --repo "$GITHUB_REPOSITORY" --body "The updater failed again: $RUN_URL"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "Data updater failed" --body "The scheduled data update failed. Check the run: $RUN_URL"
+          fi
