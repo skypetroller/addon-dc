@@ -1,8 +1,8 @@
 {
-  "id": "com.tapframe.dcaddon",
+  "id": "com.skypetroller.dcuniverse",
   "name": "DC Universe",
   "description": "Explore the DC Universe by release date, movies, series, and animations!",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "logo": "https://github.com/tapframe/addon-dc/blob/main/assets/icon.png?raw=true",
   "background": "https://github.com/tapframe/addon-dc/blob/main/assets/background.jpg?raw=true",
   "catalogs": [
@@ -78,10 +78,5 @@
   "behaviorHints": {
     "configurable": true
   },
-  "contactEmail": "nayifveliya99@gmail.com",
-
-  "stremioAddonsConfig": {
-    "issuer": "https://stremio-addons.net",
-    "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..2TNKOWJrUe7Y9D838FIDfA.i8aMASGnH0eOTpA2ZJEi6ib2Axjh-z8RG--I5XCnH40IjD_enWauU2WU0FwiFdAGjg6e_Uh0Thjkl2R_405M7cSOZib4I1RvKiiCsXn6EBC5GmTJ-W1ZsMaeJGVwXSrF.FBzgXVi9Ih-GRdBozfoglQ"
-  }
+  "contactEmail": "nayifveliya99@gmail.com"
 }

@@ -400,8 +400,8 @@ app.get('/catalog/:catalogsParam/manifest.json', (req, res) => {
     
     // Create a custom ID that includes RPDB key info if present
     const customId = rpdbKey 
-        ? `com.tapframe.dcaddon.custom.${selectedCatalogIds.join('.')}.rpdb`
-        : `com.tapframe.dcaddon.custom.${selectedCatalogIds.join('.')}`;
+        ? `com.skypetroller.dcuniverse.custom.${selectedCatalogIds.join('.')}.rpdb`
+        : `com.skypetroller.dcuniverse.custom.${selectedCatalogIds.join('.')}`;
         
     // Limit ID length to avoid issues
     const manifestId = customId.slice(0, 100);
@@ -411,7 +411,7 @@ app.get('/catalog/:catalogsParam/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe Custom",
         description: `Your personalized selection of DC catalogs: ${selectedApiCatalogs.map(c => c.name).join(', ')}`,
-        version: "1.3.2",
+        version: "1.3.3",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: selectedApiCatalogs,
@@ -439,14 +439,14 @@ app.get('/manifest.json', (req, res) => {
     
     // Create manifest ID that includes RPDB key info if present
     const manifestId = rpdbKey 
-        ? "com.tapframe.dcaddon.rpdb"
-        : "com.tapframe.dcaddon";
+        ? "com.skypetroller.dcuniverse.rpdb"
+        : "com.skypetroller.dcuniverse";
     
     const manifest = {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations!",
-        version: "1.3.2",
+        version: "1.3.3",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
@@ -468,13 +468,13 @@ app.get('/rpdb/:rpdbKey/manifest.json', (req, res) => {
     console.log(`RPDB path-based manifest requested with key: ${rpdbKey}`);
     
     // Create a custom ID that includes RPDB key info
-    const manifestId = `com.tapframe.dcaddon.rpdb.${rpdbKey.substring(0, 8)}`;
+    const manifestId = `com.skypetroller.dcuniverse.rpdb.${rpdbKey.substring(0, 8)}`;
     
     const manifest = {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations! (with IMDb ratings on posters)",
-        version: "1.3.2",
+        version: "1.3.3",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
