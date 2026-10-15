@@ -35,8 +35,7 @@ module.exports = [
         "name": "Science Fiction"
       }
     ],
-    "overview": "A young boy learns that he has extraordinary powers and is not of this earth. As a young man, he journeys to discover where he came from and what he was sent here to do. But the hero in him must emerge if he is to save the world from annihilation and become the symbol of hope for all mankind.",
-    "addedAt": "2026-10-15"
+    "overview": "A young boy learns that he has extraordinary powers and is not of this earth. As a young man, he journeys to discover where he came from and what he was sent here to do. But the hero in him must emerge if he is to save the world from annihilation and become the symbol of hope for all mankind."
   },
   {
     "tmdbId": 209112,
@@ -74,8 +73,7 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "Fearing the actions of a god-like Super Hero left unchecked, Gotham City’s own formidable, forceful vigilante takes on Metropolis’s most revered, modern-day savior, while the world wrestles with what sort of hero it really needs. And with Batman and Superman at war with one another, a new threat quickly arises, putting mankind in greater danger than it’s ever known before.",
-    "addedAt": "2026-10-15"
+    "overview": "Fearing the actions of a god-like Super Hero left unchecked, Gotham City’s own formidable, forceful vigilante takes on Metropolis’s most revered, modern-day savior, while the world wrestles with what sort of hero it really needs. And with Batman and Superman at war with one another, a new threat quickly arises, putting mankind in greater danger than it’s ever known before."
   },
   {
     "tmdbId": 297761,
@@ -113,8 +111,7 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "From DC Comics comes the Suicide Squad, an antihero team of incarcerated supervillains who act as deniable assets for the United States government, undertaking high-risk black ops missions in exchange for commuted prison sentences.",
-    "addedAt": "2026-10-15"
+    "overview": "From DC Comics comes the Suicide Squad, an antihero team of incarcerated supervillains who act as deniable assets for the United States government, undertaking high-risk black ops missions in exchange for commuted prison sentences."
   },
   {
     "tmdbId": 297762,
@@ -152,8 +149,7 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "An Amazon princess comes to the world of Man in the grips of the First World War to confront the forces of evil and bring an end to human conflict.",
-    "addedAt": "2026-10-15"
+    "overview": "An Amazon princess comes to the world of Man in the grips of the First World War to confront the forces of evil and bring an end to human conflict."
   },
   {
     "tmdbId": 141052,
@@ -191,8 +187,7 @@ module.exports = [
         "name": "Science Fiction"
       }
     ],
-    "overview": "Fuelled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne and Diana Prince assemble a team of metahumans consisting of Barry Allen, Arthur Curry and Victor Stone to face the catastrophic threat of Steppenwolf and the Parademons who are on the hunt for three Mother Boxes on Earth.",
-    "addedAt": "2026-10-15"
+    "overview": "Fuelled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne and Diana Prince assemble a team of metahumans consisting of Barry Allen, Arthur Curry and Victor Stone to face the catastrophic threat of Steppenwolf and the Parademons who are on the hunt for three Mother Boxes on Earth."
   },
   {
     "tmdbId": 297802,
@@ -230,8 +225,7 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "Half-human, half-Atlantean Arthur Curry is taken on the journey of his lifetime to discover if he is worth of being a king.",
-    "addedAt": "2026-10-15"
+    "overview": "Half-human, half-Atlantean Arthur Curry is taken on the journey of his lifetime to discover if he is worth of being a king."
   },
   {
     "tmdbId": 287947,
@@ -269,8 +263,7 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "A boy is given the ability to become an adult superhero in times of need with a single magic word.",
-    "addedAt": "2026-10-15"
+    "overview": "A boy is given the ability to become an adult superhero in times of need with a single magic word."
   },
   {
     "tmdbId": 495764,
@@ -304,8 +297,7 @@ module.exports = [
         "name": "Crime"
       }
     ],
-    "overview": "Harley Quinn joins forces with a singer, an assassin and a police detective to help a young girl who had a hit placed on her after she stole a rare diamond from a crime lord.",
-    "addedAt": "2026-10-15"
+    "overview": "Harley Quinn joins forces with a singer, an assassin and a police detective to help a young girl who had a hit placed on her after she stole a rare diamond from a crime lord."
   },
   {
     "tmdbId": 464052,
@@ -343,8 +335,7 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "A botched store robbery places Wonder Woman in a global battle against a powerful and mysterious ancient force that puts her powers in jeopardy.",
-    "addedAt": "2026-10-15"
+    "overview": "A botched store robbery places Wonder Woman in a global battle against a powerful and mysterious ancient force that puts her powers in jeopardy."
   },
   {
     "tmdbId": 791373,
@@ -382,8 +373,7 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
-    "addedAt": "2026-10-15"
+    "overview": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions."
   },
   {
     "tmdbId": 436969,
@@ -417,8 +407,7 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-    "addedAt": "2026-10-15"
+    "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese."
   },
   {
     "tmdbId": 436270,
@@ -456,8 +445,7 @@ module.exports = [
         "name": "Science Fiction"
       }
     ],
-    "overview": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "addedAt": "2026-10-15"
+    "overview": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world."
   },
   {
     "tmdbId": 594767,
@@ -495,8 +483,7 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "Billy Batson and his foster siblings, who transform into superheroes by saying \"Shazam!\", are forced to get back into action and fight the Daughters of Atlas, who they must stop from using a weapon that could destroy the world.",
-    "addedAt": "2026-10-15"
+    "overview": "Billy Batson and his foster siblings, who transform into superheroes by saying \"Shazam!\", are forced to get back into action and fight the Daughters of Atlas, who they must stop from using a weapon that could destroy the world."
   },
   {
     "tmdbId": 298618,
@@ -534,8 +521,7 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "When his attempt to save his family inadvertently alters the future, Barry Allen becomes trapped in a reality in which General Zod has returned and there are no Super Heroes to turn to. In order to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?",
-    "addedAt": "2026-10-15"
+    "overview": "When his attempt to save his family inadvertently alters the future, Barry Allen becomes trapped in a reality in which General Zod has returned and there are no Super Heroes to turn to. In order to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?"
   },
   {
     "tmdbId": 565770,
@@ -573,8 +559,7 @@ module.exports = [
         "name": "Adventure"
       }
     ],
-    "overview": "Recent college grad Jaime Reyes returns home full of aspirations for his future, only to find that home is not quite as he left it. As he searches to find his purpose in the world, fate intervenes when Jaime unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab.",
-    "addedAt": "2026-10-15"
+    "overview": "Recent college grad Jaime Reyes returns home full of aspirations for his future, only to find that home is not quite as he left it. As he searches to find his purpose in the world, fate intervenes when Jaime unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab."
   },
   {
     "tmdbId": 572802,
@@ -612,7 +597,6 @@ module.exports = [
         "name": "Fantasy"
       }
     ],
-    "overview": "Black Manta seeks revenge on Aquaman for his father's death. Wielding the Black Trident's power, he becomes a formidable foe. To defend Atlantis, Arthur (Aquaman) forges an alliance with his imprisoned brother. They must protect the kingdom.",
-    "addedAt": "2026-10-15"
+    "overview": "Black Manta seeks revenge on Aquaman for his father's death. Wielding the Black Trident's power, he becomes a formidable foe. To defend Atlantis, Arthur (Aquaman) forges an alliance with his imprisoned brother. They must protect the kingdom."
   }
 ];
