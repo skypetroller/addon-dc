@@ -76,7 +76,7 @@ module.exports = [
     "imdbId": "tt0060153",
     "id": "dc_tt0060153",
     "releaseYear": "1966",
-    "poster": "https://image.tmdb.org/t/p/w500/iBaHizz1sfMs4N03aHsGe7I2G6S.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/zzoPxWHnPa0eyfkMLgwbNvdEcVF.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",

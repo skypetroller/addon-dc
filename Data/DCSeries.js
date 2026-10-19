@@ -544,7 +544,7 @@ module.exports = [
     "imdbId": "tt26545992",
     "id": "dc_tt26545992",
     "releaseYear": "2026",
-    "poster": "https://image.tmdb.org/t/p/w500/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/rb94rKVIzLyfWufIN7WqLvadBDH.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",

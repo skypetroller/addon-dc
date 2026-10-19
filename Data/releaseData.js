@@ -2649,6 +2649,26 @@ module.exports = [
     "trailer": "MikgqM0LXr4"
   },
   {
+    "tmdbId": 1800288,
+    "title": "Adventures in the Making of Superman",
+    "type": "movie",
+    "imdbId": "tmdb_1800288",
+    "id": "dc_tmdb_1800288",
+    "releaseYear": "2025",
+    "releaseDate": "2025-08-11",
+    "poster": "https://image.tmdb.org/t/p/w500/sGIMndKyUOLh2yaib84THEoUMxP.jpg",
+    "overview": "Join James Gunn and the cast of Superman on their incredible filmmaking journey. This documentary offers an in-depth look at the filmmaking process, told with unparalleled access.",
+    "ratings": [],
+    "genres": [
+      {
+        "id": 99,
+        "name": "Documentary"
+      }
+    ],
+    "addedAt": "2026-10-19",
+    "discovered": true
+  },
+  {
     "tmdbId": 1081003,
     "title": "Supergirl",
     "type": "movie",
@@ -2725,7 +2745,7 @@ module.exports = [
     "id": "dc_tt26545992",
     "releaseYear": "2026",
     "releaseDate": "2026-08-16",
-    "poster": "https://image.tmdb.org/t/p/w500/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/rb94rKVIzLyfWufIN7WqLvadBDH.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
