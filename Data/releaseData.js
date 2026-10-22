@@ -2716,7 +2716,7 @@ module.exports = [
     "imdbId": "tt34890576",
     "id": "dc_tt34890576",
     "releaseYear": "2026",
-    "releaseDate": "2026-10-21",
+    "releaseDate": "2026-10-19",
     "poster": "https://image.tmdb.org/t/p/w500/5jCpQnWPikggmQZoDp1eAi6BI6w.jpg",
     "ratings": [],
     "genres": [
