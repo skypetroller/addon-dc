@@ -1589,7 +1589,7 @@ module.exports = [
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "53%"
+        "Value": "52%"
       },
       {
         "Source": "Metacritic",
@@ -1622,7 +1622,7 @@ module.exports = [
     "id": "dc_tt34890576",
     "releaseYear": "2026",
     "releaseDate": "2026-10-19",
-    "poster": "https://image.tmdb.org/t/p/w500/5jCpQnWPikggmQZoDp1eAi6BI6w.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
     "ratings": [],
     "genres": [
       {

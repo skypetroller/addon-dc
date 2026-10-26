@@ -612,6 +612,27 @@ module.exports = [
     "trailer": "jprhe-cWKGs"
   },
   {
+    "tmdbId": 1081004,
+    "title": "The Brave and the Bold",
+    "type": "movie",
+    "imdbId": "tt26545566",
+    "id": "dc_tt26545566",
+    "releaseYear": "2026",
+    "poster": "https://image.tmdb.org/t/p/w500/taC9PDnfHPc5j6gDCPtuf149XyE.jpg",
+    "ratings": [],
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      }
+    ],
+    "overview": "The story of Damian Wayne, who was raised as a little murderer and assassin, and Batman's son that he didn’t know existed for the first eight to ten years of his life."
+  },
+  {
     "tmdbId": 806704,
     "title": "The Batman: Part II",
     "type": "movie",
