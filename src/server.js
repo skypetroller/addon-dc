@@ -439,8 +439,8 @@ app.get('/catalog/:catalogsParam/manifest.json', (req, res) => {
     
     // Create a custom ID that includes RPDB key info if present
     const customId = rpdbKey 
-        ? `com.skypetroller.dcuniverse.custom.${selectedCatalogIds.join('.')}.rpdb`
-        : `com.skypetroller.dcuniverse.custom.${selectedCatalogIds.join('.')}`;
+        ? `com.skypetroller.dcuniverse.v2.custom.${selectedCatalogIds.join('.')}.rpdb`
+        : `com.skypetroller.dcuniverse.v2.custom.${selectedCatalogIds.join('.')}`;
         
     // Limit ID length to avoid issues
     const manifestId = customId.slice(0, 100);
@@ -450,7 +450,7 @@ app.get('/catalog/:catalogsParam/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe Custom",
         description: `Your personalized selection of DC catalogs: ${selectedApiCatalogs.map(c => c.name).join(', ')}`,
-        version: "1.3.9",
+        version: "1.4.0",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: selectedApiCatalogs,
@@ -476,16 +476,19 @@ app.get('/manifest.json', (req, res) => {
         console.log(`Default manifest with RPDB key: ${rpdbKey}`);
     }
     
-    // Create manifest ID that includes RPDB key info if present
+    // Create manifest ID that includes RPDB key info if present.
+    // The `.v2` suffix forces Stremio to treat this as a fresh addon: it caches
+    // catalog state per top-level manifest id (stremio-bugs #2806), so bumps
+    // to the version or catalog list alone never reach existing installs.
     const manifestId = rpdbKey 
-        ? "com.skypetroller.dcuniverse.rpdb"
-        : "com.skypetroller.dcuniverse";
+        ? "com.skypetroller.dcuniverse.v2.rpdb"
+        : "com.skypetroller.dcuniverse.v2";
     
     const manifest = {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations!",
-        version: "1.3.9",
+        version: "1.4.0",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
@@ -507,13 +510,13 @@ app.get('/rpdb/:rpdbKey/manifest.json', (req, res) => {
     console.log(`RPDB path-based manifest requested with key: ${rpdbKey}`);
     
     // Create a custom ID that includes RPDB key info
-    const manifestId = `com.skypetroller.dcuniverse.rpdb.${rpdbKey.substring(0, 8)}`;
+    const manifestId = `com.skypetroller.dcuniverse.v2.rpdb.${rpdbKey.substring(0, 8)}`;
     
     const manifest = {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations! (with IMDb ratings on posters)",
-        version: "1.3.9",
+        version: "1.4.0",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),

@@ -1,8 +1,8 @@
 {
-  "id": "com.skypetroller.dcuniverse",
+  "id": "com.skypetroller.dcuniverse.v2",
   "name": "DC Universe",
   "description": "Explore the DC Universe by release date, movies, series, and animations!",
-  "version": "1.3.9",
+  "version": "1.4.0",
   "logo": "https://github.com/tapframe/addon-dc/blob/main/assets/icon.png?raw=true",
   "background": "https://github.com/tapframe/addon-dc/blob/main/assets/background.jpg?raw=true",
   "catalogs": [
