@@ -450,7 +450,7 @@ app.get('/catalog/:catalogsParam/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe Custom",
         description: `Your personalized selection of DC catalogs: ${selectedApiCatalogs.map(c => c.name).join(', ')}`,
-        version: "1.4.0",
+        version: "1.4.1",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: selectedApiCatalogs,
@@ -467,7 +467,12 @@ app.get('/catalog/:catalogsParam/manifest.json', (req, res) => {
 });
 
 // Default manifest endpoint
-app.get('/manifest.json', (req, res) => {
+// The plain /manifest.json stays as an alias for existing installs. New
+// installs use /v2/manifest.json: Stremio pins an addon record to the
+// transport URL it was installed from, so accounts that added the plain URL
+// while it served an older manifest keep resurrecting that stale snapshot
+// (stremio-bugs #2806). A path that never existed before forces a fresh fetch.
+app.get(['/manifest.json', '/v2/manifest.json'], (req, res) => {
     console.log('Default manifest requested');
     
     // Check for RPDB key in query parameters
@@ -488,7 +493,7 @@ app.get('/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations!",
-        version: "1.4.0",
+        version: "1.4.1",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
@@ -516,7 +521,7 @@ app.get('/rpdb/:rpdbKey/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations! (with IMDb ratings on posters)",
-        version: "1.4.0",
+        version: "1.4.1",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),

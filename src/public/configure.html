@@ -504,8 +504,8 @@
                             this.installUrl = `${protocol}//${host}/rpdb/${encodeURIComponent(this.rpdbKey)}/manifest.json`;
                             this.stremioUrl = `stremio://${host}/rpdb/${encodeURIComponent(this.rpdbKey)}/manifest.json`;
                         } else {
-                        this.installUrl = `${protocol}//${host}/manifest.json`;
-                        this.stremioUrl = `stremio://${host}/manifest.json`;
+                        this.installUrl = `${protocol}//${host}/v2/manifest.json`;
+                        this.stremioUrl = `stremio://${host}/v2/manifest.json`;
                         }
                     } else {
                         const catalogParam = this.selectedCatalogs.join(',');

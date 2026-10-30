@@ -28,8 +28,10 @@ A self-hosted fork of [tapframe/addon-dc](https://github.com/tapframe/addon-dc) 
 Use the addon URL directly:
 
 ```
-https://addon-dc-ila1.onrender.com/manifest.json
+https://addon-dc-ila1.onrender.com/v2/manifest.json
 ```
+
+The plain `/manifest.json` URL still works, but it is kept only as an alias for existing installs. Stremio pins each addon record to the exact URL it was installed from, so accounts that added the old URL can keep getting a stale snapshot. New installs should use `/v2/manifest.json`.
 
 ### Custom catalog configuration
 
@@ -132,7 +134,8 @@ node scripts/guardDataQuality.js
 
 | Route | Purpose |
 | --- | --- |
-| `/manifest.json` | Full addon manifest (all catalogs) |
+| `/v2/manifest.json` | Full addon manifest (all catalogs); recommended install URL |
+| `/manifest.json` | Alias of the full manifest, kept for existing installs |
 | `/catalog/<ids>/manifest.json` | Manifest limited to selected catalogs |
 | `/catalog/<type>/<id>.json` | Catalog data (also accepts `/search=x&genre=y&skip=100` extras) |
 | `/rpdb/<key>/manifest.json` | Manifest with RPDB posters |
