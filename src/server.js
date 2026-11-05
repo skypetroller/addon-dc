@@ -70,6 +70,44 @@ app.use((req, res, next) => {
     next();
 });
 
+// In-memory request counters so we can confirm whether a Stremio client is
+// actually reaching this deployment after an install. Resets on restart.
+const requestStats = {
+    startedAt: new Date().toISOString(),
+    manifests: 0,
+    catalogs: 0,
+    lastManifestAt: null,
+    lastCatalogAt: null,
+    lastUserAgent: null,
+    clients: {},
+};
+
+function noteRequest(kind, req) {
+    const ua = String(req.get('user-agent') || 'unknown').slice(0, 160);
+    requestStats.lastUserAgent = ua;
+    requestStats.clients[ua] = (requestStats.clients[ua] || 0) + 1;
+    const clients = Object.keys(requestStats.clients);
+    if (clients.length > 20) delete requestStats.clients[clients[0]];
+
+    const now = new Date().toISOString();
+    if (kind === 'manifest') {
+        requestStats.manifests += 1;
+        requestStats.lastManifestAt = now;
+    } else {
+        requestStats.catalogs += 1;
+        requestStats.lastCatalogAt = now;
+    }
+}
+
+app.use((req, res, next) => {
+    if (req.path.endsWith('/manifest.json')) {
+        noteRequest('manifest', req);
+    } else if (/^\/(?:catalog|rpdb)\//.test(req.path) && req.path.endsWith('.json')) {
+        noteRequest('catalog', req);
+    }
+    next();
+});
+
 // Route to serve configure.html for paths like /catalog/id1,id2/configure
 app.get('/catalog/:ids/configure', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'configure.html'));
@@ -462,7 +500,7 @@ app.get('/catalog/:catalogsParam/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe Custom",
         description: `Your personalized selection of DC catalogs: ${selectedApiCatalogs.map(c => c.name).join(', ')}`,
-        version: "1.4.3",
+        version: "1.4.4",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: selectedApiCatalogs,
@@ -505,7 +543,7 @@ app.get(['/manifest.json', '/v2/manifest.json'], (req, res) => {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations!",
-        version: "1.4.3",
+        version: "1.4.4",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
@@ -533,7 +571,7 @@ app.get('/rpdb/:rpdbKey/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations! (with IMDb ratings on posters)",
-        version: "1.4.3",
+        version: "1.4.4",
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
@@ -951,7 +989,8 @@ app.get('/health', (req, res) => {
         status: 'ok',
         uptime: Math.round(process.uptime()),
         version: require('./manifest.json').version,
-        updatedAt
+        updatedAt,
+        requests: requestStats
     });
 });
 

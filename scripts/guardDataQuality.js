@@ -49,9 +49,17 @@ for (const file of FILES) {
   delete require.cache[require.resolve(`../${file}`)];
   after = stats(require(`../${file}`));
 
-  if (after.count < before.count) {
+  // A single title can legitimately disappear when TMDb merges an entry or a
+  // release date moves. Treat a small drop as a warning so one transient
+  // upstream change does not block the whole update; still fail on a real
+  // shrinkage (more than 5%, with at least one item of tolerance).
+  const dropped = before.count - after.count;
+  const allowedDrop = Math.max(1, Math.floor(before.count * 0.05));
+  if (dropped > allowedDrop) {
     console.error(`❌ ${file}: item count dropped ${before.count} -> ${after.count}`);
     failed = true;
+  } else if (dropped > 0) {
+    console.warn(`⚠️ ${file}: item count dropped ${before.count} -> ${after.count} (within tolerance)`);
   }
   // Coverage checks only fail on collapse, so legitimately missing metadata
   // for brand-new unreleased titles never trips the guard.
