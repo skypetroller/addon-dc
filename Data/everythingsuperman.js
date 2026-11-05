@@ -216,7 +216,7 @@ module.exports = [
     "imdbId": "tt0094074",
     "id": "dc_tt0094074",
     "releaseYear": "1987",
-    "poster": "https://image.tmdb.org/t/p/w500/nJFBeU1oKIaIoLVyQYUeB36DW55.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/vhs3P0JwqzlgfBqhjnCWDEOtDmS.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -489,7 +489,7 @@ module.exports = [
     "imdbId": "tt37833661",
     "id": "dc_tt37833661",
     "releaseYear": "2027",
-    "poster": "https://image.tmdb.org/t/p/w500/tYLgfKk3cEk7LskgxWyW37Nty01.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/ms7BhVucvjxV74HkX8JLmFlQ6p2.jpg",
     "ratings": [],
     "genres": [
       {

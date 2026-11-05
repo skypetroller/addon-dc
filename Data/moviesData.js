@@ -134,7 +134,7 @@ module.exports = [
     "id": "dc_tt0094074",
     "releaseYear": "1987",
     "releaseDate": "1987-07-24",
-    "poster": "https://image.tmdb.org/t/p/w500/nJFBeU1oKIaIoLVyQYUeB36DW55.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/vhs3P0JwqzlgfBqhjnCWDEOtDmS.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -1623,7 +1623,16 @@ module.exports = [
     "releaseYear": "2026",
     "releaseDate": "2026-10-19",
     "poster": "https://image.tmdb.org/t/p/w500/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
-    "ratings": [],
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "59/100"
+      }
+    ],
     "genres": [
       {
         "id": 27,
@@ -1650,7 +1659,7 @@ module.exports = [
     "id": "dc_tt37833661",
     "releaseYear": "2027",
     "releaseDate": "2027-07-07",
-    "poster": "https://image.tmdb.org/t/p/w500/tYLgfKk3cEk7LskgxWyW37Nty01.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/ms7BhVucvjxV74HkX8JLmFlQ6p2.jpg",
     "ratings": [],
     "genres": [
       {
