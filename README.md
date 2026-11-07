@@ -17,7 +17,7 @@ A self-hosted fork of [tapframe/addon-dc](https://github.com/tapframe/addon-dc) 
 *   🆕 **New Releases** — everything added to the library in the last 120 days, animations included.
 *   ⭐ **RPDB support (optional)** — show ratings on posters by adding your [RatingPosterDB](https://ratingposterdb.com) API key on the configure page.
 *   🛡️ **Data quality guard** — CI refuses to commit degraded data (counting drops, missing posters/overviews/ratings after a quota hiccup), and weekly failures open a GitHub issue automatically.
-*   🌡️ **Freshness visible** — the configure page footer shows the last data refresh, `/health` reports it as JSON, and a keep-alive workflow prevents cold starts on Render's free tier.
+*   🌡️ **Freshness visible** — the configure page footer shows the last data refresh, `/health` reports it as JSON, and a shared keep-alive workflow keeps both DC and Marvel warm during a 12-hour daily window.
 
 ---
 
@@ -88,6 +88,12 @@ The commit message lists the new titles. Successful runs close any open "Data up
 3. **Add GitHub secrets** (Settings → Secrets and variables → Actions): `TMDB_API_KEY`, `OMDB_API_KEY`.
 4. **Deploy on Render** as a Web Service — build command `npm install`, start command `npm run start:server` — and set the same two env vars (`PORT` is provided by Render).
 5. Optional: update the URLs inside `.github/workflows/keepalive.yml` and the badge links if you rename the service.
+
+### Keep-awake window
+
+Render's free tier spins a service down after ~15 minutes without traffic and gives each workspace 750 instance-hours per month. Keeping both this addon and the Marvel addon awake 24/7 would need ~1,460 hours, so the shared `.github/workflows/keepalive.yml` keeps both warm during a 12-hour window: **10:00–22:00 UTC** (the last ping is at ~21:45; Render's idle timer covers the rest). Outside that window the first request can take 30–60 seconds to cold-start.
+
+The same workflow is intentionally present in both `addon-dc` and `addon-marvel`; either repository can keep both services warm if GitHub throttles the other. It uses long-lived jobs because GitHub throttles short `*/10` cron workflows.
 
 ---
 
