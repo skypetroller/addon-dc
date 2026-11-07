@@ -27,10 +27,10 @@ A self-hosted fork of [tapframe/addon-dc](https://github.com/tapframe/addon-dc) 
 
 | Catalog | ID | Contents |
 | --- | --- | --- |
+| Coming Soon | `dc-upcoming` | Announced titles with a confirmed future date |
 | New Releases | `dc-new` | DC titles added in the last 120 days |
 | James Gunn Chronological | `dcu-gunn-chronological` | DCU movies and shows in story order |
 | Zack Snyder Chronological | `dc-chronological` | Snyder-era DCEU in story order |
-| Coming Soon | `dc-upcoming` | Announced titles with a confirmed future date |
 | DC Elseworlds | `dc-elseworlds` | Joker, The Batman, The Penguin and more |
 | Arrowverse | `dc-arrowverse` | The CW multiverse shows in premiere order |
 | DC Animated Universe | `dc-dcau` | Bruce Timm's DCAU in viewing order |

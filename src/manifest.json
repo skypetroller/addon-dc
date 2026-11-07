@@ -2,10 +2,37 @@
   "id": "com.skypetroller.dcuniverse.v2",
   "name": "DC Universe",
   "description": "Explore the DC Universe by release date, movies, series, and animations!",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "logo": "https://github.com/tapframe/addon-dc/blob/main/assets/icon.png?raw=true",
   "background": "https://github.com/tapframe/addon-dc/blob/main/assets/background.jpg?raw=true",
   "catalogs": [
+    {
+      "type": "DC",
+      "id": "dc-upcoming",
+      "name": "Coming Soon",
+      "extra": [
+        {
+          "name": "search"
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Crime",
+            "Drama",
+            "Horror",
+            "Mystery",
+            "Science Fiction",
+            "Thriller"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ]
+    },
     {
       "type": "DC",
       "id": "dc-new",
@@ -91,33 +118,6 @@
             "Fantasy",
             "Sci-Fi & Fantasy",
             "Science Fiction"
-          ]
-        },
-        {
-          "name": "skip"
-        }
-      ]
-    },
-    {
-      "type": "DC",
-      "id": "dc-upcoming",
-      "name": "Coming Soon",
-      "extra": [
-        {
-          "name": "search"
-        },
-        {
-          "name": "genre",
-          "options": [
-            "Action",
-            "Adventure",
-            "Animation",
-            "Crime",
-            "Drama",
-            "Horror",
-            "Mystery",
-            "Science Fiction",
-            "Thriller"
           ]
         },
         {

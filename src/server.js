@@ -362,6 +362,11 @@ function getAllCatalogs() {
     const catalogs = [
         {
             type: "DC",
+            id: "dc-upcoming",
+            name: "Coming Soon"
+        },
+        {
+            type: "DC",
             id: "dc-new",
             name: "New Releases"
         },
@@ -374,11 +379,6 @@ function getAllCatalogs() {
             type: "DC",
             id: "dc-chronological",
             name: "Zack Snyder Chronological"
-        },
-        {
-            type: "DC",
-            id: "dc-upcoming",
-            name: "Coming Soon"
         },
         {
             type: "DC",
@@ -594,6 +594,13 @@ app.get('/api/catalogs', (req, res) => {
     
     const catalogInfo = [
         { 
+            id: 'dc-upcoming', 
+            name: 'Coming Soon', 
+            category: 'Timeline',
+            description: 'Announced DC titles with a confirmed future release date',
+            icon: 'clock'
+        },
+        { 
             id: 'dc-new', 
             name: 'New Releases', 
             category: 'Timeline',
@@ -613,13 +620,6 @@ app.get('/api/catalogs', (req, res) => {
             category: 'Timeline',
             description: 'Snyder DCEU films and shows in story order',
             icon: 'calendar-alt'
-        },
-        { 
-            id: 'dc-upcoming', 
-            name: 'Coming Soon', 
-            category: 'Timeline',
-            description: 'Announced DC titles with a confirmed future release date',
-            icon: 'clock'
         },
         { 
             id: 'dc-elseworlds', 
