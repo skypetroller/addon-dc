@@ -14,6 +14,7 @@ const supermanAnimationData = require('../Data/everythingsupermananimation');
 const dceuMoviesData = require('../Data/DCEUMovies');
 const modernDCSeriesData = require('../Data/DCSeries');
 const dcuGunnChronologicalData = require('../Data/dcuGunnChronologicalData');
+const manifestVersion = require('./manifest.json').version;
 
 require('dotenv').config();
 
@@ -500,7 +501,7 @@ app.get('/catalog/:catalogsParam/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe Custom",
         description: `Your personalized selection of DC catalogs: ${selectedApiCatalogs.map(c => c.name).join(', ')}`,
-        version: "1.4.4",
+        version: manifestVersion,
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: selectedApiCatalogs,
@@ -543,7 +544,7 @@ app.get(['/manifest.json', '/v2/manifest.json'], (req, res) => {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations!",
-        version: "1.4.4",
+        version: manifestVersion,
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
@@ -571,7 +572,7 @@ app.get('/rpdb/:rpdbKey/manifest.json', (req, res) => {
         id: manifestId,
         name: "DC Universe",
         description: "Explore the DC Universe by release date, movies, series, and animations! (with IMDb ratings on posters)",
-        version: "1.4.4",
+        version: manifestVersion,
         logo: `${req.protocol}://${req.get('host')}/assets/icon.png`,
         background: `${req.protocol}://${req.get('host')}/assets/background.jpg`,
         catalogs: getAllCatalogs(),
@@ -988,7 +989,7 @@ app.get('/health', (req, res) => {
     res.json({
         status: 'ok',
         uptime: Math.round(process.uptime()),
-        version: require('./manifest.json').version,
+        version: manifestVersion,
         updatedAt,
         requests: requestStats
     });
