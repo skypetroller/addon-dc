@@ -91,7 +91,7 @@ The commit message lists the new titles. Successful runs close any open "Data up
 
 ### Keep-awake window
 
-Render's free tier spins a service down after ~15 minutes without traffic and gives each workspace 750 instance-hours per month. Keeping both this addon and the Marvel addon awake 24/7 would need ~1,460 hours, so the shared `.github/workflows/keepalive.yml` keeps both warm during a 12-hour window: **10:00–22:00 UTC** (the last ping is at ~21:45; Render's idle timer covers the rest). Outside that window the first request can take 30–60 seconds to cold-start.
+Render's free tier spins a service down after ~15 minutes without traffic and gives each workspace 750 instance-hours per month. Keeping both this addon and the Marvel addon awake 24/7 would need ~1,460 hours, so the shared `.github/workflows/keepalive.yml` keeps both warm during a roughly 12-hour daily window: **~10:00–21:45 UTC**. Pings run from 09:55 to 21:30, then Render's idle timer covers the remaining 15 minutes. Outside that window the first request can take 30–60 seconds to cold-start.
 
 The same workflow is intentionally present in both `addon-dc` and `addon-marvel`; either repository can keep both services warm if GitHub throttles the other. It uses long-lived jobs because GitHub throttles short `*/10` cron workflows.
 
