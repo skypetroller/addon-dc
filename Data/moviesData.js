@@ -1520,7 +1520,7 @@ module.exports = [
     "id": "dc_tt5950044",
     "releaseYear": "2025",
     "releaseDate": "2025-07-09",
-    "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
@@ -1659,7 +1659,7 @@ module.exports = [
     "id": "dc_tt37833661",
     "releaseYear": "2027",
     "releaseDate": "2027-07-07",
-    "poster": "https://image.tmdb.org/t/p/w500/ms7BhVucvjxV74HkX8JLmFlQ6p2.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/tYLgfKk3cEk7LskgxWyW37Nty01.jpg",
     "ratings": [],
     "genres": [
       {
