@@ -378,33 +378,6 @@ module.exports = [
     "trailer": "GAjBzu8ggi0"
   },
   {
-    "tmdbId": 1150695,
-    "title": "Hercules: The Brave and the Bold",
-    "type": "movie",
-    "imdbId": "tt2363217",
-    "id": "dc_tt2363217",
-    "releaseYear": "2013",
-    "poster": "https://image.tmdb.org/t/p/w500/c5nutVlbu9t2bPJhN65AKRnnEXi.jpg",
-    "ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "5.9/10"
-      }
-    ],
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
-    ],
-    "overview": "An evolved Greek tale set in ages past with a style of urban legend dialogue on the life of Hercules. Follow him through his bold and brave life of stories, relationships, and family. This journey of Hercules follows the hero from childhood and beyond as he tries to gain immortality to please his father Zeus. Will He Gain His Immortality?",
-    "trailer": "37kB76YtsYw"
-  },
-  {
     "tmdbId": 209112,
     "title": "Batman v Superman: Dawn of Justice",
     "type": "movie",
