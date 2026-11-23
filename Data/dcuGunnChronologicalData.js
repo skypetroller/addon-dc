@@ -51,10 +51,6 @@ module.exports = [
         "Value": "5.9/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "78%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "61/100"
       }
@@ -122,10 +118,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "7.0/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "83%"
       },
       {
         "Source": "Metacritic",
@@ -196,10 +188,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "5.8/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "52%"
       },
       {
         "Source": "Metacritic",

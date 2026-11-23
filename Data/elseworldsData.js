@@ -14,10 +14,6 @@ module.exports = [
         "Value": "8.3/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "68%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "59/100"
       }
@@ -53,10 +49,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "7.8/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "85%"
       },
       {
         "Source": "Metacritic",
@@ -118,15 +110,11 @@ module.exports = [
     "id": "dc_tt11315808",
     "releaseYear": "2024",
     "releaseDate": "2024-10-01",
-    "poster": "https://image.tmdb.org/t/p/w500/if8QiqCI7WAGImKcJCfzp6VTyKA.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/aciP8Km0waTLXEYf5ybFK5CSUxl.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
         "Value": "5.2/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "31%"
       },
       {
         "Source": "Metacritic",

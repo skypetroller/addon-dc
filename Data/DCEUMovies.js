@@ -13,10 +13,6 @@ module.exports = [
         "Value": "7.1/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "57%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "55/100"
       }
@@ -50,10 +46,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "6.4/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "28%"
       },
       {
         "Source": "Metacritic",
@@ -91,10 +83,6 @@ module.exports = [
         "Value": "5.9/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "26%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "40/100"
       }
@@ -128,10 +116,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "7.3/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "93%"
       },
       {
         "Source": "Metacritic",
@@ -169,10 +153,6 @@ module.exports = [
         "Value": "6.0/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "39%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "45/100"
       }
@@ -206,10 +186,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "6.8/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "66%"
       },
       {
         "Source": "Metacritic",
@@ -247,10 +223,6 @@ module.exports = [
         "Value": "7.0/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "90%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "71/100"
       }
@@ -286,10 +258,6 @@ module.exports = [
         "Value": "6.0/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "79%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "60/100"
       }
@@ -319,10 +287,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "5.3/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "57%"
       },
       {
         "Source": "Metacritic",
@@ -358,10 +322,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "7.9/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "71%"
       },
       {
         "Source": "Metacritic",
@@ -434,10 +394,6 @@ module.exports = [
         "Value": "6.1/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "39%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "41/100"
       }
@@ -471,10 +427,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "5.9/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "49%"
       },
       {
         "Source": "Metacritic",
@@ -512,10 +464,6 @@ module.exports = [
         "Value": "6.6/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "63%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "55/100"
       }
@@ -551,10 +499,6 @@ module.exports = [
         "Value": "5.9/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "78%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "61/100"
       }
@@ -588,10 +532,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "5.6/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "33%"
       },
       {
         "Source": "Metacritic",

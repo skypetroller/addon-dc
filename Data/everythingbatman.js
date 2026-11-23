@@ -83,10 +83,6 @@ module.exports = [
         "Value": "6.5/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "80%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "71/100"
       }
@@ -120,10 +116,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "7.5/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "77%"
       },
       {
         "Source": "Metacritic",
@@ -161,10 +153,6 @@ module.exports = [
         "Value": "7.1/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "81%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "68/100"
       }
@@ -194,10 +182,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "5.5/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "41%"
       },
       {
         "Source": "Metacritic",
@@ -235,10 +219,6 @@ module.exports = [
         "Value": "3.8/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "11%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "29/100"
       }
@@ -272,10 +252,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "8.2/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "85%"
       },
       {
         "Source": "Metacritic",
@@ -313,10 +289,6 @@ module.exports = [
         "Value": "9.1/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "94%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "85/100"
       }
@@ -350,10 +322,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "8.4/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "87%"
       },
       {
         "Source": "Metacritic",
@@ -391,10 +359,6 @@ module.exports = [
         "Value": "6.4/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "28%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "44/100"
       }
@@ -428,10 +392,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "5.9/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "26%"
       },
       {
         "Source": "Metacritic",
@@ -469,10 +429,6 @@ module.exports = [
         "Value": "6.0/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "39%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "45/100"
       }
@@ -506,10 +462,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "7.9/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "71%"
       },
       {
         "Source": "Metacritic",
@@ -547,10 +499,6 @@ module.exports = [
         "Value": "7.8/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "85%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "72/100"
       }
@@ -586,10 +534,6 @@ module.exports = [
         "Value": "6.6/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "63%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "55/100"
       }
@@ -610,27 +554,6 @@ module.exports = [
     ],
     "overview": "When his attempt to save his family inadvertently alters the future, Barry Allen becomes trapped in a reality in which General Zod has returned and there are no Super Heroes to turn to. In order to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?",
     "trailer": "jprhe-cWKGs"
-  },
-  {
-    "tmdbId": 1081004,
-    "title": "The Brave and the Bold",
-    "type": "movie",
-    "imdbId": "tt26545566",
-    "id": "dc_tt26545566",
-    "releaseYear": "2026",
-    "poster": "https://image.tmdb.org/t/p/w500/6IvUuBsh69NaUrXGTGHOXgjU3V4.jpg",
-    "ratings": [],
-    "genres": [
-      {
-        "id": 80,
-        "name": "Crime"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      }
-    ],
-    "overview": "The story of Damian Wayne, who was raised as a little murderer and assassin, and Batman's son that he didn’t know existed for the first eight to ten years of his life."
   },
   {
     "tmdbId": 806704,

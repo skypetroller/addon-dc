@@ -102,10 +102,6 @@ module.exports = [
         "Value": "7.4/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "87%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "82/100"
       }
@@ -141,10 +137,6 @@ module.exports = [
         "Value": "6.8/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "88%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "83/100"
       }
@@ -178,10 +170,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "5.0/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "31%"
       },
       {
         "Source": "Metacritic",
@@ -223,10 +211,6 @@ module.exports = [
         "Value": "3.8/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "17%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "24/100"
       }
@@ -260,10 +244,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "6.1/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "72%"
       },
       {
         "Source": "Metacritic",
@@ -301,10 +281,6 @@ module.exports = [
         "Value": "7.1/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "57%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "55/100"
       }
@@ -338,10 +314,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "6.4/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "28%"
       },
       {
         "Source": "Metacritic",
@@ -379,10 +351,6 @@ module.exports = [
         "Value": "6.0/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "39%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "45/100"
       }
@@ -418,10 +386,6 @@ module.exports = [
         "Value": "7.9/10"
       },
       {
-        "Source": "Rotten Tomatoes",
-        "Value": "71%"
-      },
-      {
         "Source": "Metacritic",
         "Value": "54/100"
       }
@@ -455,10 +419,6 @@ module.exports = [
       {
         "Source": "Internet Movie Database",
         "Value": "7.0/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "83%"
       },
       {
         "Source": "Metacritic",
