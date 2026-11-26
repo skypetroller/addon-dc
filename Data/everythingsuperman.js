@@ -449,7 +449,7 @@ module.exports = [
     "imdbId": "tt37833661",
     "id": "dc_tt37833661",
     "releaseYear": "2027",
-    "poster": "https://image.tmdb.org/t/p/w500/tYLgfKk3cEk7LskgxWyW37Nty01.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/4YdKfBsvEpRSq3BxAJL46xlAVZe.jpg",
     "ratings": [],
     "genres": [
       {

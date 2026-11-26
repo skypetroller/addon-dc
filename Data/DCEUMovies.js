@@ -111,7 +111,7 @@ module.exports = [
     "imdbId": "tt0451279",
     "id": "dc_tt0451279",
     "releaseYear": "2017",
-    "poster": "https://image.tmdb.org/t/p/w500/v4ncgZjG2Zu8ZW5al1vIZTsSjqX.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/lTAmu88GzRysbbA85ib2KB1jLGg.jpg",
     "ratings": [
       {
         "Source": "Internet Movie Database",
